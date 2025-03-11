@@ -324,7 +324,7 @@ lsp_with_coq(lsp.gopls, {
 -- Go programming language linters
 lsp_with_coq(lsp.golangcli, {
     cmd = nix:shell("golangci-lint-langserver", {
-        " golangci-lint-langserver"
+        "golangci-lint-langserver"
     }),
     filetypes = { "go", "gomod" },
     root_dir = util.root_pattern(".golangci.yml"),
