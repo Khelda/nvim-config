@@ -322,7 +322,7 @@ lsp_with_coq(lsp.gopls, {
 })
 
 -- Go programming language linters
-lsp_with_coq(lsp.golangcli, {
+lsp_with_coq(lsp.golangcli_lint_ls, {
     cmd = nix:shell("golangci-lint-langserver", {
         "golangci-lint-langserver"
     }),
