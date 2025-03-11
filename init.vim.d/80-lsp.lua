@@ -314,6 +314,27 @@ lsp_with_coq(lsp.docker_compose_language_service, {
     })
 })
 
+-- Go progamming language support
+lsp_with_coq(lsp.gopls, {
+    cmd = nix:shell("gopls", { "gopls" }),
+    filetypes = { "go", "gomod", "gowork", "gotmpl" },
+    root_dir = util.root_pattern('.gopls', '.git')
+})
+
+-- Go programming language linters
+lsp_with_coq(lsp.golangcli, {
+    cmd = nix:shell("golangci-lint-langserver", {
+        " golangci-lint-langserver"
+    }),
+    filetypes = { "go", "gomod" },
+    root_dir = util.root_pattern(".golangci.yml"),
+    init_options = {
+        command = nix:shell("golangci-lint", {
+            "golangci-lint", "run", "--out-format", "json"
+        })
+    }
+})
+
 -- Third-party Coq (the completion engine) providers
 require 'coq_3p' {
     { src = "ultisnips", short_name = "US" },
