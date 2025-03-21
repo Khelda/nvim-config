@@ -92,6 +92,7 @@ function SetColor()
     " Typescript highlight fixes
     hi link typescriptVariable Statement
     hi link typescriptProp Identifier
+    hi link typescriptTypeBlock Special
 
     " TreesitterContext fix
     hi link TreesitterContext TSContext

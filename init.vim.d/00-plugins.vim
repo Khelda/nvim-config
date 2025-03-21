@@ -208,4 +208,7 @@ Plug 'Jorengarenar/vim-syntaxMarkerFold'
 " Preview and pick hex and CSS format colors
 Plug 'ziontee113/color-picker.nvim'
 
+" Salesforce prod environment plugin suite
+Plug 'jonathanmorris180/salesforce.nvim'
+
 call plug#end()

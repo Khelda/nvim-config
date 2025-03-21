@@ -1,15 +1,25 @@
 {
   description = "Dependency locks for my Neovim config";
 
-  inputs = { nixpkgs.url = "github:NixOS/nixpkgs"; };
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs";
+    flake-utils.url = "github:numtide/flake-utils";
+    # salesforce-cli package
+    salesforce.url = "github:rfaulhaber/sfdx-nix";
+  };
 
-  outputs = { self, nixpkgs, flake-utils, ... }:
+  outputs = { self, nixpkgs, flake-utils, salesforce, ... }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
-          overlays = [ ];
+          overlays = [
+            (final: prev: {
+              # salesforce-cli deployment (sf command)
+              sf = salesforce.packages.${system}.default;
+            })
+          ];
         };
 
         py3 =
