@@ -16,7 +16,7 @@ require 'salesforce'.setup {
     },
     popup = {
         -- Popup dimensions and style
-        width = 100,
+        width = 60,
         height = 40,
         borderchars = { '-', '|', '-', '|', '╭', '╮', '╯', '╰' }
     },

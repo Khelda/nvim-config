@@ -12,7 +12,7 @@ Please don't. This is more of a personal configuration made public, this is not 
 
 ## Install it
 
-This repository follows the format for Neovim's runtime directory, meaning you can clone it directly into `~/.config/nvim` on your system.
+This repository follows the format for Neovim's runtime directory, meaning you can clone it directly into `~/.config/nvim` on your system. However, I would recommend using `nix profile` to install this configuration, even more so if you intend to make changes to it.
 
 This configuration works best with Nix, but it isn't a hard requirement. You can also import the `neovim` package in this Nix flake into your NixOS configuration.
 
@@ -103,7 +103,7 @@ This configuration also includes a [Goyo] setup, to have a distraction-free edit
 nvim --cmd "let g:startGoyo = 1"
 ```
 
-However, if you use the version in my `zsh` config and kitty, you may experience some... Weird things if you put the goyo editor in the background of your terminal.
+However, if you use the version in my `zsh` config and kitty, you may experience some... Weird things if you put the goyo editor in the background of your terminal, i.e. terminal colorscheme might weird out.
 
 [Sourcetrail]: https://github.com/CoatiSoftware/Sourcetrail
 [Visual-Multi]: https://github.com/mg979/vim-visual-multi
