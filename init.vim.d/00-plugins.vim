@@ -123,9 +123,6 @@ Plug 'nicwest/vim-http'
 " LaTeX support
 Plug 'vim-latex/vim-latex'
 
-" Graph edition
-Plug '3rd/diagram.nvim'
-
 " Non-plain text document decoder
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'

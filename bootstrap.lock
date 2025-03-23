@@ -60,11 +60,11 @@
 }
 ,"nvim-lualine/lualine.nvim":{
   "url": "https://github.com/nvim-lualine/lualine.nvim",
-  "rev": "b8b60c7f1d0d95ad74ee215b2291280b30482476",
-  "date": "2025-03-15T17:45:50+06:00",
-  "path": "/nix/store/nkdvsa98w1r5z3pf8aibs9rwv4cggzg3-lualine.nvim",
-  "sha256": "02xyjp446b2nypw3hh4k6b6g9f892kxmmdv23s7dypcws28v50m9",
-  "hash": "sha256-qYKykdCcXd+OHmK3WvsUCbn0zDKTQDj49VYsQ8iVvgs=",
+  "rev": "9fef261b53fbe3a2ef01ee9667f6fde064b1ed10",
+  "date": "2025-03-19T17:25:59Z",
+  "path": "/nix/store/nyx6ic2glqx0aa281v43nsysbvzmlw2q-lualine.nvim",
+  "sha256": "1i6fglxx31xfsvbj1yl9cll1pw1ynbwqils9k7dcniq1gmgdl1wp",
+  "hash": "sha256-lwfaXn0BR8vamUnTiPmyPvAbKGWJ+iDX1q6H0Tt9zsQ=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -84,11 +84,11 @@
 }
 ,"mikesmithgh/kitty-scrollback.nvim":{
   "url": "https://github.com/mikesmithgh/kitty-scrollback.nvim",
-  "rev": "3d5550a75d74101750e294771fb91a60f3bf5dbf",
-  "date": "2025-03-11T21:38:59-04:00",
-  "path": "/nix/store/1l0b6aqdn8ww8l2km6lmvqm61bdiqsg5-kitty-scrollback.nvim",
-  "sha256": "0bi7ag7baj98ns2nls9vbb56yb9qlm7p91zzy3b0ifc05i78ccvd",
-  "hash": "sha256-bTOGTiyAuQjW8P+HdE+lOC1vylo7aWqFtihJtc5TJy4=",
+  "rev": "9b70b5f73b653745ddca4a8e49b9477fc33b817f",
+  "date": "2025-03-20T06:30:19-04:00",
+  "path": "/nix/store/27alv7ihr7y8vxrxd8pw7pcqgyp051pn-kitty-scrollback.nvim",
+  "sha256": "0570ng60dzwdbbq76vpkdrww6jnm15vbcyy79885fvb0sjwcpf1a",
+  "hash": "sha256-KrjLuNRgbVcQSsd7tnYJ1UrDeW7zbnPwWo3/Bsyz4BQ=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -192,11 +192,11 @@
 }
 ,"nvim-treesitter/nvim-treesitter":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter",
-  "rev": "835f5c11b8d4e1ded3576c69a019f717d3754c5a",
-  "date": "2025-03-18T18:10:41+01:00",
-  "path": "/nix/store/gxa071qkqk3jnldf47zi6ng2x5q0cv49-nvim-treesitter",
-  "sha256": "0hppz0006ydcgmzyfwr40d8jidrg2gk0v24xmzrnbw9k1g3g058y",
-  "hash": "sha256-HhXwxgsz8WXzr52IDeYTL7coUQMkc+d/fax5AwD490I=",
+  "rev": "20a7e40203dab3454686e057adecd805f3d6d334",
+  "date": "2025-03-23T06:51:29Z",
+  "path": "/nix/store/xbnlz8rq914yrvl9p3fzml4cnj4b13la-nvim-treesitter",
+  "sha256": "0sc7qz9mrsgcf3pzp7dydi0qj72yf5a5wjvq8gkjgy1aphqvin57",
+  "hash": "sha256-p9i4Mbwq+CfnQ3hLXlRxXhyJQWy+nfvvcOzpXNPHh2k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -204,11 +204,11 @@
 }
 ,"nvim-treesitter/nvim-treesitter-context":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter-context",
-  "rev": "83ded3bbff8bc13abc9704bf1c5e426f3ba343c4",
-  "date": "2025-03-17T08:54:48Z",
-  "path": "/nix/store/7bs3ydbhgk3lc4x76nbj5sqhhrfk9cd5-nvim-treesitter-context",
-  "sha256": "1hdl7pzsr190kfpigd6abpdmnrymcj6pdhgis2hzj3z2wlh8g6df",
-  "hash": "sha256-rpmHIOXiD/mh0PHBdo1k1Wdb213KtBevmyCFrP89tME=",
+  "rev": "93b29a32d5f4be10e39226c6b796f28d68a8b483",
+  "date": "2025-03-19T16:17:43Z",
+  "path": "/nix/store/4nxpqhm52s8yzrw2yc089np71mn0ynj2-nvim-treesitter-context",
+  "sha256": "12ixiqb4bj7n3kkzqi81hyhn3bjsb93250gvfy12bxya2l5bi20g",
+  "hash": "sha256-D4i4ChXK9yWCd/uBIkZaWq5hoYcBRfznHPbIRRaOPYo=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -228,11 +228,11 @@
 }
 ,"kyazdani42/nvim-tree.lua":{
   "url": "https://github.com/kyazdani42/nvim-tree.lua",
-  "rev": "c09ff35de503a41fa62465c6b4ae72d96e7a7ce4",
-  "date": "2025-03-01T11:07:35+11:00",
-  "path": "/nix/store/r9g0q7qaxz68pm0rw4r630d408h3x691-nvim-tree.lua",
-  "sha256": "0bnc2fc9ipz9yp917l61vvcaqmbdg5fhqxrp7jfjxj5qmvadhai9",
-  "hash": "sha256-KSrY1K64yC6dPDd3DF15bVWs2N7B0BPS9enfmJgTzC4=",
+  "rev": "44d9b58f11d5a426c297aafd0be1c9d45617a849",
+  "date": "2025-03-23T12:46:17+11:00",
+  "path": "/nix/store/8rlz2nsbz94hxg5nmijvrby884f0amnz-nvim-tree.lua",
+  "sha256": "0gya49yydrbq5jylsk4b9c2cpygy0mxhr6kwdsbg0di0i74pkav0",
+  "hash": "sha256-YKt5yYkgNvCWbnyaDHsF/vnLBEuLTE29LHjl5n0iyj8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -276,11 +276,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "185b2af444b27d6541c02d662b5b68190e5cf0c4",
-  "date": "2025-03-18T10:34:40Z",
-  "path": "/nix/store/04cm1s08wls2qggm7zv889lwidz2yqxr-nvim-lspconfig",
-  "sha256": "068glqj1xvfh81pf8rfhh5cpyqhg4wn8nsh6gm4xwzi18fpf5ac9",
-  "hash": "sha256-ianirkMhft5JfQZqiywnD2J/WYHQZeRuQNDtHiSmDxk=",
+  "rev": "fb733ac734249ccf293e5c8018981d4d8f59fa8f",
+  "date": "2025-03-21T10:01:49Z",
+  "path": "/nix/store/vds8n0h0dy9k2b8plkf623il0fksh5wi-nvim-lspconfig",
+  "sha256": "04qz643mgjr32lwk9lw9bq2cjy5cdxmw5vldc3zyxrcclngyv0sg",
+  "hash": "sha256-T4Ptn6WM5e7/YI3uwmtvrHjJBF6J0zQ5FSPLVwcxHxM=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -324,11 +324,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "923c3a814de39ff906d675834af634252b3d2b3f",
-  "date": "2025-03-17T18:12:26+09:00",
-  "path": "/nix/store/132m57fx37gk3am80fn2q0c5mzybb55m-fzf",
-  "sha256": "12xfznnq38glyxp1ah356v1ywcqrbfbjjvrnr82jxzxw4vw2xpmk",
-  "hash": "sha256-s94u+Ca8/y4FyjZvKZdbGTPuwzZlQBVu9/Shga39ros=",
+  "rev": "82fd88339b115f1159d66588191990d95fb41e88",
+  "date": "2025-03-23T11:13:21+09:00",
+  "path": "/nix/store/31z6w8nfvgy793fvzcg9r8nspmb2nqnn-fzf",
+  "sha256": "07rxrpi8njvr75imlr1yi4idyipni11miha8livkmi0rl2rc2m0x",
+  "hash": "sha256-HVTBsqAZxDp3pEjBWEOI9kbfIok+ZFpjOXlLi+LNPR8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -336,11 +336,11 @@
 }
 ,"junegunn/fzf.vim":{
   "url": "https://github.com/junegunn/fzf.vim",
-  "rev": "245eaf8e50fe440729056ce8d4e7e2bb5b1ff9c9",
-  "date": "2025-03-03T19:35:54+09:00",
-  "path": "/nix/store/mvchhbz102r2azglm6131blrln7368w4-fzf.vim",
-  "sha256": "0any944khix8wnz3h56ar5i3q5r844bcfw4zpi97r520gqcilr4b",
-  "hash": "sha256-i2QaGX5AlHxSvJ9wxxYhKBc8YsnKFDi+5ahHOAlJ3io=",
+  "rev": "1fff637559f29d5edbdb05e03327954a8cd9e406",
+  "date": "2025-03-21T17:31:10+09:00",
+  "path": "/nix/store/68sxwpq8pb1f786yzm62927fbxrjfyrz-fzf.vim",
+  "sha256": "13xh17bqnb1k32jm53x9kqc8x6njwcdha9xbwn2zhm0s8dgqikzx",
+  "hash": "sha256-/c+IX0MaVPiF5asnBRvj0pqOGJ6pj1KlGDMsi9cJsI8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -550,18 +550,6 @@
   "deepClone": false,
   "leaveDotGit": false
 }
-,"3rd/diagram.nvim":{
-  "url": "https://github.com/3rd/diagram.nvim",
-  "rev": "554d4f407d68662e5f5e41882241302077682225",
-  "date": "2025-01-18T00:12:28+02:00",
-  "path": "/nix/store/i8grhfa15mi05spw6szd3aadwq7npxsf-diagram.nvim",
-  "sha256": "0n4ygwk93wcr8n3dhax77gnf5136bcsyk2wi9f97grfylbhy3r9p",
-  "hash": "sha256-N+Xh4aLe5XeSS5GL6TVbZoTi7DunK9iGRZnxkSZ/nlg=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "leaveDotGit": false
-}
 ,"vim-pandoc/vim-pandoc":{
   "url": "https://github.com/vim-pandoc/vim-pandoc",
   "rev": "bd11902651edc18076f90ed291581d785be52311",
@@ -636,11 +624,11 @@
 }
 ,"NoahTheDuke/vim-just":{
   "url": "https://github.com/NoahTheDuke/vim-just",
-  "rev": "0eeb7b760ca603be517d4f34a9d1c08c73f93f3f",
-  "date": "2025-03-09T17:07:10-04:00",
-  "path": "/nix/store/6qm88grw9707axbkq8ydb5vf8z3m5212-vim-just",
-  "sha256": "0yl8rzjynyn46bk7fx4rpczqzhgjyk16lfl3rpkf018rgkvabcwf",
-  "hash": "sha256-jrOl9nwZBeDmzYM6asL08sGPP7uZdHfmMsR66+XPiHo=",
+  "rev": "b7f9505f93ede57c4ec011405592280b3f1755ec",
+  "date": "2025-03-20T19:05:23-04:00",
+  "path": "/nix/store/9g66xnbri7qm8lksiixsyw991smb8g09-vim-just",
+  "sha256": "105zh0zcdijzqi8prggsgrrm4pzyvjzy0xgs5yn4grc76rxnyn3m",
+  "hash": "sha256-dVhvezaH5UesL/p14L/c/l9Sc376vXxRxF/Gxj6Av4A=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -934,4 +922,4 @@
   "deepClone": false,
   "leaveDotGit": false
 }
-}, "packages": ["universal-ctags","tree-sitter","wl-clipboard-x11","wl-clipboard-x11","vscode-extensions.vscjava.vscode-java-debug","mermaid-cli","tree-sitter","mermaid-cli"], "lsp-packages": ["python3Packages.python-lsp-server","elmPackages.elm-language-server","rust-analyzer","haskell-language-server","ccls","cmake-language-server","jsonnet-language-server","ocamlPackages.ocaml-lsp","nodePackages.vim-language-server","nodePackages.purescript-language-server","bash-language-server","nixd","texlab","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","nodePackages.vscode-langservers-extracted","phpactor","nodePackages.vscode-langservers-extracted","spectral-language-server","marksman","jdt-language-server","kotlin-language-server","coqPackages_8_16.coq-lsp","dot-language-server","lua-language-server","postgres-lsp","dockerfile-language-server-nodejs","docker-compose-language-service","gopls","golangci-lint-langserver","golangci-lint","marksman","texlab","dot-language-server","spectral-language-server"]}
+}, "packages": ["universal-ctags","tree-sitter","wl-clipboard-x11","wl-clipboard-x11","vscode-extensions.vscjava.vscode-java-debug","tree-sitter"], "lsp-packages": ["python3Packages.python-lsp-server","elmPackages.elm-language-server","rust-analyzer","haskell-language-server","ccls","cmake-language-server","jsonnet-language-server","ocamlPackages.ocaml-lsp","nodePackages.vim-language-server","nodePackages.purescript-language-server","bash-language-server","nixd","texlab","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","nodePackages.vscode-langservers-extracted","phpactor","nodePackages.vscode-langservers-extracted","spectral-language-server","marksman","jdt-language-server","kotlin-language-server","coqPackages_8_16.coq-lsp","dot-language-server","lua-language-server","postgres-lsp","dockerfile-language-server-nodejs","docker-compose-language-service","gopls","golangci-lint-langserver","golangci-lint","marksman","texlab","dot-language-server","spectral-language-server"]}
