@@ -105,5 +105,12 @@ require'nvim-web-devicons'.set_icon {
         color = "#51a0cf",
         cterm_color = "075",
         name = "Http"
+    },
+    -- LaTeX style classes
+    sty = {
+        icon = "",
+        color = "#eadecc",
+        cterm_color = "125",
+        name = "Sty"
     }
 }
