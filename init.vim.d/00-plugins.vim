@@ -127,6 +127,7 @@ Plug 'vim-latex/vim-latex'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'Khelda/Vim-EPUB'
+Plug '3rd/diagram.nvim'
 
 " CSV editor
 Plug 'chrisbra/csv.vim'
