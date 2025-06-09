@@ -8,6 +8,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"Khelda/vimthemes":{
@@ -20,6 +21,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"rktjmp/fwatch.nvim":{
@@ -32,6 +34,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"junegunn/goyo.vim":{
@@ -44,6 +47,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"junegunn/limelight.vim":{
@@ -56,54 +60,59 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"nvim-lualine/lualine.nvim":{
   "url": "https://github.com/nvim-lualine/lualine.nvim",
-  "rev": "0ea56f91b7f51a37b749c050a5e5dfdd56b302b3",
-  "date": "2025-04-10T10:00:08+06:00",
-  "path": "/nix/store/6illqzb61hpv5zjjcbkcrxnkah7qlb3d-lualine.nvim",
-  "sha256": "0dmz4g8hvjdrnh4wd0syrnxymjrgmc3lnddm6cgdly6s36z9c9am",
-  "hash": "sha256-VSWWvhnaeNoeM7U1SwerL8vqu81eg8YJtLnJDdEjvzY=",
+  "rev": "0c6cca9f2c63dadeb9225c45bc92bb95a151d4af",
+  "date": "2025-05-21T00:22:43Z",
+  "path": "/nix/store/fdldclmrrplx6kv9nkigwvfsxr2w5ps6-lualine.nvim",
+  "sha256": "11qwr67i0i04dvj9zjl9nfdwkb3i2vfza4i6066zd7msccv9z9v7",
+  "hash": "sha256-Z6efNmO6nvaNASYS9d0WcazJm7OJyp/kbgREEI/JHIc=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"romgrk/barbar.nvim":{
   "url": "https://github.com/romgrk/barbar.nvim",
-  "rev": "807bede7ef1d8e2ac5f108e9ac8123b1e2d321e3",
-  "date": "2025-02-12T17:05:50-05:00",
-  "path": "/nix/store/z2dyp0x6x1caqhn9qjlcnphfy209617r-barbar.nvim",
-  "sha256": "04xflw3m9c8dgh91pwxmllc1wqc7vqbvnbg2p7m7x73cbwvswxs5",
-  "hash": "sha256-RXeuN19snH7queItuxfeh2EeGKW18xsSfA2xVAenrhM=",
+  "rev": "3a74402bdf04745a762de83d5c5e88e3e9b0e2e0",
+  "date": "2025-04-28T08:49:58-04:00",
+  "path": "/nix/store/dggjbmlv6gwybhj12yzk5b8sfxyk6ysb-barbar.nvim",
+  "sha256": "153kk3vh25pprvrwbckb9kqn3j4fjyl8svrfk55gnk71pqjf03s3",
+  "hash": "sha256-Qw/gJL7hTPtKmS5vjaiXjshh8UxrssXzzvcWAfeYc5Q=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mikesmithgh/kitty-scrollback.nvim":{
   "url": "https://github.com/mikesmithgh/kitty-scrollback.nvim",
-  "rev": "e25f6817f14e5b287cc5418977d81eccfe677cda",
-  "date": "2025-04-11T06:30:15-04:00",
-  "path": "/nix/store/8vmf122gy3albv24z1xspx00a45c0sb9-kitty-scrollback.nvim",
-  "sha256": "16aj63fwkzzm74z1475yqqlrx3qrngbp67a2v6d7vpkds70hwd62",
-  "hash": "sha256-wjQOwdFt3n2a2UIdc9ezGY+eKca+HBI+OfX/yd0wUpk=",
+  "rev": "6c24f1979afe4c6b0310117b76d59d672224afd7",
+  "date": "2025-04-11T20:09:44-04:00",
+  "path": "/nix/store/w7hk81718dh0cs34p4f0jhw4i0i7f9n3-kitty-scrollback.nvim",
+  "sha256": "1zfkc9irn9lhr13d8xqgf0bwpycmc8z3fybrvn8fgbfx47609hla",
+  "hash": "sha256-isIEzCHdreeQ3Xl5Nz5ilfnLF3APd9RGyJAmm2Ni0/0=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"MunifTanjim/nui.nvim":{
   "url": "https://github.com/MunifTanjim/nui.nvim",
-  "rev": "8d3bce9764e627b62b07424e0df77f680d47ffdb",
-  "date": "2025-03-06T04:03:30Z",
-  "path": "/nix/store/jm6k1ckng6bpn150p3p67vivls5pgcjv-nui.nvim",
-  "sha256": "0ia8q5d4xcss45vw6jlaanyr0migy03cjzq9g0kipfyqxkcxi105",
-  "hash": "sha256-BYTY2ezYuxsneAl/yQbwL1aQvVWKSsN3IVqzTlrBSEU=",
+  "rev": "7cd18e73cfbd70e1546931b7268b3eebaeff9391",
+  "date": "2025-05-26T17:23:45+06:00",
+  "path": "/nix/store/s72wkhdy9yg7vnmkkazdcyymi29pvbhb-nui.nvim",
+  "sha256": "0xl6qsl98ajzmk0wy7kf8q2vjqb30ci3dgwdcj376r87vwli6xd2",
+  "hash": "sha256-onUTKd8HZXOGZI2/NiIDY2G5BUZuHs/BrF8qlKjGhnY=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"folke/noice.nvim":{
@@ -116,6 +125,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"MunifTanjim/exrc.nvim":{
@@ -128,6 +138,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mattn/webapi-vim":{
@@ -140,6 +151,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"rust-lang/rust.vim":{
@@ -152,18 +164,20 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"rcarriga/nvim-notify":{
   "url": "https://github.com/rcarriga/nvim-notify",
-  "rev": "22f29093eae7785773ee9d543f8750348b1a195c",
-  "date": "2025-01-20T20:32:54Z",
-  "path": "/nix/store/wbx57zq146fv02daqs8snk886nhc8qmh-nvim-notify",
-  "sha256": "0nnxmi65ppmn8dzwh38vx2w7w6piq0i28mw0s32wa31xn5rmzwza",
-  "hash": "sha256-6vNfc7E9DMXF0IBXJCLA8Rp+uOgbDch/Q7beW0ys3Vo=",
+  "rev": "b5825cf9ee881dd8e43309c93374ed5b87b7a896",
+  "date": "2025-04-13T13:53:46+01:00",
+  "path": "/nix/store/l6k1kqyqq7xk5897gj95w1zl3b44lkaj-nvim-notify",
+  "sha256": "13qlkncpmjvmkpcx5sv366i7scsh90wjvcqy8qlv31ccmgq511wv",
+  "hash": "sha256-m4dQ8KuMhbEpRh6zLTlIUDN9ojFj69LZnXXLepmdFI8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ncm2/float-preview.nvim":{
@@ -176,6 +190,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"kevinhwang91/nvim-bqf":{
@@ -188,114 +203,124 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"nvim-treesitter/nvim-treesitter":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter",
-  "rev": "0e21ee8df6235511c02bab4a5b391d18e165a58d",
-  "date": "2025-04-07T21:08:22+02:00",
-  "path": "/nix/store/sw1gqrjb0fai59qq56qnz0qgdiq2f677-nvim-treesitter",
-  "sha256": "1acxbbz158glhvhmdzn8yqricz72mqvaa1ihcz3dyjccfm3b2840",
-  "hash": "sha256-gCCxRnWMSd/GZzAGpTau4nwWM/bI/lbhhvShEv5anak=",
+  "rev": "42fc28ba918343ebfd5565147a42a26580579482",
+  "date": "2025-05-24T15:53:33+02:00",
+  "path": "/nix/store/rji5dadn687kaqscjsg1pvilqlvp5vkm-nvim-treesitter",
+  "sha256": "1ck1qslxwi18qxrga68blvk1dg9j4jn65xiw8snq5pk06waksnq9",
+  "hash": "sha256-CVs9FTdg3oKtRjz2YqwkMr0W5qYLGfVyxyhE3qnGYbI=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"nvim-treesitter/nvim-treesitter-context":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter-context",
-  "rev": "439789a9a8df9639ecd749bb3286b77117024a6f",
-  "date": "2025-04-04T14:31:33+01:00",
-  "path": "/nix/store/6814c9wyr5cijgka48l39xfrrwkrc73q-nvim-treesitter-context",
-  "sha256": "04x9nza48d2vz262myhhfnmjzcc2fkdjb21mdqvlmnzkhh7ysyz2",
-  "hash": "sha256-4nvtD4Tz20o3bjWIJdt0grEvq3UQ+iqM+Fs0RNS3qRM=",
+  "rev": "464a443b5a6657f39772b20baa95d02ffe97b268",
+  "date": "2025-06-02T10:25:18+01:00",
+  "path": "/nix/store/ir00xgarpn95qhwm8rw6wq1yi14sz748-nvim-treesitter-context",
+  "sha256": "1q8ll6lkgqc2vhr9jz687a9rgzxrd0swy8cnsy2mb6c6626sxxhq",
+  "hash": "sha256-GPaujTCGmVWF15YhzzVouf+XkzrIfJky3ILhN6mhFOE=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"github/copilot.vim":{
   "url": "https://github.com/github/copilot.vim",
-  "rev": "250f24cc485aede5d0069e8765542c3787448d8d",
-  "date": "2025-04-11T17:27:23Z",
-  "path": "/nix/store/b8519k6iwxy73kn4cz51hp8lnr81lmk5-copilot.vim",
-  "sha256": "19n1zzvr7w2j5p2cc3d7fhf41zk3bhlf5nv1751fyf0fq1lacvpb",
-  "hash": "sha256-626maMAOOO9COWHb4ihcY/5AHHSnDcbELVLwk/f/waY=",
+  "rev": "3955014c503b0cd7b30bc56c86c56c0736ca0951",
+  "date": "2025-05-27T23:20:05Z",
+  "path": "/nix/store/n2sc2x80sd7vbx0k535cn54hrzrgyb1q-copilot.vim",
+  "sha256": "1ffgrdgxv71iwaynmh1lfy4vairr6ql78gz8iwh1zj3sgpwlcib3",
+  "hash": "sha256-Y0VG+X16yB8gj+g/dCg2OUe1iXc0wGq94jGc3V/Lz7k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"kyazdani42/nvim-tree.lua":{
   "url": "https://github.com/kyazdani42/nvim-tree.lua",
-  "rev": "5bea2b37523a31288e0fcab42f3be5c1bd4516bb",
-  "date": "2025-04-11T12:48:34+10:00",
-  "path": "/nix/store/awamxj01dkqg3da5g52xrdfp4pvajihr-nvim-tree.lua",
-  "sha256": "1mizgknbbjqv7a8fqc0n7glgabl0fq660nrqwq6w04qqynp0z1ax",
-  "hash": "sha256-XYUPrvUYE8AN5jhbYAx2gC716DsWMOyQOhvLtex8P9Y=",
+  "rev": "1c733e8c1957dc67f47580fe9c458a13b5612d5b",
+  "date": "2025-06-02T09:21:07+10:00",
+  "path": "/nix/store/7gk61ag2k7fpjs551q097rcc4q2l3b79-nvim-tree.lua",
+  "sha256": "1a92zsb1r48s6cjphvx406lbxyc1v9w3gk9kkp3ri0k1l134aaw8",
+  "hash": "sha256-iCtFRqBhgpjHnTPNN3jagfm+qAGkb3glMxqRHJb+Iqk=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"kyazdani42/nvim-web-devicons":{
   "url": "https://github.com/kyazdani42/nvim-web-devicons",
-  "rev": "c90dee4e930ab9f49fa6d77f289bff335b49e972",
-  "date": "2025-04-11T13:12:16+10:00",
-  "path": "/nix/store/g7fip5yn9r5rj0r5miwhgzv9v3r1chx8-nvim-web-devicons",
-  "sha256": "0i41df2cafrpc49cfbimajwbiyhd31q95d1s3rh40g6zgz0gm8sc",
-  "hash": "sha256-TKP6wH/fPEBgHjq0knAYDfq4uFQ1LscSYTc7xYRrgUQ=",
+  "rev": "1fb58cca9aebbc4fd32b086cb413548ce132c127",
+  "date": "2025-05-16T11:57:21+10:00",
+  "path": "/nix/store/g9pahrwfkmx5glgw9qw31dj7kwh2n5ba-nvim-web-devicons",
+  "sha256": "0c69c4rwrrq9j5gwa17br5hpg28hvgl00apz06qgh5w2lwaxw4gr",
+  "hash": "sha256-+RHeFaeCF/iwAf8qAOjbEIl3YcnrBMVfkQnnzDNhyTA=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mfussenegger/nvim-dap":{
   "url": "https://github.com/mfussenegger/nvim-dap",
-  "rev": "7aade9e99bef5f0735cf966e715b3ce45515d786",
-  "date": "2025-03-29T11:59:14+01:00",
-  "path": "/nix/store/jrlfbdis4a55x2n8qjkq481v17f3dzgf-nvim-dap",
-  "sha256": "0cr2y3lkr6ffxxd9b2pj8hr3fzb5dlj003fcknswqwsdhws75l22",
-  "hash": "sha256-QtByNIdNc8y1ncwNACRtZX03MkTyipVa786ZPOnwIjM=",
+  "rev": "ea82027c3447dc1a022be9a9884de276c05cd33a",
+  "date": "2025-06-04T15:39:31+02:00",
+  "path": "/nix/store/pfv0ycm7pvh3qzliqghv8m26jxr60rv0-nvim-dap",
+  "sha256": "0m91bqbprp6n00m7kk5wqrhl237a5q082m98xak6r7gvxg1c7ac7",
+  "hash": "sha256-h6nDwuv7nWym6ihVgQAu6gxBYca8zHkqANbcfBdeIVU=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mfussenegger/nvim-dap-python":{
   "url": "https://github.com/mfussenegger/nvim-dap-python",
-  "rev": "34282820bb713b9a5fdb120ae8dd85c2b3f49b51",
-  "date": "2024-11-29T21:20:29+01:00",
-  "path": "/nix/store/h520isqhp4hy7kfd9935lpdq0lb22nsj-nvim-dap-python",
-  "sha256": "162kr9nkc5cshmsn3lsksc9qj63g6ln9cwhvm2v7mzvjcmj1wga3",
-  "hash": "sha256-Qz0eZGVy/3q2qBtyliw1bxiJE9NT02F1hZoVNm3KU5g=",
+  "rev": "261ce649d05bc455a29f9636dc03f8cdaa7e0e2c",
+  "date": "2025-05-12T21:18:12+02:00",
+  "path": "/nix/store/fwhjbi6hsd111dbhwys5zjxdh80jf553-nvim-dap-python",
+  "sha256": "1rnymif8x0wcy4pdawn3jps9zynajkhwbrm37n4md2hfd7wbb7yl",
+  "hash": "sha256-1J+1+GkOilaJPaPmxeGUyvqf9JXDctUu8YyDjlys3uY=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "4ea9083b6d3dff4ddc6da17c51334c3255b7eba5",
-  "date": "2025-04-10T15:48:31-07:00",
-  "path": "/nix/store/07ww4pdfp2x52q42zwg6w5r5hj96kqp7-nvim-lspconfig",
-  "sha256": "1cg0sn25855mraf1j4l4cm1zg4fv1hnvm87x3qbifyigbcg9ib65",
-  "hash": "sha256-xayYHlsvehcXHv2gui0M25H3Q2WEEhmcyrUUVITV4LE=",
+  "rev": "a182334ba933e58240c2c45e6ae2d9c7ae313e00",
+  "date": "2025-06-07T18:23:32-07:00",
+  "path": "/nix/store/16ry5p2iccdpp63n0xhfjgsn6shzz4d3-nvim-lspconfig",
+  "sha256": "177lb9ik9l19rgx8hq405pf5bzq9jlnvj61hsnrsflr60q6d1vl0",
+  "hash": "sha256-gO7QDAYmU6ez1TAYuS2VCf9V3C2AYIj6yynQNGNa9Jw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ms-jpq/coq_nvim":{
   "url": "https://github.com/ms-jpq/coq_nvim",
-  "rev": "d83bc18d044cfcd65e91dc49740a353546bc143b",
-  "date": "2025-03-23T21:41:32-04:00",
-  "path": "/nix/store/rxhlvw4qr30vkc79q5wsdiwny3glldrg-coq_nvim",
-  "sha256": "0nc2qcwh0xz4lwp4q1h7633qpb3v2gpr1kklwsa12w3x6lp3jk8j",
-  "hash": "sha256-Ek05LjV9cBGU5nTOkO8Te6yLxzAHBkwup+R3ADnDglk=",
+  "rev": "c58e4dd929aa9284975b42e154264d6082b4e77f",
+  "date": "2025-06-07T13:09:44-04:00",
+  "path": "/nix/store/361c9h15dbrb1ygjgysr2zimqhmd9vg8-coq_nvim",
+  "sha256": "1jkm8w12hpb5jsmvkfajccw6x08y53004fivabg3af6hgbgyhf8k",
+  "hash": "sha256-Ezno33rQODXeUjs6AsAoHoFuOGNSubmrlmVdKAJHdco=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ms-jpq/coq.thirdparty":{
@@ -308,42 +333,46 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"SirVer/UltiSnips":{
   "url": "https://github.com/SirVer/UltiSnips",
-  "rev": "dbc458e110bb49299da76ec53f8b09b4f6dce28a",
-  "date": "2025-03-09T20:54:47+01:00",
-  "path": "/nix/store/f4glqr74pmcc5bz7igryrcbmhpbqdnwi-UltiSnips",
-  "sha256": "1yqnbqq0zxfq8zlaibq0k4n525a5cjp68gab2jhcf76jyczi53wb",
-  "hash": "sha256-i48SP/PSHMegFEs9ZK5kRRVRLJkAr6joR9j1DzBeFvs=",
+  "rev": "b22a86f9dcc5257624bff3c72d8b902eac468aad",
+  "date": "2025-06-05T18:08:18+02:00",
+  "path": "/nix/store/r8gaipljznm0984q1z628qm070qmvbkm-UltiSnips",
+  "sha256": "195pkgzjv24qw1y92phjmvird00filrzl5i28mm139sdshzqnx14",
+  "hash": "sha256-JHSLP9RNpxFqRSIW+jONDoCW464SXpF84JiILf+bt6Q=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "0edb5d5ebb22b160cb289b36fea475073813a1a2",
-  "date": "2025-04-11T20:46:49+09:00",
-  "path": "/nix/store/fvhym2smg23bg6i1xgxijppmq29avvlk-fzf",
-  "sha256": "0yw6gbgkirb6x7dsxcvv9vg46mx4zj7qgi9xrxiz4z1p4m8r1r7v",
-  "hash": "sha256-++SQUSU3fPJjzz3Fh4/8pFdD3k57s67b6WblON96hns=",
+  "rev": "44ddab881ee337d11db9203ce28996cde33207d8",
+  "date": "2025-06-08T00:02:27Z",
+  "path": "/nix/store/wm09mljdbvi3cnirw68z8wh4wnhmvlp6-fzf",
+  "sha256": "0lxxhhpi7ghz09n2rzhnpws65h0h8cn6mwabw1fpjk2bq8gm101j",
+  "hash": "sha256-MoBQH8JLTHld4EvxaixDEMBiNL8W/ixsAh++Ey+EvVM=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"junegunn/fzf.vim":{
   "url": "https://github.com/junegunn/fzf.vim",
-  "rev": "1fff637559f29d5edbdb05e03327954a8cd9e406",
-  "date": "2025-03-21T17:31:10+09:00",
-  "path": "/nix/store/68sxwpq8pb1f786yzm62927fbxrjfyrz-fzf.vim",
-  "sha256": "13xh17bqnb1k32jm53x9kqc8x6njwcdha9xbwn2zhm0s8dgqikzx",
-  "hash": "sha256-/c+IX0MaVPiF5asnBRvj0pqOGJ6pj1KlGDMsi9cJsI8=",
+  "rev": "98dcd77a189a8a87052c20d1be8082aea60101b7",
+  "date": "2025-06-08T10:51:25+09:00",
+  "path": "/nix/store/db7k3nh4h22hsvmbhr2gkijxirph3brq-fzf.vim",
+  "sha256": "1lbyccgllsw2h7sg2d2cmmjmil1prc4p7bv41d36p6sl9d87gxgm",
+  "hash": "sha256-9fV3UEtUm2tGC2SvcwnLN9BYZa1MNPH0gYJrSh9jftE=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"RishabhRD/popfix":{
@@ -356,6 +385,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"RishabhRD/nvim-lsputils":{
@@ -368,6 +398,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"folke/trouble.nvim":{
@@ -380,6 +411,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"jackguo380/vim-lsp-cxx-highlight":{
@@ -392,6 +424,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"folke/lsp-colors.nvim":{
@@ -404,18 +437,20 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"luukvbaal/statuscol.nvim":{
   "url": "https://github.com/luukvbaal/statuscol.nvim",
-  "rev": "c399884e8f64019ec9bb581251f9710915b7f996",
-  "date": "2025-03-03T09:14:27Z",
-  "path": "/nix/store/7q6gdxj6wn322pv83mbnvq62lb005y08-statuscol.nvim",
-  "sha256": "0ia3hw4jvh3mlsj372ncp7hj27mw98h9jghvw8q9vk37bghy5455",
-  "hash": "sha256-pZDi4VtnzJ0w4hs+mSBKvB4h4bnMijOkpnXALQmHQ0U=",
+  "rev": "c46172d0911aa5d49ba5f39f4351d1bb7aa289cc",
+  "date": "2025-06-02T18:20:24+02:00",
+  "path": "/nix/store/55frhq83jjh4wxj5p1aa948mj94fn7k8-statuscol.nvim",
+  "sha256": "02aajcwrbhjxkd4hykjcwj8anv3vq09ma04sj1n49ysmkr210lcw",
+  "hash": "sha256-nFEQRJ5V+0RskJoAVRPAe2yrkORMTg9Jm13ClTmTSgk=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"weilbith/nvim-code-action-menu":{
@@ -428,18 +463,20 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"3rd/image.nvim":{
   "url": "https://github.com/3rd/image.nvim",
-  "rev": "2e2d28b7734b5efdfc1219f4da8a46c761587bc2",
-  "date": "2025-03-27T23:36:24+02:00",
-  "path": "/nix/store/dwdlssqx0nvsflr3a8ncc7r05hs4hkvz-image.nvim",
-  "sha256": "1k2bch2l9bvy4ian6l3jymddcy7p4mvblpmbq0qvn8rzxdi65fy1",
-  "hash": "sha256-wbtiYus/I7sxwKteunYl93jWWvVyUGNVJH6vRAVkS8w=",
+  "rev": "4c51d6202628b3b51e368152c053c3fb5c5f76f2",
+  "date": "2025-04-23T23:21:55+03:00",
+  "path": "/nix/store/1hp4lrj27gbzqh5abm0if1fpwgfjji2p-image.nvim",
+  "sha256": "16s1wsy9k72qiqzvwij67j2jzwgi6ggl6lhx9p6lfw8dpps3ayxg",
+  "hash": "sha256-r3s19L0NcUfNTR1SQ98z8fEvhTxGRr4/jlicmbzmQZs=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"HakonHarnes/img-clip.nvim":{
@@ -452,30 +489,33 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"benlubas/molten-nvim":{
   "url": "https://github.com/benlubas/molten-nvim",
-  "rev": "e6847d01b5540750f39543d30262da5454d373d1",
-  "date": "2025-02-17T08:55:26-05:00",
-  "path": "/nix/store/8pmsrhqm4n4nj68n28q36pimzckz0w5d-molten-nvim",
-  "sha256": "0p3xydp03y4agzma1dpyr41lzrnsn41i7q35qps6nl0lrjhwlrk9",
-  "hash": "sha256-aWbKocwUUGv0xWXgEwOx2uZPA8n+tqDqf4r4AW7zfVw=",
+  "rev": "e18ac7395d19a39a8180d7a383a07084940e9090",
+  "date": "2025-05-17T20:12:45-04:00",
+  "path": "/nix/store/j8kdnjv45pj4g66z2kd0fzm2fgfj2n7i-molten-nvim",
+  "sha256": "1jbb11h0g45ybb0hpibhs86vk6ldc4kd203yhlji61xhrir8cnd2",
+  "hash": "sha256-olmGcsywBxMlhX4A0SZhjZq5DdJwxQvBWr6QB2AIa8k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mfussenegger/nvim-jdtls":{
   "url": "https://github.com/mfussenegger/nvim-jdtls",
-  "rev": "7223b812dde98f4260084fe9303c8301b9831a58",
-  "date": "2025-04-11T09:22:03+02:00",
-  "path": "/nix/store/gf163qx7nw5bblwbk5psdvz8wpncypxa-nvim-jdtls",
-  "sha256": "0pj5fm6k8684qbpd7q6y9cnznz4s91qjv5wp8f49rivsqxsmg9sr",
-  "hash": "sha256-WadXdcd6x5yIQ5eXLXFImnz7LUve4NPuwgQZNE11RV4=",
+  "rev": "c23f200fee469a415c77265ca55b496feb646992",
+  "date": "2025-04-24T18:38:20+02:00",
+  "path": "/nix/store/x4ggrv2a2dazpa10x5g2lhyrswciin7d-nvim-jdtls",
+  "sha256": "0sk1gspldc513fhcicv5sqp5v1gin3nprmanvbd87cbi1l3rkhvh",
+  "hash": "sha256-cMOZBw1xsYPa2lbVfO2w8YVdLtZls8igG6GwRq9+YWo=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mhinz/vim-startify":{
@@ -488,6 +528,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"liuchengxu/vista.vim":{
@@ -500,6 +541,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"gabesoft/vim-ags":{
@@ -512,6 +554,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"direnv/direnv.vim":{
@@ -524,6 +567,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"nicwest/vim-http":{
@@ -536,6 +580,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"vim-latex/vim-latex":{
@@ -548,30 +593,33 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"vim-pandoc/vim-pandoc":{
   "url": "https://github.com/vim-pandoc/vim-pandoc",
-  "rev": "bd11902651edc18076f90ed291581d785be52311",
-  "date": "2024-07-22T23:11:04+03:00",
-  "path": "/nix/store/90r630amhphx3kbxxrmg0hzphn7n5k8w-vim-pandoc",
-  "sha256": "0aj0gsn2q5dqx9faky7fpqz93h6yih46dn7mn9gm80sdlv575gix",
-  "hash": "sha256-Pb5yyqZNA1RfsvXYZgiM3sCRPr7u+Klc6rgVLKx+QCo=",
+  "rev": "a9896b7f7c09b7804dd9e200e7b96c18ecb5fa0b",
+  "date": "2025-04-30T14:39:14+03:00",
+  "path": "/nix/store/7z3q473j1d2213p4z1ypra8nc9prmnsg-vim-pandoc",
+  "sha256": "01282v4pfjzabixrnwlfrfy84d4xxczzgc38zgk4rz831ani3681",
+  "hash": "sha256-AZkRrQoD/Uzm+2iw9z/rnTSCvMuOcpt7XOpLd8kWSAQ=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"vim-pandoc/vim-pandoc-syntax":{
   "url": "https://github.com/vim-pandoc/vim-pandoc-syntax",
-  "rev": "05ef7f44ebaea37159db8d365058c0a9e2ef14b5",
-  "date": "2025-03-15T15:02:42+03:00",
-  "path": "/nix/store/bhp2shjhgss33mclax610yn5ndbq15rv-vim-pandoc-syntax",
-  "sha256": "0w48hmcs0dfpc28v9bxslxgvizppkcvw0zpj6sxha747bbi715fc",
-  "hash": "sha256-zJVw4lqHHAW7NvJ+wDeb9/64X6e6r7SRYNc1oFmFiHA=",
+  "rev": "ea3fc415784bdcbae7f0093b80070ca4ff9e44c8",
+  "date": "2025-04-18T08:05:09+03:00",
+  "path": "/nix/store/bmijrx1rpjnbkk219d1awcz973biw4m3-vim-pandoc-syntax",
+  "sha256": "0mk33skbybrs4mwrwbsxkj9vcjik7bbrhk0lncxd9pvswnxrw053",
+  "hash": "sha256-owCeu+V639Q6sxRMmNc6M0q2k5xdL555JTovv6YeY1Y=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"Khelda/Vim-EPUB":{
@@ -584,6 +632,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"3rd/diagram.nvim":{
@@ -596,6 +645,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"chrisbra/csv.vim":{
@@ -608,6 +658,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"tpope/vim-cucumber":{
@@ -620,6 +671,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"LnL7/vim-nix":{
@@ -632,6 +684,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"NoahTheDuke/vim-just":{
@@ -644,6 +697,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"nvim-lua/plenary.nvim":{
@@ -656,18 +710,20 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"tanvirtin/vgit.nvim":{
   "url": "https://github.com/tanvirtin/vgit.nvim",
-  "rev": "a6dfbeec773ef345eb3b2ad60a84f22e55e17db4",
-  "date": "2025-03-13T22:05:51-04:00",
-  "path": "/nix/store/ahbsjgmgnl50g76jh6rs1dly55w80jdk-vgit.nvim",
-  "sha256": "1d5yq97r8wxz9ql9wwqlxc5vcymkrrpfmshb8rkd8rfbzg3nkjqr",
-  "hash": "sha256-Gctpx/vLZdRmRgvq6m7Os3q2C+sUc54oTr9zlE/CvrQ=",
+  "rev": "a7be45a2726ade74c4c669c56c36310d840c85a8",
+  "date": "2025-05-18T19:56:29-04:00",
+  "path": "/nix/store/jvvs430r483xpbq09wq3mm2jzffrm9y2-vgit.nvim",
+  "sha256": "0myk62x1jbrp0kbhawzdi81snrhy06rw76bdvc5v4d071m5dafaa",
+  "hash": "sha256-SjnVSg0HNLIL222Zw7MBHmarA4rtcwXXBDcvGbow01c=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"akinsho/git-conflict.nvim":{
@@ -680,6 +736,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"lukas-reineke/indent-blankline.nvim":{
@@ -692,6 +749,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"Glench/Vim-Jinja2-Syntax":{
@@ -704,6 +762,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"Shirk/vim-gas":{
@@ -716,6 +775,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"leissa/vim-acme":{
@@ -728,6 +788,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"mg979/vim-visual-multi":{
@@ -740,6 +801,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"zetzit/vim":{
@@ -752,6 +814,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"jneen/ragel.vim":{
@@ -764,6 +827,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"google/vim-jsonnet":{
@@ -776,6 +840,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"purescript-contrib/purescript-vim":{
@@ -788,18 +853,20 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"whonore/Coqtail":{
   "url": "https://github.com/whonore/Coqtail",
-  "rev": "262e4cf3fe6a6564e536efb631ab9dd6994ebcd9",
-  "date": "2025-03-29T13:34:37-07:00",
-  "path": "/nix/store/5s3h5yk6jm11v645xz0qgam1s4rd287k-Coqtail",
-  "sha256": "14jhh4b3z6fgs7bxd5a62vb2k4j038v23nq6j8r9l9rcra5i2hik",
-  "hash": "sha256-M0IRi8osJ5oykgbbITYaQJIp1hZGldbX0c+ZPxaBUJI=",
+  "rev": "28340858a528a6e86d3eee2ff5ccbf56f3eaf43f",
+  "date": "2025-06-05T21:43:36-07:00",
+  "path": "/nix/store/yvl99vkbm4acf1cypb4chdj9f0ydv1bg-Coqtail",
+  "sha256": "1c43ydn48w54w4wxwfgjibjczd6sg4mw9c6lssdnkq03xy6ysabs",
+  "hash": "sha256-eintje8D4Gmb1tSwxCt52rTP5IryOd454aRwRGzzg7A=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"tomtomjhj/coq-lsp.nvim":{
@@ -812,6 +879,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"xginn8/SBVR.vim":{
@@ -824,6 +892,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"wilt00/vim-y86-syntax":{
@@ -836,6 +905,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"m42e/vim-gcov-marker":{
@@ -848,6 +918,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ELLIOTTCABLE/vim-menhir":{
@@ -860,6 +931,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"petRUShka/vim-opencl":{
@@ -872,6 +944,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"martinlroth/vim-acpi-asl":{
@@ -884,6 +957,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ryanoasis/vim-devicons":{
@@ -896,6 +970,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"Jorengarenar/vim-syntaxMarkerFold":{
@@ -908,6 +983,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 ,"ziontee113/color-picker.nvim":{
@@ -920,18 +996,7 @@
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
-  "leaveDotGit": false
-}
-,"jonathanmorris180/salesforce.nvim":{
-  "url": "https://github.com/jonathanmorris180/salesforce.nvim",
-  "rev": "f2aa6bde18bf460a3c4131d56e7ded90da71bff6",
-  "date": "2024-09-12T14:55:54-04:00",
-  "path": "/nix/store/azqxhdkpzpy5ik1qyk623bd2bl08hg7x-salesforce.nvim",
-  "sha256": "1wi0965ryxk5k59v2yijsb61sszk2nxam71aq8k2205x2gavpa76",
-  "hash": "sha256-5qi71RO9ACEmwiqcqroV82sdzNIyerFTmWV2n4tJIPI=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
+  "fetchTags": false,
   "leaveDotGit": false
 }
 }, "packages": ["universal-ctags","tree-sitter","wl-clipboard-x11","wl-clipboard-x11","vscode-extensions.vscjava.vscode-java-debug","tree-sitter"], "lsp-packages": ["python3Packages.python-lsp-server","elmPackages.elm-language-server","rust-analyzer","haskell-language-server","ccls","cmake-language-server","jsonnet-language-server","ocamlPackages.ocaml-lsp","nodePackages.vim-language-server","nodePackages.purescript-language-server","bash-language-server","nixd","texlab","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","nodePackages.vscode-langservers-extracted","phpactor","nodePackages.vscode-langservers-extracted","spectral-language-server","marksman","jdt-language-server","kotlin-language-server","coqPackages_8_16.coq-lsp","dot-language-server","lua-language-server","postgres-lsp","dockerfile-language-server-nodejs","docker-compose-language-service","gopls","golangci-lint-langserver","golangci-lint","marksman","texlab","dot-language-server","spectral-language-server"]}
