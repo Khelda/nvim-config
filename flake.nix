@@ -4,22 +4,15 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
-    # salesforce-cli package
-    salesforce.url = "github:rfaulhaber/sfdx-nix";
   };
 
-  outputs = { self, nixpkgs, flake-utils, salesforce, ... }:
+  outputs = { self, nixpkgs, flake-utils, ... }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
-          overlays = [
-            (final: prev: {
-              # salesforce-cli deployment (sf command)
-              sf = salesforce.packages.${system}.default;
-            })
-          ];
+          overlays = [ ];
         };
 
         py3 =
@@ -38,10 +31,7 @@
             let g:inMyFlake = 1
             runtime! init.vim
           '';
-          packpathDirs.myNeovimPackages = {
-            start = [ ];
-            opt = [ ];
-          };
+          plugins = [ ];
           vimAlias = true;
           python3Env = py3;
           wrapperArgs = [

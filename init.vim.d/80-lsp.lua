@@ -23,7 +23,8 @@ local fwatch = require 'fwatch'
 
 -- Boost LSP using Coq_nvim
 function lsp_with_coq(server, params)
-    return server.setup(coq.lsp_ensure_capabilities(params))
+    server.setup(coq.lsp_ensure_capabilities(params))
+    vim.cmd("COQnow -s")
 end
 
 local lsp_cmake_sessions = {}
