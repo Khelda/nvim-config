@@ -31,7 +31,7 @@ local colors = (function()
             -- Custom colors
             sand   = '#918154',
             rsand  = '#875f5f',
-            darker = '#303030'
+            darker = '#4f4545'
         }
     end
 end)()
