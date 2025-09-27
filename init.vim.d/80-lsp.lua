@@ -308,11 +308,6 @@ lsp_with_coq(lsp.lua_ls, {
     cmd = nix:shell("lua-language-server", { "lua-language-server" })
 })
 
--- Postgres language server
-lsp_with_coq(lsp.postgres_lsp, {
-    cmd = nix:shell("postgres-lsp", { "postgres_lsp" })
-})
-
 -- Dockerfile language server
 lsp_with_coq(lsp.dockerls, {
     cmd = nix:shell("dockerfile-language-server-nodejs", {
