@@ -1,0 +1,1 @@
+../../init.vim.d/plugins/treesitter.lua

@@ -17,6 +17,6 @@ require 'barbar'.setup {
         vista = true
     },
     -- padding options
-    minimum_padding = 1,
-    maximum_padding = 1
+    minimum_padding = 2,
+    maximum_padding = 2
 }

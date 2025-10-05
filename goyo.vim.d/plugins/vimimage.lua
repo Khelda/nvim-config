@@ -1,0 +1,1 @@
+../../init.vim.d/plugins/vimimage.lua
