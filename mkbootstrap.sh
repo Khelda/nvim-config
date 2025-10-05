@@ -18,7 +18,7 @@ _each_package() {
 }
 
 _each_lsp_package() {
-    for f in init.vim.d/*.lua goyo.vim.d/*.lua
+    for f in init.vim.d/*.lua goyo.vim.d/*.lua init.vim.d/lspconfs/*.lua goyo.vim.d/lspconfs/*lua
     do
         awk 'match($0, /nix:shell\("([^"]*)"/, a) { print a[1] }' <$f
     done
