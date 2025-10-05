@@ -4,7 +4,7 @@
 --
 
 -- BarBar configuration
-require'barbar'.setup {
+require 'barbar'.setup {
     auto_hide = false,
     clickable = false,
     icons = { filetypes = {
@@ -15,5 +15,8 @@ require'barbar'.setup {
         NvimTree = true,
         vista_kind = true,
         vista = true
-    }
+    },
+    -- padding options
+    minimum_padding = 1,
+    maximum_padding = 1
 }
