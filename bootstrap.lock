@@ -292,41 +292,13 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"ms-jpq/coq_nvim":{
-  "url": "https://github.com/ms-jpq/coq_nvim",
-  "rev": "d2aeb3221cb46bfd1c51afd1b247d092c52ec0d6",
-  "date": "2025-09-22T00:06:49-04:00",
-  "path": "/nix/store/mgaw7q0c3dzngvsqrh1fy7szlgbr8nvj-coq_nvim",
-  "sha256": "1lah9jf5d7rnkhq5724i1vl072gi6nq7zbwj460bk7d07y1h5vij",
-  "hash": "sha256-Mu4Cgz+gnbmAIZKvf7A18YkD6A6RiFMwnDafVpxMUNE=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"ms-jpq/coq.thirdparty":{
-  "url": "https://github.com/ms-jpq/coq.thirdparty",
-  "rev": "6ee3c221c308dca7071387267ac76c9272b184a9",
-  "date": "2025-01-18T01:04:27-05:00",
-  "path": "/nix/store/ylj3icr6qirxbsds4vyvz0vmch6dqy3n-coq.thirdparty",
-  "sha256": "1ckk38c9szyhdg3kn09hs3xpgnvywwq7fmyzkp2vsjcz87n7180r",
-  "hash": "sha256-GaBw7EGfSb3Fnd9XdzDnftt3+9AwATvHa9B/nRgac7I=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"SirVer/UltiSnips":{
-  "url": "https://github.com/SirVer/UltiSnips",
-  "rev": "b22a86f9dcc5257624bff3c72d8b902eac468aad",
-  "date": "2025-06-05T18:08:18+02:00",
-  "path": "/nix/store/r8gaipljznm0984q1z628qm070qmvbkm-UltiSnips",
-  "sha256": "195pkgzjv24qw1y92phjmvird00filrzl5i28mm139sdshzqnx14",
-  "hash": "sha256-JHSLP9RNpxFqRSIW+jONDoCW464SXpF84JiILf+bt6Q=",
+,"saghen/blink.cmp":{
+  "url": "https://github.com/saghen/blink.cmp",
+  "rev": "d918ebde3a71c0fcbdd6e8f8c146d986d7aaf76f",
+  "date": "2025-10-06T13:51:28Z",
+  "path": "/nix/store/0a19cssndh9a6pwrhn7m6kq48s8qryyf-blink.cmp",
+  "sha256": "1chipwncczzmcz6vkkvanh36alrmz2kjybw4ladr6vkznm87cdl7",
+  "hash": "sha256-hzZ2ULV/bpObooQvL6f4NVNlBrRqz7nNZ/V/xiy/EbI=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,

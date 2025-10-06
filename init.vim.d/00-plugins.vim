@@ -59,11 +59,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 " LSP configs
 Plug 'neovim/nvim-lspconfig'
 
-" COQ autocomplete engine
-Plug 'ms-jpq/coq_nvim',         { 'do': ':COQdeps' }
-Plug 'ms-jpq/coq.thirdparty'
-" UltiSnips better snippets
-Plug 'SirVer/UltiSnips'
+" Completion engine and code actions
+Plug 'saghen/blink.cmp', { 'tag': '*' }
+
 " Fuzzy-finder
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
