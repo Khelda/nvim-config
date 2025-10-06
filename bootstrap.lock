@@ -210,11 +210,11 @@
 }
 ,"kevinhwang91/nvim-bqf":{
   "url": "https://github.com/kevinhwang91/nvim-bqf",
-  "rev": "17680cda3538913e88dd4c6456c837db9ace40ae",
-  "date": "2025-08-03T14:03:54+08:00",
-  "path": "/nix/store/z415v8kj7k2k40rcj8bfjk4lyxa5hn11-nvim-bqf",
-  "sha256": "1iy518h0nwm8azj8b29fwf9cqpsh1h8ajzn9fzhy0fsjfjay3kln",
-  "hash": "sha256-ls7hlXRSO+Dhd8l+qRAMUF/MkuMuiYXkV6hyCyAKxcc=",
+  "rev": "a77b17e39b1b707b6feee86a36c83703c1534c08",
+  "date": "2025-10-06T12:55:55+08:00",
+  "path": "/nix/store/4mglqy4f6mzcmgl0ylx09w6a4d1w1yn8-nvim-bqf",
+  "sha256": "0pbjm18ykzsjmqdzw6qps5gsnw6b2868fhc8v16ks5185pp6ns5r",
+  "hash": "sha256-uWhr7i0oFD1N2IhBhwwSy3CrX9EXG/4brlL/6VGocl0=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -1076,4 +1076,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["tree-sitter","wl-clipboard-x11"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","dot-language-server","lua-language-server","marksman","nixd","python3Packages.python-lsp-server","nodePackages.vim-language-server","dot-language-server","marksman"]}
+}, "packages": ["wl-clipboard-x11","wl-clipboard-x11"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","dot-language-server","marksman","nixd","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman","spectral-language-server"]}
