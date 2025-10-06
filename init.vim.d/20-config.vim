@@ -1,6 +1,3 @@
-" Enable Coq completion engine
-let g:coq_settings = { 'auto_start': 'shut-up' }
-
 " Disable Coqtail to let coq-lsp work
 let g:loaded_coqtail = 1
 let g:coqtail#supported = 0
@@ -23,14 +20,6 @@ let g:DevIconsEnableNERDTreeRedraw = 0
 
 " Find our runtime dir to obtain our flake lock
 let config_root = split(&runtimepath, ',')[0]
-
-" GitHub Copilot Node command
-if isdirectory('/nix')
-    let g:copilot_node_command = ['nix', '--extra-experimental-features', 'nix-command flakes', 'run', config_root . '#nodejs', '--']
-endif
-
-" Disable Copilot by default
-let g:copilot_enabled = 0
 
 " Set PList editor settings
 let g:plist_display_format = 'json'

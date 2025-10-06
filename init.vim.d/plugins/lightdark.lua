@@ -4,12 +4,3 @@ require 'fwatch'.watch(os.getenv("XDG_RUNTIME_DIR") .. "/theme", {
         vim.defer_fn(vim.fn.SetColor, 10)
     end
 })
-
--- Color picker setup
-require 'color-picker'.setup {
-    border = "rounded",
-    keymap = {
-        ["p"] = "<Plug>ColorPickerSlider5Increase",
-        ["i"] = "<Plug>ColorPickerSlider5Decrease"
-    }
-}

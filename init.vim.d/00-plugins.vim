@@ -27,11 +27,6 @@ Plug 'junegunn/limelight.vim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'romgrk/barbar.nvim'
 
-" Tmuxline won't be loaded if we're in tmux, in kitty
-if ! ($TMUX != '' && $KITTY_PID != '')
-    Plug 'edkolev/tmuxline.vim'
-endif
-
 " Scrollback buffer integration for kitty
 Plug 'mikesmithgh/kitty-scrollback.nvim'
 
@@ -57,17 +52,9 @@ Plug 'kevinhwang91/nvim-bqf'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-treesitter/nvim-treesitter-context'
 
-" GitHub Copilot integration
-Plug 'github/copilot.vim',      { 'on': 'Copilot' }
-
 " File tree (and Git plugin)
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'
-
-" Debug adapter protocol
-Plug 'mfussenegger/nvim-dap'
-" Language-specific DAPs
-Plug 'mfussenegger/nvim-dap-python'
 
 " LSP configs
 Plug 'neovim/nvim-lspconfig'
@@ -94,8 +81,6 @@ Plug 'luukvbaal/statuscol.nvim'
 " FLoating code action menu
 Plug 'weilbith/nvim-code-action-menu'
 
-" Image rendering
-Plug '3rd/image.nvim'
 " Image copy/paste and drag-n-drop handling
 Plug 'HakonHarnes/img-clip.nvim'
 
@@ -127,7 +112,6 @@ Plug 'vim-latex/vim-latex'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'Khelda/Vim-EPUB'
-Plug '3rd/diagram.nvim'
 
 " CSV editor
 Plug 'chrisbra/csv.vim'
@@ -163,12 +147,6 @@ Plug 'leissa/vim-acme'
 " Add multiple cursors
 Plug 'mg979/vim-visual-multi'
 
-" Support for ZetZ formally provable C transpiler
-Plug 'zetzit/vim'
-
-" Support for Ragel state machine language
-Plug 'jneen/ragel.vim'
-
 " Support for JSonnet
 Plug 'google/vim-jsonnet'
 
@@ -178,9 +156,6 @@ Plug 'purescript-contrib/purescript-vim'
 " Support for Coq formal proof language
 Plug 'whonore/Coqtail'
 Plug 'tomtomjhj/coq-lsp.nvim'
-
-" Support for SBVR English
-Plug 'xginn8/SBVR.vim'
 
 " Support for y86 assembly
 Plug 'wilt00/vim-y86-syntax'
@@ -202,8 +177,5 @@ Plug 'ryanoasis/vim-devicons'
 
 " Fold with markers AND syntax
 Plug 'Jorengarenar/vim-syntaxMarkerFold'
-
-" Preview and pick hex and CSS format colors
-Plug 'ziontee113/color-picker.nvim'
 
 call plug#end()

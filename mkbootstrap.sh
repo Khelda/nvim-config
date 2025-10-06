@@ -11,14 +11,14 @@ _each_repo() {
 }
 
 _each_package() {
-    for f in init.vim.d/*.lua goyo.vim.d/plugins/*.lua init.vim.d/plugins/*.lua
+    for f in goyo.vim.d/plugins/*.lua init.vim.d/plugins/*.lua
     do
         awk 'match($0, /nix:path\("([^"]*)"/, a) { print a[1] }' < $f
     done
 }
 
 _each_lsp_package() {
-    for f in init.vim.d/*.lua goyo.vim.d/plugins/*.lua init.vim.d/lspconfs/*.lua goyo.vim.d/lspconfs/*lua init.vim.d/plugins/*.lua
+    for f in goyo.vim.d/plugins/*.lua init.vim.d/lspconfs/*.lua goyo.vim.d/lspconfs/*lua init.vim.d/plugins/*.lua
     do
         awk 'match($0, /nix:shell\("([^"]*)"/, a) { print a[1] }' <$f
     done
