@@ -9,7 +9,7 @@ vim.lsp.config('lua_ls', {
     on_init = function(client)
         workspace = {
             checkThirdParty = false,
-            library = { vim.env.VIMRUNTIME }
+            library = { vim.api.nvim_get_runtime_file('', true) }
         }
         -- just ensure Neovim runtime is known
     end
