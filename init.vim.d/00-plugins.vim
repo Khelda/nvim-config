@@ -60,7 +60,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'neovim/nvim-lspconfig'
 
 " Completion engine and code actions
-Plug 'saghen/blink.cmp', { 'tag': '*' }
+Plug 'saghen/blink.cmp',        { 'tag': '*' }
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'

@@ -28,7 +28,6 @@ nnoremap <silent> <leader>cd            :lua vim.lsp.buf.definition()<CR>
 nnoremap <silent> µ                     :lua vim.lsp.buf.references()<CR>
 nnoremap <silent> <leader>ci            :lua vim.lsp.buf.implementation()<CR>
 nnoremap <silent> ?                     :lua vim.lsp.buf.hover()<CR>
-nnoremap <silent> <leader>?             :CodeActionMenu<CR>
 nnoremap <silent> <leader>mv            :lua vim.lsp.buf.rename()<CR>
 nnoremap <silent> <leader>c<left>       :lua vim.lsp.buf.incoming_calls()<CR>
 nnoremap <silent> <leader>c<right>      :lua vim.lsp.buf.outgoing_calls()<CR>

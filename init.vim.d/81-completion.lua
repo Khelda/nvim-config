@@ -4,7 +4,22 @@
 
 require 'blink.cmp'.setup {
     -- implementor choice
-    fuzzy = { implementation = "lua" }
+    fuzzy = { implementation = "lua" },
+    sources = { default = { 'lsp', 'path', 'buffer', 'snippets' } },
 
-    -- TODO customised completion menu
+    -- completion behavior
+    completion = {
+        keyword = { range = 'prefix' },
+        accept = { auto_brackets = { enabled = false } }
+    },
+
+    -- tweaking keymap to ensure acceptance at the right time
+    keymap = {
+        -- no default keymap on that one
+        preset = 'none',
+        -- new keybinds to ensure old behavior from coq.nvim
+        ['<Up>'] = { 'select_prev', 'fallback' },
+        ['<Down>'] = { 'select_next', 'fallback' },
+        ['<CR>'] = { 'select_and_accept', 'fallback' }
+    },
 }
