@@ -7,7 +7,11 @@ local nix = Nix:new()
 vim.lsp.config('lua_ls', {
     cmd = nix:shell('lua-language-server', { "lua-language-server" }),
     on_init = function(client)
-        workspace = { checkThirdParty = false }
+        workspace = {
+            checkThirdParty = false,
+            library = { vim.env.VIMRUNTIME }
+        }
+        -- just ensure Neovim runtime is known
     end
 })
 

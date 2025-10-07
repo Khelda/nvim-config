@@ -5,7 +5,7 @@
 
 -- BarBar configuration
 require 'barbar'.setup {
-    auto_hide = false,
+    auto_hide = true,
     clickable = false,
     icons = { filetypes = {
         custom_colors = true,
