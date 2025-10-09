@@ -294,11 +294,39 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "2b44b9cc94d426b355f1c43e4fc25170f1a89948",
-  "date": "2025-10-08T17:26:02-04:00",
-  "path": "/nix/store/4l1b1hcmbvldmbsy88psg3df7jxkb79f-blink.cmp",
-  "sha256": "1wb1v86r73qy4b6mgxhnghbzi7p6wi4c9yyyzwdsqgi8xkv4rfbg",
-  "hash": "sha256-b7lM9uwoPqwb/977xEjk5p74F3wW9lfNIh6Pkw3aYfE=",
+  "rev": "cc8c9b737d9ddc5dd0d9869ca2970a3859be9c5f",
+  "date": "2025-10-09T10:38:27+02:00",
+  "path": "/nix/store/f25n39zfz5isq8vv6lgkagzkpzdwcjjy-blink.cmp",
+  "sha256": "173l2hgmf4pirbbpz73gnhsbw3y824jya3aq86s6c3m93fs7h5vc",
+  "hash": "sha256-bBd4tBupDma0QVgN5SURyA++NLRvnH/XyvESVx8UdJw=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
+,"onsails/lspkind.nvim":{
+  "url": "https://github.com/onsails/lspkind.nvim",
+  "rev": "3ddd1b4edefa425fda5a9f95a4f25578727c0bb3",
+  "date": "2025-09-18T11:14:17+04:00",
+  "path": "/nix/store/xkvymkycly6sswqqafavazkns640sfsw-lspkind.nvim",
+  "sha256": "0yyf2vac4y424kn1vl7bkf5zazs0hd8v3106gl54ib69vav9hljd",
+  "hash": "sha256-TVKYttrJrEgKfQaEsVGDQH/1i5vr0B3sJIJ4wtQWzns=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
+,"nvim-mini/mini.icons":{
+  "url": "https://github.com/nvim-mini/mini.icons",
+  "rev": "284798619aed9f4c1ac1b9417b9a5e3b4b85ef3a",
+  "date": "2025-10-03T15:44:00+03:00",
+  "path": "/nix/store/nhdadm4zpxwbxqa053433hn25x0kx37p-mini.icons",
+  "sha256": "0k049j68sdbr41fy50ifyzy25nkb0brhbpwkf2w6iz0z4x4kqd4j",
+  "hash": "sha256-kjQ8SScf/Gi4cJPfBfMCa9oi/PcuguJdIHk1jYxMBEw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -308,11 +336,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "bf77206221b948c5824c37cb3216c24c4f10b827",
-  "date": "2025-10-09T13:52:10+09:00",
-  "path": "/nix/store/vpk9si5j0mlqb4n796s62jw69gj5ayln-fzf",
-  "sha256": "19nk6qjf0a87g5nxwba321kib1jq4y1y6av79kjpq1mmwyjgz8si",
-  "hash": "sha256-UaP/pOe1BnzlTGcr44MnWIYVZxBDLd5teQcp4CQ206Y=",
+  "rev": "91c4bef35f4ad3ebfc8562e8b97e224d1b622db5",
+  "date": "2025-10-10T03:41:37+09:00",
+  "path": "/nix/store/xm453whfrvfija54kd7k39vdpxgl1m55-fzf",
+  "sha256": "10mzg9xfjyhlk8k808zgzff947n0dkccsq3ca7w3rglwrcjpbfba",
+  "hash": "sha256-arl1Jcucvjz4UWxgzdhswB6SnPvvI4AmmhR66Xp6v4I=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,

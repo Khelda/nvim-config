@@ -59,8 +59,10 @@ Plug 'kyazdani42/nvim-web-devicons'
 " LSP configs
 Plug 'neovim/nvim-lspconfig'
 
-" Completion engine and snippets
+" Completion engine and icons
 Plug 'saghen/blink.cmp',        { 'tag': '*' }
+Plug 'onsails/lspkind.nvim'
+Plug 'nvim-mini/mini.icons',    { 'branch': 'stable' }
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'
