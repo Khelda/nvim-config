@@ -5,7 +5,7 @@
 require 'blink.cmp'.setup {
     -- implementor choice
     fuzzy = { implementation = "lua" },
-    sources = { default = { 'lsp', 'path' } },
+    sources = { default = { 'lsp', 'path', 'buffer' } },
 
     -- completion behavior
     completion = {
@@ -21,5 +21,7 @@ require 'blink.cmp'.setup {
         ['<Up>'] = { 'select_prev', 'fallback' },
         ['<Down>'] = { 'select_next', 'fallback' },
         ['<CR>'] = { 'select_and_accept', 'fallback' }
-    },
+    }
+
+    -- TODO find how to keep the old cmdline appearance
 }

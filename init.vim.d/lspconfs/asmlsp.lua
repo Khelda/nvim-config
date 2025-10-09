@@ -5,7 +5,8 @@ local nix = Nix:new()
 
 -- Config definition
 vim.lsp.config('asm_lsp', {
-    cmd = nix:shell("asm-lsp", { "asm-lsp" })
+    cmd = nix:shell("asm-lsp", { "asm-lsp" }),
+    filetypes = { 'asm', 'vmasm' }
 })
 
 -- Enabling config

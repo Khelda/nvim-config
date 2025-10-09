@@ -6,8 +6,15 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+      ...
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = import nixpkgs {
           inherit system;
@@ -15,14 +22,16 @@
           overlays = [ ];
         };
 
-        py3 =
-          pkgs.python3.withPackages (ps: with ps; [ pynvim jupyter_client ]);
-        luaEnv =
-          pkgs.neovim-unwrapped.lua.withPackages (ps: with ps; [ magick ]);
+        py3 = pkgs.python3.withPackages (
+          ps: with ps; [
+            pynvim
+            jupyter_client
+          ]
+        );
+        luaEnv = pkgs.neovim-unwrapped.lua.withPackages (ps: with ps; [ magick ]);
 
         luaPath = pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaPathAbsStr luaEnv;
-        luaCPath =
-          pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaCPathAbsStr luaEnv;
+        luaCPath = pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaCPathAbsStr luaEnv;
 
         wrappedNeovim = pkgs.wrapNeovimUnstable pkgs.neovim-unwrapped {
           neovimRcContent = ''
@@ -48,15 +57,20 @@
 
         bootstrap = pkgs.callPackage ./bootstrap.nix { };
         wrappedNeovimOffline = wrappedNeovim.override (prev: {
-          wrapperArgs = prev.wrapperArgs
-            ++ [ "--prefix" "PATH" ":" "${bootstrap.packages}/bin" ];
+          wrapperArgs = prev.wrapperArgs ++ [
+            "--prefix"
+            "PATH"
+            ":"
+            "${bootstrap.packages}/bin"
+          ];
           neovimRcContent = ''
             source ${bootstrap}/bootstrap.vim
             ${prev.neovimRcContent}
           '';
         });
 
-        addProfiles = neovim:
+        addProfiles =
+          neovim:
           pkgs.symlinkJoin {
             inherit (neovim) name meta;
             paths = [ neovim ];
@@ -65,28 +79,36 @@
               chmod +x $out/bin/goyo
             '';
           };
-      in {
+      in
+      {
         legacyPackages = pkgs;
         packages.default = self.packages.${system}.neovim;
         packages."neovim" = addProfiles wrappedNeovim;
         packages."neovim-offline" = addProfiles wrappedNeovimOffline;
-        packages."neovim-full" = addProfiles (wrappedNeovim.override (prev: {
-          wrapperArgs = prev.wrapperArgs ++ [
-            "--suffix"
-            "PATH"
-            ":"
-            "${bootstrap.lspPackages}/bin"
-            "--suffix"
-            "PATH"
-            ":"
-            "${bootstrap.packages}/bin"
-          ];
-        }));
-        packages."neovim-full-offline" = addProfiles
-          (wrappedNeovimOffline.override (prev: {
-            wrapperArgs = prev.wrapperArgs
-              ++ [ "--suffix" "PATH" ":" "${bootstrap.lspPackages}/bin" ];
-          }));
+        packages."neovim-full" = addProfiles (
+          wrappedNeovim.override (prev: {
+            wrapperArgs = prev.wrapperArgs ++ [
+              "--suffix"
+              "PATH"
+              ":"
+              "${bootstrap.lspPackages}/bin"
+              "--suffix"
+              "PATH"
+              ":"
+              "${bootstrap.packages}/bin"
+            ];
+          })
+        );
+        packages."neovim-full-offline" = addProfiles (
+          wrappedNeovimOffline.override (prev: {
+            wrapperArgs = prev.wrapperArgs ++ [
+              "--suffix"
+              "PATH"
+              ":"
+              "${bootstrap.lspPackages}/bin"
+            ];
+          })
+        );
 
         apps.nvim = {
           type = "app";
@@ -96,5 +118,6 @@
           type = "app";
           program = "${self.packages.${system}.neovim}/bin/goyo";
         };
-      });
+      }
+    );
 }
