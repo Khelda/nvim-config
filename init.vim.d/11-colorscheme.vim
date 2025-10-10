@@ -89,6 +89,9 @@ function SetColor()
     " Python highlights fixes
     hi link @variable.builtin Identifier
 
+    " Nix highlight fixes
+    hi @lsp.type.property.nix guifg=#eadecc guibg=NONE
+
     " Typescript highlight fixes
     hi link typescriptVariable Statement
     hi link typescriptProp Identifier
