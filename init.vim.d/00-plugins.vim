@@ -61,8 +61,6 @@ Plug 'neovim/nvim-lspconfig'
 
 " Completion engine and icons
 Plug 'saghen/blink.cmp',        { 'tag': '*' }
-Plug 'onsails/lspkind.nvim'
-Plug 'nvim-mini/mini.icons',    { 'branch': 'stable' }
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'

@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "e688b486fe9291f151eae7e5c0b5a5c4ef980847",
-  "date": "2025-10-04T03:28:37Z",
-  "path": "/nix/store/d53g9jbbqr2gj2xn4gz8bx20w8c5inp2-nvim-lspconfig",
-  "sha256": "07gia53y7fa5i1rc0v4l40z2fjfd6vgfgsmb0dfz6hr46n6sz7ib",
-  "hash": "sha256-K56vjTUkQ/NdA6vq5942zUknPiCUbMByiEW540dR8R0=",
+  "rev": "cc2f5f2fa28d240574808e78847978ed6ef20d2a",
+  "date": "2025-10-10T02:04:54Z",
+  "path": "/nix/store/58cz0p7d0dzpy5d0bqm9v6g9386z0cp4-nvim-lspconfig",
+  "sha256": "1yc71365wgnhbwwkd51j5jyfqcbxpqg4pfvg3j0r2hyf9arz2ykk",
+  "hash": "sha256-c3rxs0rOQ5GBHG+7Sx6+fTHsvCwylDY5X9A+XswIh/k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -299,34 +299,6 @@
   "path": "/nix/store/f25n39zfz5isq8vv6lgkagzkpzdwcjjy-blink.cmp",
   "sha256": "173l2hgmf4pirbbpz73gnhsbw3y824jya3aq86s6c3m93fs7h5vc",
   "hash": "sha256-bBd4tBupDma0QVgN5SURyA++NLRvnH/XyvESVx8UdJw=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"onsails/lspkind.nvim":{
-  "url": "https://github.com/onsails/lspkind.nvim",
-  "rev": "3ddd1b4edefa425fda5a9f95a4f25578727c0bb3",
-  "date": "2025-09-18T11:14:17+04:00",
-  "path": "/nix/store/xkvymkycly6sswqqafavazkns640sfsw-lspkind.nvim",
-  "sha256": "0yyf2vac4y424kn1vl7bkf5zazs0hd8v3106gl54ib69vav9hljd",
-  "hash": "sha256-TVKYttrJrEgKfQaEsVGDQH/1i5vr0B3sJIJ4wtQWzns=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"nvim-mini/mini.icons":{
-  "url": "https://github.com/nvim-mini/mini.icons",
-  "rev": "284798619aed9f4c1ac1b9417b9a5e3b4b85ef3a",
-  "date": "2025-10-03T15:44:00+03:00",
-  "path": "/nix/store/nhdadm4zpxwbxqa053433hn25x0kx37p-mini.icons",
-  "sha256": "0k049j68sdbr41fy50ifyzy25nkb0brhbpwkf2w6iz0z4x4kqd4j",
-  "hash": "sha256-kjQ8SScf/Gi4cJPfBfMCa9oi/PcuguJdIHk1jYxMBEw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
