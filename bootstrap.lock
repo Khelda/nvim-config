@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "cc2f5f2fa28d240574808e78847978ed6ef20d2a",
-  "date": "2025-10-10T02:04:54Z",
-  "path": "/nix/store/58cz0p7d0dzpy5d0bqm9v6g9386z0cp4-nvim-lspconfig",
-  "sha256": "1yc71365wgnhbwwkd51j5jyfqcbxpqg4pfvg3j0r2hyf9arz2ykk",
-  "hash": "sha256-c3rxs0rOQ5GBHG+7Sx6+fTHsvCwylDY5X9A+XswIh/k=",
+  "rev": "ac98db2f9f06a56498ec890a96928774eae412c3",
+  "date": "2025-10-11T15:04:57Z",
+  "path": "/nix/store/mnnhnwsi815fvkxzj880jmrxwl9i5aqw-nvim-lspconfig",
+  "sha256": "0ncrknyldkaf2i053bkmzd7x58jflsyv6y5fr1wnbq26ynrxf245",
+  "hash": "sha256-hQjXs/VG4GV5yK54s72mTqLST/t1rlFAFE7NRr2dmVk=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "cc8c9b737d9ddc5dd0d9869ca2970a3859be9c5f",
-  "date": "2025-10-09T10:38:27+02:00",
-  "path": "/nix/store/f25n39zfz5isq8vv6lgkagzkpzdwcjjy-blink.cmp",
-  "sha256": "173l2hgmf4pirbbpz73gnhsbw3y824jya3aq86s6c3m93fs7h5vc",
-  "hash": "sha256-bBd4tBupDma0QVgN5SURyA++NLRvnH/XyvESVx8UdJw=",
+  "rev": "ddeab4c4cfc8a282196e74dc7b7f892708320e81",
+  "date": "2025-10-12T11:02:06Z",
+  "path": "/nix/store/w719xlnqdp772xl69fyvm09hxiw4rb70-blink.cmp",
+  "sha256": "1acmzl9j6s0cc7vzii3bc2rlfnswkx312d3idlj6qj16vmj80y48",
+  "hash": "sha256-iHiAZN0mSGwkbXE0EUafXFtHs2BrxPj3YQxoIxP9lak=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -308,11 +308,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "91c4bef35f4ad3ebfc8562e8b97e224d1b622db5",
-  "date": "2025-10-10T03:41:37+09:00",
-  "path": "/nix/store/xm453whfrvfija54kd7k39vdpxgl1m55-fzf",
-  "sha256": "10mzg9xfjyhlk8k808zgzff947n0dkccsq3ca7w3rglwrcjpbfba",
-  "hash": "sha256-arl1Jcucvjz4UWxgzdhswB6SnPvvI4AmmhR66Xp6v4I=",
+  "rev": "8cdfb23df69df0a991d122185b00e8900875a8cf",
+  "date": "2025-10-12T22:17:52+09:00",
+  "path": "/nix/store/7pw3na05fhgxrdcn22bc92rlpgn6aa0r-fzf",
+  "sha256": "1c96z6a5lah3l1zplylan3dmfax3ry5wjga3972i8gl6gg72kjz1",
+  "hash": "sha256-4cspznuGPhTFSUM9yYvPoytX27CKenp/oAMqWpT5JrE=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -434,11 +434,11 @@
 }
 ,"HakonHarnes/img-clip.nvim":{
   "url": "https://github.com/HakonHarnes/img-clip.nvim",
-  "rev": "f33f3af9ba50f99d70f8fcb1a8575750ada4ea4a",
-  "date": "2025-08-30T14:07:30+02:00",
-  "path": "/nix/store/kcckndy1c6wxwzzbr0zbcv40q3gbghn5-img-clip.nvim",
-  "sha256": "056ikjx8q2aw5pwmsp7lg6k38bsyv3pmy5q3h0293c3pfy03bgx3",
-  "hash": "sha256-o781gHd3sJEEgAMXX+/YXi80pnn0XF35LVwJjLqc0RQ=",
+  "rev": "e7e29f0d07110405adecd576b602306a7edd507a",
+  "date": "2025-10-11T12:49:05+02:00",
+  "path": "/nix/store/alwknzggfyh6xddkr5x4ymwl7m1vdp9g-img-clip.nvim",
+  "sha256": "0jfbshjmzqjpnfdzsd5zd2si1c7gax2g2x5lwg8rsj5cacp0zbnb",
+  "hash": "sha256-y64PLlOsSJ3R47R08URX77AQtWi/NP2bs1fiXyXUy0k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman","spectral-language-server"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman","spectral-language-server"]}

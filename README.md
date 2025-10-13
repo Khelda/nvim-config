@@ -52,7 +52,6 @@ Keys    | Action                          | Vim command
 `→`     | Focus right buffer              | `<C-w><C-l>`
         |                                 |
 `hw`    | Write buffer as HTTP request    |
-`op`    | Show Color Picker               |
         |                                 |
 `l…`    | _**Line numbers**_              |
 `la`    | Set line numbers to Absolute    | `:set nornu`
