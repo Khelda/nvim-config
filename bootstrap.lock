@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "ddeab4c4cfc8a282196e74dc7b7f892708320e81",
-  "date": "2025-10-12T11:02:06Z",
-  "path": "/nix/store/w719xlnqdp772xl69fyvm09hxiw4rb70-blink.cmp",
-  "sha256": "1acmzl9j6s0cc7vzii3bc2rlfnswkx312d3idlj6qj16vmj80y48",
-  "hash": "sha256-iHiAZN0mSGwkbXE0EUafXFtHs2BrxPj3YQxoIxP9lak=",
+  "rev": "5037cfa645a9c4f5d6e2a3f6a44e096df86c8093",
+  "date": "2025-10-13T14:01:37-04:00",
+  "path": "/nix/store/k7i6ax3qjrw62sk1yghps8bi9qvwxbgy-blink.cmp",
+  "sha256": "0rc6snw4f02kvx4lm8bq33gw9j7c8dagxb442zrm0lf96bc4r8ca",
+  "hash": "sha256-iqFM2DLJUVDzF4Ss/lRD7MjE3xh4oUpJ31MAR7jVhmU=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
