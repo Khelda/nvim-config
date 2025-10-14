@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman","spectral-language-server"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","spectral-language-server","dot-language-server","marksman"]}
