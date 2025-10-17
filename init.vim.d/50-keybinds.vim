@@ -33,6 +33,7 @@ nnoremap <silent> <leader>yp            :!yapf -i %<CR>
 
 " Trouble related keybinds
 nnoremap <silent> <leader>!             :Trouble proj_errs toggle<CR>
+nnoremap <silent> <leader>?             :lua require "tiny-code-action".code_action()<CR>
 
 " Vista views and folds handling
 nnoremap <silent> <leader>tt            :Vista<CR>

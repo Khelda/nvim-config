@@ -66,7 +66,7 @@ Keys    | Action                          | Vim command
 `cf`    | Apply code formatter            |
 `yp`    | Apply yapf code formatter       | `:!yapf -i %`
 `mv`    | Refactor (rename) symbol        |
-`?`     | Show code actions               | `:CodeActionMenu`
+`?`     | Show code actions               | `:lua require "tiny-code-action".code_action()`
 `!`     | Show diagnostics panel          |
         |                                 |
 `d…`    | _**Debugger**_                  |

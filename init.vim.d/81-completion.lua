@@ -5,7 +5,7 @@
 require 'blink.cmp'.setup {
     -- implementor choice
     fuzzy = { implementation = "lua" },
-    sources = { default = { 'lsp', 'path', 'buffer' } },
+    sources = { default = { 'lsp', 'path' } },
 
     -- completion behavior
     completion = {

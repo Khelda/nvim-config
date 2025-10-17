@@ -59,8 +59,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 " LSP configs
 Plug 'neovim/nvim-lspconfig'
 
-" Completion engine and icons
+" Completion engine and code actions
 Plug 'saghen/blink.cmp',        { 'tag': '*' }
+Plug 'rachartier/tiny-code-action.nvim'
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'
@@ -76,8 +77,6 @@ Plug 'jackguo380/vim-lsp-cxx-highlight'
 Plug 'folke/lsp-colors.nvim'
 " Smart status column
 Plug 'luukvbaal/statuscol.nvim'
-" FLoating code action menu
-Plug 'weilbith/nvim-code-action-menu'
 
 " Image copy/paste and drag-n-drop handling
 Plug 'HakonHarnes/img-clip.nvim'
