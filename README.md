@@ -23,18 +23,22 @@ This configuration specifies a few keybinds, most of which were created with the
 Here's a list of all non-default keybindings in this Neovim config:
 
 Keys  | Action                          | Vim command
-------|---------------------------------|------------
+------|---------------------------------|-----------------------
 `jk`  | Escape (in insert and term mode)|
       |                                 |
 `b…`  | _**Buffer commands**_           |
-`bn`  | Next buffer                     | `:bn`
-`bv`  | Previous buffer                 | `:bp`
-`bd`  | Delete buffer                   | `:bd`
+`bn`  | Next buffer                     |`:bn`
+`bv`  | Previous buffer                 |`:bp`
+`bd`  | Delete buffer                   |`:bd`
+      |                                 |
+`mb…` | _**Moving buffer commands**_    |
+`mbn` |Moving buffer to the right       |`:BufferMoveNext`
+`mbv` |Moving buffer to the left        |`:BufferMovePrevious`
       |                                 |
 `t…`  | _**Tab commands**_              |
-`ty`  | Next tab                        | `:tabnext`
-`tr`  | Previous tab                    | `:tabprev`
-`tn`  | New tab                         | `:tabnew`
+`ty`  | Next tab                        |`:tabnext`
+`tr`  | Previous tab                    |`:tabprev`
+`tn`  | New tab                         |`:tabnew`
       |                                 |
 .     | _**Code movement**_             |
 `?`   | Show symbol details (hover)     |
@@ -46,16 +50,16 @@ The Leader key is set to the exclamation point (`!`) by default. Below are keybi
 Keys    | Action                          | Vim command
 --------|---------------------------------|------------
 `q`     | Clear all notifications         |
-`←`     | Focus left buffer               | `<C-w><C-h>`
-`↓`     | Focus buffer below              | `<C-w><C-j>`
-`↑`     | Focus buffer above              | `<C-w><C-k>`
-`→`     | Focus right buffer              | `<C-w><C-l>`
+`←`     | Focus left buffer               |`<C-w><C-h>`
+`↓`     | Focus buffer below              |`<C-w><C-j>`
+`↑`     | Focus buffer above              |`<C-w><C-k>`
+`→`     | Focus right buffer              |`<C-w><C-l>`
         |                                 |
 `hw`    | Write buffer as HTTP request    |
         |                                 |
 `l…`    | _**Line numbers**_              |
-`la`    | Set line numbers to Absolute    | `:set nornu`
-`lr`    | Set line numbers to Relative    | `:set rnu`
+`la`    | Set line numbers to Absolute    |`:set nornu`
+`lr`    | Set line numbers to Relative    |`:set rnu`
         |                                 |
 `c…`    | _**Code movement**_             |
 `cD`    | Go to declaration               |
@@ -64,9 +68,9 @@ Keys    | Action                          | Vim command
 `c←`    | Show incoming calls             |
 `c→`    | Show outgoing calls             |
 `cf`    | Apply code formatter            |
-`yp`    | Apply yapf code formatter       | `:!yapf -i %`
+`yp`    | Apply yapf code formatter       |`:!yapf -i %`
 `mv`    | Refactor (rename) symbol        |
-`?`     | Show code actions               | `:lua require "tiny-code-action".code_action()`
+`?`     | Show code actions               |`:lua require "tiny-code-action".code_action()`
 `!`     | Show diagnostics panel          |
         |                                 |
 `d…`    | _**Debugger**_                  |
@@ -85,12 +89,12 @@ Keys    | Action                          | Vim command
 `ga`    | Choose all changes (merge)      |
         |                                 |
 `f…`    | _**File browser**_              |
-`fr`    | Refresh files pane              | `:NvimTreeRefresh`
-`ft`    | Toggle files pane               | `:NvimTreeToggle`
+`fr`    | Refresh files pane              |`:NvimTreeRefresh`
+`ft`    | Toggle files pane               |`:NvimTreeToggle`
         |                                 |
 `t…`    | _**Tagging**_                   |
-`tt`    | Show symbols pane               | `:Vista`
-`td`    | Search for and list `TODO`s     | `:Ags TODO`
+`tt`    | Show symbols pane               |`:Vista`
+`td`    | Search for and list `TODO`s     |`:Ags TODO`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 
