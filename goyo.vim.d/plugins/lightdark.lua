@@ -1,1 +1,0 @@
-../../init.vim.d/plugins/lightdark.lua
