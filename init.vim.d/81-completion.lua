@@ -10,18 +10,20 @@ require 'blink.cmp'.setup {
     -- completion behavior
     completion = {
         keyword = { range = 'prefix' },
-        accept = { auto_brackets = { enabled = false } }
+        accept = { auto_brackets = { enabled = false } },
+        list = { selection = { preselect = true, auto_insert = false } }
         -- appearance tweaks
     },
+    cmdline = { enabled = false },
 
     -- tweaking keymap to ensure acceptance at the right time
     keymap = {
         -- no default keymap on that one
         preset = 'none',
-        -- new keybinds to ensure old behavior from coq.nvim
+        -- new keybinds to ensure old completion behavior from coq.nvim
         ['<Up>'] = { 'select_prev', 'fallback' },
         ['<Down>'] = { 'select_next', 'fallback' },
         ['<CR>'] = { 'select_and_accept', 'fallback' }
-        -- TODO ensure a way to abort completion
+        -- rollbacking completion and deleting compleated text
     }
 }

@@ -1,0 +1,1 @@
+../../init.vim.d/80-lspconfs/texlab.lua
