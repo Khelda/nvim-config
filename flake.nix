@@ -55,7 +55,7 @@
           ];
         };
 
-        bootstrap = pkgs.callPackage ./bootstrap.nix { };
+        bootstrap = pkgs.callPackage ./nixos/bootstrap.nix { };
         wrappedNeovimOffline = wrappedNeovim.override (prev: {
           wrapperArgs = prev.wrapperArgs ++ [
             "--prefix"
