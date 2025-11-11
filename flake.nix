@@ -4,6 +4,8 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
+    # extra build tools
+    dream2nix.url = "github:nix-community/dream2nix";
   };
 
   outputs =
@@ -11,15 +13,21 @@
       self,
       nixpkgs,
       flake-utils,
+      dream2nix,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
       let
+        cucumberLSP = dream2nix.lib.evalModules {
+          packageSets.nixpkgs = import nixpkgs { inherit system; };
+          modules = [ ./nixos/cucumber.nix ];
+        };
+
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
-          overlays = [ ];
+          overlays = [ (final: prev: { cucumber-language-server = cucumberLSP; }) ];
         };
 
         py3 = pkgs.python3.withPackages (
