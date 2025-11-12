@@ -238,11 +238,11 @@
 }
 ,"nvim-treesitter/nvim-treesitter-context":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter-context",
-  "rev": "ec308c7827b5f8cb2dd0ad303a059c945dd21969",
-  "date": "2025-10-21T21:10:40+01:00",
-  "path": "/nix/store/6hyqvaynw2h7kd6vg3nn39m2h6jg2llw-nvim-treesitter-context",
-  "sha256": "1x2q0y644n7pf6xzfwsayg5cy8kpihln955pggq8445c2avnrmj1",
-  "hash": "sha256-QdZstxKsEILwe7eUZCmMdyLPyvNKc/e7cfdYQowHWPQ=",
+  "rev": "660861b1849256398f70450afdf93908d28dc945",
+  "date": "2025-11-10T10:14:43Z",
+  "path": "/nix/store/hn82m2pyxlmnwhyq5azwqyqxdq7m55d2-nvim-treesitter-context",
+  "sha256": "0gwbmj48mzc72jwbjgj6141svyjh1b7gnmd54zn270d7f98h0b10",
+  "hash": "sha256-ICwAUXKngSPsJ6VV+84KUPqtAwlGPrm4FIf9ioisiz8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -252,11 +252,11 @@
 }
 ,"kyazdani42/nvim-tree.lua":{
   "url": "https://github.com/kyazdani42/nvim-tree.lua",
-  "rev": "64e2192f5250796aa4a7f33c6ad888515af50640",
-  "date": "2025-10-20T00:50:08Z",
-  "path": "/nix/store/0p3pmpgrvf3vad7wdaqay6rf0lgwbr05-nvim-tree.lua",
-  "sha256": "1m2a9r2wnxj0ck8gridwhn8qgy8bdzm2nymn5sy59z4pmbzjj9a0",
-  "hash": "sha256-QCUp/6qX/FS8LrZ6K+pvC/mHkYW8xfzQZEB2y0VOStQ=",
+  "rev": "1eda2569394f866360e61f590f1796877388cb8a",
+  "date": "2025-11-11T09:09:02+11:00",
+  "path": "/nix/store/zyf2ga04bqd9gmhr1kwpijr1246aff1s-nvim-tree.lua",
+  "sha256": "0rzdyzfglbxw378fqrbbc6w6f6r8hq849d0xicl0mrin5pf248ml",
+  "hash": "sha256-tCIi3C025gooix20RBCGKBtnuGFrZezQGbwv+tz37Wc=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "2010fc6ec03e2da552b4886fceb2f7bc0fc2e9c0",
-  "date": "2025-11-03T23:42:40Z",
-  "path": "/nix/store/n70wjv5yhk6kvbb8c1q36vr0vv07vdd8-nvim-lspconfig",
-  "sha256": "1lb85magzq9kghp9xkcxr0lnz975qkfvczk5i4d1q2i7yxzfns9l",
-  "hash": "sha256-NGnrfvcnChwaiWV+tt3E5aRvKcidzZ4ufDPh/1QtaNE=",
+  "rev": "c8503e63c6afab3ed34b49865a4a4edbb1ebf4a8",
+  "date": "2025-11-12T04:35:36Z",
+  "path": "/nix/store/g1qkniprdgb5n27ydb2hh9zkd09nbsdd-nvim-lspconfig",
+  "sha256": "1z8hbqfx096gnc9w4ryygxxf00i6l3apfc7j5hw65disi29b91qi",
+  "hash": "sha256-EYe0kog6tmI4LPIwd9WgJgLgen/eZ8ITs88k0B1eEP0=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "40380e711b616a28affb0f4086a2f7de2f2a556b",
-  "date": "2025-11-05T11:24:44-05:00",
-  "path": "/nix/store/r9kamwdbdflkk29gpvk5rwknss4qx3x1-blink.cmp",
-  "sha256": "1yyp0qz150b3kxca9r8b2q32m3szzbfnzpqjmnx4jnbvx32b5qnk",
-  "hash": "sha256-0+KyxOh7WUm6rRLfb936X48qBhYL5aRYn2OBEj4G1/s=",
+  "rev": "7d79733aea5ef9e030b1a5ace176fa102e9ebe09",
+  "date": "2025-11-11T23:59:47+01:00",
+  "path": "/nix/store/ywgw6xvk1m38pgbnlbkwifi1k166cncv-blink.cmp",
+  "sha256": "12366p74sf18svvd49b9v7z1zqz7aykwlfdzkdqmcxwb03xbhpsq",
+  "hash": "sha256-WF+4+gCLd1Zxm785yqdX5+Mf/tlpJdL21ig4Tc41Zog=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -308,11 +308,11 @@
 }
 ,"rachartier/tiny-code-action.nvim":{
   "url": "https://github.com/rachartier/tiny-code-action.nvim",
-  "rev": "7aaa18eea993cc5796c6128702eaedc05e55f6e8",
-  "date": "2025-11-05T16:21:18+01:00",
-  "path": "/nix/store/zwry35fw11qp8yrlnyf8hnficgv70w8z-tiny-code-action.nvim",
-  "sha256": "0wqkv51vyfljaxpap738mql1i1sbw3ibcb0khpp23q4bkpm13c52",
-  "hash": "sha256-orAR6p2L4CHuhRMstuLgS4cYKK5onKtuV5I6v0PZE3M=",
+  "rev": "b6c9ee6444196c1ca616bf4ff381124b140db21f",
+  "date": "2025-11-11T21:42:50+01:00",
+  "path": "/nix/store/q784g3aazdcw4fmsc5v8d0y654g0g86v-tiny-code-action.nvim",
+  "sha256": "1p7vr0my7s27w80iws7fkxb9ypzrl0mycijyfk8mhljmabq485aw",
+  "hash": "sha256-XBVE8FJVUljRdF5G5iug+V+fVp/uaB4B4kfo4yvI+9w=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -322,11 +322,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "991c36453c5ebd6546f1821fd6089392599ca4bf",
-  "date": "2025-11-08T17:50:25+09:00",
-  "path": "/nix/store/7jyl75x1ji67ilxf4bv0jga9hxw2cpbm-fzf",
-  "sha256": "02d29kl1ys6csr23crfybl9cfaffz6dcj65fcfs0imihy4spwfic",
-  "hash": "sha256-LDp+NfEw1gi0Y64YyZr5zinHEl3eZTZE1sxoH+hMogk=",
+  "rev": "ead534a1be2cdd777b614d3e7eacce0ab4414151",
+  "date": "2025-11-10T19:12:01+09:00",
+  "path": "/nix/store/wkld1nlffjcdlix599j0r05gmzp63irf-fzf",
+  "sha256": "0h21xn3hhslywn9iih955sjy4l0l6a4nbqwda4iyrmp139rajcrb",
+  "hash": "sha256-KzOpchrh1uwjUY3jZYkyFFDipS4lwRiT5Z5qCIftQUA=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -672,11 +672,11 @@
 }
 ,"tanvirtin/vgit.nvim":{
   "url": "https://github.com/tanvirtin/vgit.nvim",
-  "rev": "555f594f84c03b3d70e4fe1ff1aa199de712bca5",
-  "date": "2025-10-29T19:21:55-04:00",
-  "path": "/nix/store/dixf07v6k36k8sg4sn3mvvypchsmqivm-vgit.nvim",
-  "sha256": "1nlh7z8zd7jgzz54x2aprpwbvkknrn7bjnjh1qhi1gzbnz3k7yxd",
-  "hash": "sha256-rfszx7frvxAhDlBauY7Nds69+M1XiU7K/0+e9tE/kNo=",
+  "rev": "9f52b9d055bbec80902726cc09bf3b6ed03844cb",
+  "date": "2025-11-10T18:33:32-05:00",
+  "path": "/nix/store/z84k52ggzw9vpslhli4csx3355fvnbm2-vgit.nvim",
+  "sha256": "0mg0m9cj98cawfdaf0m9b3a16b5v4n2xi62mgh32gkbaq6g4lagn",
+  "hash": "sha256-9ilKnsFqzScGfFWY2IUluywT1FipAqea44qhJFmq4FU=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -798,11 +798,11 @@
 }
 ,"whonore/Coqtail":{
   "url": "https://github.com/whonore/Coqtail",
-  "rev": "b12c31e8aa8d0f3bddd9a804b315a0de0823b989",
-  "date": "2025-08-03T13:09:22-07:00",
-  "path": "/nix/store/b1lyj5dp40mnkwr9cqv1z5lcr8qaymff-Coqtail",
-  "sha256": "1lns9vrchs6prdxpxz998z94fsy99k5a7yd3wl2kmywx3pk1d6b4",
-  "hash": "sha256-ZJkW5h2d+zoF5aP5o8pMyWtH0kcp/X57y9doyPJO2tI=",
+  "rev": "b3ed3e79c32421ba0e8bed215cc2566da8e56e8a",
+  "date": "2025-11-09T02:02:51-05:00",
+  "path": "/nix/store/99b58prjhhflmk9j6z4ywyhcpakf4ha1-Coqtail",
+  "sha256": "1j9c69qah55rl6rk8969fxacisa2w8hx9bwsf0a0nqf4c04jhqlg",
+  "hash": "sha256-j2IoCWDEYQsUcJqv1CHiQunIVHfJJDSzobkUqHAyLMk=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","kotlin-language-server","marksman","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

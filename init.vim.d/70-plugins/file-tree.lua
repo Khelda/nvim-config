@@ -4,7 +4,7 @@
 --
 
 -- Nvim-Tree config
-require'nvim-tree'.setup {
+require 'nvim-tree'.setup {
     hijack_netrw = true,
     sync_root_with_cwd = true,
     diagnostics = { enable = true },
@@ -21,7 +21,10 @@ require'nvim-tree'.setup {
         dotfiles = true,
         custom = { '^\\.git$', '^\\.cache$', '_secrets.yaml' }
     },
-    git = { ignore = true, },
+    git = {
+        ignore = true,
+        timeout = 500,
+    },
     view = {
         width = 25,
         side = 'left',
@@ -30,7 +33,7 @@ require'nvim-tree'.setup {
 }
 
 -- Nvim-Web-Devicons configuration
-require'nvim-web-devicons'.set_icon {
+require 'nvim-web-devicons'.set_icon {
     -- Cucumber feature books
     feature = {
         icon = "󱚊",
