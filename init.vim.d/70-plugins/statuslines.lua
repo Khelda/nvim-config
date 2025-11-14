@@ -61,11 +61,7 @@ local bubbles_theme = {
 
 local function get_visual_multi()
     local result = vim.fn['VMInfos']()
-    -- local current = result.current
-    -- local total = result.total
     local ratio = result.ratio
-    local patterns = result.patterns
-    -- local status = result.status
     return "󱢓 "
         .. ratio
 end
