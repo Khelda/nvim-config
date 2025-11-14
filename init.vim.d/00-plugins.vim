@@ -56,7 +56,7 @@ Plug 'nvim-treesitter/nvim-treesitter-context'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'
 
-" LSP configs
+" LSP configs and semantics
 Plug 'neovim/nvim-lspconfig'
 
 " Completion engine and code actions
