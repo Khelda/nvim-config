@@ -6,13 +6,18 @@ local nix = Nix:new()
 -- Luals setup
 vim.lsp.config('lua_ls', {
     cmd = nix:shell('lua-language-server', { "lua-language-server" }),
-    on_init = function(client)
-        workspace = {
-            checkThirdParty = false,
-            library = { vim.api.nvim_get_runtime_file('', true) }
+    root_markers = { '.git' }, -- no need for luarocks as of now
+    settings = {
+        Lua = {
+            runtime = 'LuaJIT',
+            -- adding default libraries
+            workspace = {
+                checkThirdParty = false,
+                -- Just ensuring the LSP knows what Neovim is
+                library = { vim.env.VIMRUNTIME }
+            }
         }
-        -- just ensure Neovim runtime is known
-    end
+    }
 })
 
 -- Enabling LSP

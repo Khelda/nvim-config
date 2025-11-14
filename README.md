@@ -6,9 +6,16 @@ That's right! You can take my Neovim configuration for a spin _right now_, witho
 
 Just clone this repository and run the `nvim` script at its root!
 
-### Contributing
+## Contributing
 
 Please don't. This is more of a personal configuration made public, this is not meant for open contribution... If you intend to publish modifications on this configuration, please fork this repository.
+
+### Personal tweaks
+
+In case you want to tweak some parameters, please follow the given structure as indexers will need that to function properly. Most of them aren't that important but it will help you in the long run. These are :
+
+- `70-plugins` for every extra plugin configuration you want to add. Don't be afraid to add new files in there if needed.
+- `80-lspconfs` for language server configurations. In most situations you'll want to keep them to one file per LSP.
 
 ## Install it
 
