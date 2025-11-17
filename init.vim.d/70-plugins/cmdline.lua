@@ -44,7 +44,7 @@ require 'noice'.setup {
     routes = {
         filter = {
             event = "msg_show",
-            kind = ""
+            kind = "" -- we don't discriminate, spammy messages all need to stfu
         },
         opts = { skip = true } -- jdtls, please stfu
     }

@@ -29,7 +29,10 @@ nnoremap <silent> <leader>mv            :lua vim.lsp.buf.rename()<CR>
 nnoremap <silent> <leader>c<left>       :lua vim.lsp.buf.incoming_calls()<CR>
 nnoremap <silent> <leader>c<right>      :lua vim.lsp.buf.outgoing_calls()<CR>
 nnoremap <silent> <leader>cf            :lua vim.lsp.buf.format()<CR>
+
+" More... Specific keybinds
 nnoremap <silent> <leader>yp            :!yapf -i %<CR>
+nnoremap <silent> <leader>op            :ColorPick<CR>
 
 " Trouble related keybinds
 nnoremap <silent> <leader>!             :Trouble proj_errs toggle<CR>

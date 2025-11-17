@@ -21,6 +21,9 @@ endfunction
 
 call SetGoyoColor()
 
+" Fix for the moronic optimization of VGit
+set signcolumn=yes
+
 " set limelight conceal
 let g:limelight_conceal_ctermfg=0xa
 
