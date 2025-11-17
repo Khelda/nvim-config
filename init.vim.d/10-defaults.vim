@@ -22,3 +22,6 @@ set list
 set listchars=tab:⇥\ ,trail:␣,nbsp:⍽
 
 set fillchars=eob:\ ,vert:▎,fold:,foldclose:,foldopen:,foldsep:░
+
+" Ensure Neovim doesn't make a fuss about language spelling
+autocmd VimEnter * set nospell

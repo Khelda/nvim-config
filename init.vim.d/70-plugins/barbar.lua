@@ -1,6 +1,6 @@
 --
 -- BarBar lua configuration, so it can be tinkered with a bit more. However,
--- this will require duplicating the colorscheme dict.
+-- this may require duplicating the colorscheme dictionary.
 --
 
 -- BarBar configuration

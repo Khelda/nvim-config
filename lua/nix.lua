@@ -27,8 +27,8 @@ function Nix:path(pkg, path)
     then
         table.insert(self.fetchlist, pkg)
         local drv = io.popen(
-        "nix --extra-experimental-features 'nix-command flakes' build --quiet --no-link --print-out-paths " ..
-        self.conf_root .. "#" .. pkg):read()
+            "nix --extra-experimental-features 'nix-command flakes' build --quiet --no-link --print-out-paths " ..
+            self.conf_root .. "#" .. pkg):read()
         return drv .. path
     else
         return ""
