@@ -32,7 +32,7 @@ nnoremap <silent> <leader>cf            :lua vim.lsp.buf.format()<CR>
 
 " More... Specific keybinds
 nnoremap <silent> <leader>yp            :!yapf -i %<CR>
-nnoremap <silent> <leader>op            :ColorPick<CR>
+nnoremap <silent> <leader>op            :lua require("oklch-color-picker").pick_under_cursor()<CR>
 
 " Trouble related keybinds
 nnoremap <silent> <leader>!             :Trouble proj_errs toggle<CR>

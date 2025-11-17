@@ -22,9 +22,6 @@ command CoqPanel    lua require('coq-lsp').panels()
 command LDStart     lua require('dap').continue()
 command LDRepl      lua require('dap').repl.open()
 
-" Color picking
-command ColorPick   lua require 'oklch-color-pciker'.pick_under_cursor()
-
 let g:_laf_next_state=1
 " Toggle formatting upon exiting Insert mode
 command LAutoFormatEnable   call SetLAutoFormat(1)
