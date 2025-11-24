@@ -102,6 +102,9 @@ Keys    | Action                          | Vim command
 `t…`    | _**Tagging**_                   |
 `tt`    | Show symbols pane               |`:Vista`
 `td`    | Search for and list `TODO`s     |`:Ags TODO`
+        |                                 |
+`o…`    | _**Fancy extras**_              |
+`op`    | Show color information window   |`:ColorPickOklch`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 

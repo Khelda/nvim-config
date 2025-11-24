@@ -2,7 +2,7 @@
 " Language:     Frama-C annotations in C programs 
 " Maintainers:  Anne Pacalet (anne.pacalet@inria.fr)
 "
-" Last Change: 
+" Last Change:
 "              - 2009 Jul 01 - first very basic version included in c syntax
 "              - 2010 Dec 09 - separate syntax file for Frama-C
 "
