@@ -80,15 +80,6 @@ Keys    | Action                          | Vim command
 `?`     | Show code actions               |`:lua require "tiny-code-action".code_action()`
 `!`     | Show diagnostics panel          |
         |                                 |
-`d…`    | _**Debugger**_                  |
-`db`    | Set breakpoint                  |
-`dc`    | Continue (or start debugger)    |
-`dn`    | Next/Step-Over                  |
-`ds`    | Step/Step-Into                  |
-`dF`    | Browse stack frames             |
-`dS`    | Browse function scopes          |
-`d?`    | Show debug symbol details       |
-        |                                 |
 `g…`    | _**Git conflicts**_             |
 `go`    | Choose our changes              |
 `gt`    | Choose their changes            |

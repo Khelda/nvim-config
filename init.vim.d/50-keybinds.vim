@@ -51,15 +51,6 @@ nnoremap <silent> <leader>td            :Ags TODO<CR>
 " Http helpers
 nnoremap <silent> <leader>hw            :Http<CR>
 
-" Debugger adapters
-nnoremap <silent> <leader>db            :lua require"dap".toggle_breakpoint()<CR>
-nnoremap <silent> <leader>dc            :lua require"dap".continue()<CR>
-nnoremap <silent> <leader>dn            :lua require"dap".step_over()<CR>
-nnoremap <silent> <leader>ds            :lua require"dap".step_into()<CR>
-nnoremap <silent> <leader>dF            :lua require"dap.ui.widgets".centered_float(require"dap.ui.widgets".frames)<CR>
-nnoremap <silent> <leader>dS            :lua require"dap.ui.widgets".centered_float(require"dap.ui.widgets".scopes)<CR>
-nnoremap <silent> <leader>d?            :lua require"dap.ui.widgets".hover()<CR>
-
 " Git keybinds
 nnoremap <silent> <leader>go            :GitConflictChooseOurs<CR>
 nnoremap <silent> <leader>gt            :GitConflictChooseTheirs<CR>
