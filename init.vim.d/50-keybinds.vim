@@ -19,6 +19,9 @@ nnoremap <silent> <leader>q             :lua require"notify".dismiss()<CR>
 nnoremap <silent> <leader>la            :set nornu<CR>
 nnoremap <silent> <leader>lr            :set rnu<CR>
 
+" Text deletion keybinds
+nnoremap <silent> da                    :1,$d<CR>
+
 " LSP and code helping keybinds
 nnoremap <silent> <leader>cD            :lua vim.lsp.buf.declaration()<CR>
 nnoremap <silent> <leader>cd            :lua vim.lsp.buf.definition()<CR>
