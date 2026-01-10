@@ -35,3 +35,6 @@ vim.lsp.config('mesonlsp', {
         on_dir(vim.fs.root(bufnr, meson_matcher) or vim.fs.root(bufnr, '.git'))
     end
 })
+
+-- activating lsp
+vim.lsp.enable("mesonlsp")
