@@ -4,7 +4,7 @@ require 'nix'
 local nix = Nix:new()
 
 -- General config
-require 'nvim-treesitter.configs'.setup {
+require 'nvim-treesitter.config'.setup {
     ensure_installed = {
         "c", "dot", "lua", "vim", "vimdoc", "query", "comment",
         "python", "markdown", "markdown_inline", "rust"

@@ -22,12 +22,6 @@
           overlays = [ ];
         };
 
-        py3 = pkgs.python3.withPackages (
-          ps: with ps; [
-            pynvim
-            jupyter_client
-          ]
-        );
         luaEnv = pkgs.neovim-unwrapped.lua.withPackages (ps: with ps; [ magick ]);
 
         luaPath = pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaPathAbsStr luaEnv;
@@ -42,7 +36,9 @@
           '';
           plugins = [ ];
           vimAlias = true;
-          python3Env = py3;
+
+          extraPython3Packages = ps: (with ps; [ pynvim jupyter-client ]);
+
           wrapperArgs = [
             "--prefix"
             "LUA_PATH"
