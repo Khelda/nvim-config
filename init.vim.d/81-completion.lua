@@ -1,5 +1,6 @@
 --
--- Blink.cmp configuration for completion purposes
+-- Blink.cmp configuration for completion purposes and snippets
+-- (if I can make these work how I want it)
 --
 
 require 'blink.cmp'.setup {

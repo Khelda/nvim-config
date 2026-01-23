@@ -37,7 +37,12 @@
           plugins = [ ];
           vimAlias = true;
 
-          extraPython3Packages = ps: (with ps; [ pynvim jupyter-client ]);
+          extraPython3Packages =
+            ps:
+            (with ps; [
+              pynvim
+              jupyter-client
+            ]);
 
           wrapperArgs = [
             "--prefix"

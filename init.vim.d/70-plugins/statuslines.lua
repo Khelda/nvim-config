@@ -59,6 +59,7 @@ local bubbles_theme = {
     },
 }
 
+-- Visual multi tweaks
 local function get_visual_multi()
     local result = vim.fn['VMInfos']()
     local ratio = result.ratio
@@ -66,6 +67,7 @@ local function get_visual_multi()
         .. ratio
 end
 
+-- Actually building the lualine
 require 'lualine'.setup {
     options = {
         icons_enabled = true,
