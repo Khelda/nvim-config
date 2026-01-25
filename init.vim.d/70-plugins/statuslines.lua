@@ -83,11 +83,13 @@ require 'lualine'.setup {
     },
     sections = {
         lualine_a = {
-            { 'mode',
+            {
+                'mode',
                 separator = { left = '', right = '' },
                 right_padding = 2
             },
-            { get_visual_multi,
+            {
+                get_visual_multi,
                 separator = { left = '', right = '' },
                 right_padding = 2
             }
