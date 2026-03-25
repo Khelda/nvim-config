@@ -4,9 +4,16 @@ let mapleader = "!"
 " Buffer navigation (in BarBar)
 nnoremap <silent> bn                    :BufferNext<CR>
 nnoremap <silent> bv                    :BufferPrevious<CR>
+nnoremap <silent> bd                    :BufferClose<CR>
 nnoremap <silent> mbn                   :BufferMoveNext<CR>
 nnoremap <silent> mbv                   :BufferMovePrevious<CR>
-nnoremap <silent> bd                    :BufferClose<CR>
+
+" CAPSLOCK equivalents (mostly for comfort)
+nnoremap <silent> BN                    :BufferNext<CR>
+nnoremap <silent> BV                    :BufferPrevious<CR>
+nnoremap <silent> BD                    :BufferClose<CR>
+nnoremap <silent> MBN                   :BufferMoveNext<CR>
+nnoremap <silent> MBV                   :BufferMovePrevious<CR>
 
 nnoremap <silent> ty                    :tabnext<CR>
 nnoremap <silent> tr                    :tabprev<CR>

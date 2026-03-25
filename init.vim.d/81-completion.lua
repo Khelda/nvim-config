@@ -28,6 +28,7 @@ require 'blink.cmp'.setup {
         ['<Down>'] = { 'select_next', 'fallback' },
         ['<CR>'] = { 'select_and_accept', 'fallback' },
         -- rollbacking completion and deleting compleated text
-        ['<Left>'] = { 'cancel', 'fallback' }
+        ['<Left>'] = { 'cancel', 'fallback' },
+        ['<Esc>'] = { 'cancel', 'fallback' }
     }
 }

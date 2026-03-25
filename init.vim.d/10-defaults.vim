@@ -3,10 +3,12 @@ set title
 filetype plugin on
 syntax on
 set mouse=a " TODO fix scrolling
-set number
 set linebreak
 set breakindent
 set breakindentopt=shift:2
+
+" Line number utilities
+set number
 
 set autoread
 
