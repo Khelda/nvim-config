@@ -23,6 +23,7 @@ nnoremap <silent> tn                    :tabnew<CR>
 nnoremap <silent> n                     <CR>
 nnoremap <silent> <leader>q             :lua require"notify".dismiss()<CR>
 
+" Line numbering utilities
 nnoremap <silent> <leader>la            :set nornu<CR>
 nnoremap <silent> <leader>lr            :set rnu<CR>
 

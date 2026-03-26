@@ -14,7 +14,15 @@ require 'blink.cmp'.setup {
         accept = { auto_brackets = { enabled = true } },
         list = { selection = { preselect = true, auto_insert = false } },
         -- auto documentation popup
-        documentation = { auto_show = true, auto_show_delay_ms = 500 }
+        documentation = { auto_show = true, auto_show_delay_ms = 500 },
+        ghost_text = { enabled = true },
+        -- styling
+        draw = {
+            columns = {
+                { "label",     "label_description", gap = 1 },
+                { "kind_icon", "kind" }
+            }
+        }
     },
     -- no command completion
     cmdline = { enabled = false },
@@ -29,6 +37,6 @@ require 'blink.cmp'.setup {
         ['<CR>'] = { 'select_and_accept', 'fallback' },
         -- rollbacking completion and deleting compleated text
         ['<Left>'] = { 'cancel', 'fallback' },
-        ['<Esc>'] = { 'cancel', 'fallback' }
+        ['<Esc>'] = { 'cancel', 'fallback' } -- old behavior
     }
 }
