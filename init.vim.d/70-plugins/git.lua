@@ -8,7 +8,7 @@ require 'git-conflict'.setup {
 require 'vgit'.setup {}
 
 -- vgit usage
-function _git(args)
+local function _git(args)
     if args.button == "l" then
         vim.cmd("VGit buffer_hunk_preview")
     elseif args.button == "m" then
@@ -19,7 +19,7 @@ function _git(args)
 end
 
 -- Diagnostic function
-function _diag(args)
+local function _diag(args)
     if args.button == "m" then
         vim.cmd("CodeActionMenu")
     else

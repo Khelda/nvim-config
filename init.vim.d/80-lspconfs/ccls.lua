@@ -13,7 +13,7 @@ local util = require 'lspconfig/util'
 local lsp_cmake_sessions = {}
 
 -- Cmake autobuild
-function setupCmakeIntegration()
+local function setupCmakeIntegration()
     -- variable setup
     local op = { title = "CMake build lists integration" }
     local ppr = util.root_pattern('.ccls', '.git')(vim.fn.expand('%:p'))
@@ -25,12 +25,12 @@ function setupCmakeIntegration()
     elseif lsp_cmake_sessions[ppr] ~= nil then
         return lsp_cmake_sessions[ppr]
     elseif path.new(ppr .. "/CMakeLists.txt"):exists() then
-        cmls = pscan.scan_dir(ppr, {
+        local cmls = pscan.scan_dir(ppr, {
             respect_gitignore = true,
             add_dirs = false,
             search_pattern = "CMakeLists.txt"
         })
-        bdrs = pscan.scan_dir(ppr, {
+        local bdrs = pscan.scan_dir(ppr, {
             respect_gitignore = false,
             add_dirs = false,
             search_pattern = "CMakeCache.txt"
@@ -57,7 +57,7 @@ function setupCmakeIntegration()
                     io.popen(cmakecmd)
                     vim.notify("Reloaded compile commands, restarting LSP...", "info", op)
                     vim.schedule(function()
-                        lsp["ccls"].launch(mybuf)
+                        vim.lsp["ccls"].launch(mybuf)
                     end)
                 end
             })
@@ -69,7 +69,7 @@ function setupCmakeIntegration()
         return bdir
     else
         lsp_cmake_sessions[ppr] = ppr
-        return prr
+        return ppr
     end
 end
 

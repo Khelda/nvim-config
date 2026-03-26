@@ -23,10 +23,6 @@ nnoremap <silent> tn                    :tabnew<CR>
 nnoremap <silent> n                     <CR>
 nnoremap <silent> <leader>q             :lua require"notify".dismiss()<CR>
 
-" Line numbering utilities
-nnoremap <silent> <leader>la            :set nornu<CR>
-nnoremap <silent> <leader>lr            :set rnu<CR>
-
 " Text deletion keybinds
 nnoremap <silent> da                    :1,$d<CR>
 
@@ -77,3 +73,22 @@ nnoremap <leader><down> <C-W><C-J>
 " Little hack to escape insertion mode
 inoremap jk <ESC>
 tnoremap jk <C-\><C-n>
+
+let g:_lnr_next_state=1
+" Line numbering utilities
+nnoremap <silent> <leader>la :call SetLineNumbering(0)<CR>
+nnoremap <silent> <leader>lr :call SetLineNumbering(1)<CR>
+nnoremap <silent> <leader>lt :call SetLineNumbering(g:_lnr_next_state)<CR>
+
+" Utility line numbering function
+function SetLineNumbering(state)
+    if a:state == 0
+        set nornu
+        let g:_lnr_next_state=1
+        echo 'Absolute line numbering'
+    else
+        set rnu
+        let g:_lnr_next_state=0
+        echo 'Relative line numbering'
+    endif
+endfunction
