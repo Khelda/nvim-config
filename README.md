@@ -67,6 +67,7 @@ Keys    | Action                          | Vim command
 `l…`    | _**Line numbers**_              |
 `la`    | Set line numbers to Absolute    |`:set nornu`
 `lr`    | Set line numbers to Relative    |`:set rnu`
+`lt`    | Toggle line number setting      |
         |                                 |
 `c…`    | _**Code movement**_             |
 `cD`    | Go to declaration               |

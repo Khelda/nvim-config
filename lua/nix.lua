@@ -61,8 +61,7 @@ function _G.nixsh_prefetch()
         table.insert(args, _G.nix.conf_root .. '#' .. value)
     end
     vim.notify("Prefetching language servers, hang tight...", "info", op)
-    vim.loop.spawn("nix", { args = args },
-        function()
-            vim.notify("Done!", "info", op)
-        end)
+    vim.loop.spawn("nix", { args = args }, function()
+        vim.notify("Done!", "info", op)
+    end)
 end

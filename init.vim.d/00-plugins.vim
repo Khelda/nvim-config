@@ -56,6 +56,8 @@ Plug 'nvim-treesitter/nvim-treesitter-context'
 " File tree (and Git plugin)
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'onsails/lspkind.nvim'
+Plug 'nvim-mini/mini.icons'
 
 " LSP configs and semantics
 Plug 'neovim/nvim-lspconfig'
