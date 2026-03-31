@@ -115,5 +115,12 @@ require 'nvim-web-devicons'.set_icon {
         color = "#eadecc",
         cterm_color = "125",
         name = "Sty"
+    },
+    -- Amber source files
+    ab = {
+        icon = "",
+        color = "#be5f0a",
+        cterm_color = "166",
+        name = "Amber"
     }
 }

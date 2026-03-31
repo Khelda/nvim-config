@@ -1,7 +1,6 @@
+--
 -- TreeSitter settings and setup
-
-require 'nix'
-local nix = Nix:new()
+--
 
 -- General config
 require 'nvim-treesitter.config'.setup {
@@ -18,6 +17,22 @@ require 'nvim-treesitter.config'.setup {
         }
     }
 }
+
+-- Amber treesitter context wrapper
+vim.api.nvim_create_autocmd("User", {
+    pattern = "TSUpdate",
+    callback = function()
+        require 'nvim-treesitter.parsers'.amber = {
+            install_info = {
+                url = "https://github.com/amber-lang/tree-sitter-amber.git",
+                files = { "src/parser.c" },
+                branch = "main",
+                generate_requires_npm = false,
+                requires_generate_from_grammar = false
+            }
+        }
+    end
+})
 
 -- registering languages
 vim.treesitter.language.register('c', 'c.doxygen')

@@ -194,6 +194,20 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
+,"amber-lang/amber-vim":{
+  "url": "https://github.com/amber-lang/amber-vim",
+  "rev": "0cd0acda4e3d168ac7a3d1a8fa6a361e37bbb6bc",
+  "date": "2026-03-29T15:54:42+02:00",
+  "path": "/nix/store/xjxbrqsph3n24kw869dcwj5hi7ibn46v-amber-vim",
+  "sha256": "0hnya48dy8li0iwcg5wrm90mf6d5p34vcf2q1d9bfviv9dhpc1br",
+  "hash": "sha256-eQV2YUs7brdSC1g4tsm4pRlXQaqZl8d4BJEi3xBR3kI=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
 ,"rcarriga/nvim-notify":{
   "url": "https://github.com/rcarriga/nvim-notify",
   "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
@@ -292,41 +306,13 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"onsails/lspkind.nvim":{
-  "url": "https://github.com/onsails/lspkind.nvim",
-  "rev": "c7274c48137396526b59d86232eabcdc7fed8a32",
-  "date": "2026-01-29T13:31:49+01:00",
-  "path": "/nix/store/qsh4fndflm4fmc9ryc8i7avp0xbbifng-lspkind.nvim",
-  "sha256": "073r0r62j0yg9k7p116p4p8qp6n6d7pv4p5a12h51ixzp5h2k2k8",
-  "hash": "sha256-aIopYLm/x1CgCKpcsu9pxpqL0SXXhHDPTM8DKUwGeRw=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"nvim-mini/mini.icons":{
-  "url": "https://github.com/nvim-mini/mini.icons",
-  "rev": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e",
-  "date": "2026-02-21T17:59:36+02:00",
-  "path": "/nix/store/7fw2j9kbminllil5ha8dbsmqzpg6cyva-mini.icons",
-  "sha256": "0kn883pq9xzcvqmdyd3a1dv2pf7kvcin23dwk4cw6cqn78mgyrsf",
-  "hash": "sha256-Tmf/KjoWM8MZmbwNYSPb87grdgtqNN8q3uz3hO9AyE4=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "16812abf0e8d8175155f26143a8504e8253e92b0",
-  "date": "2026-03-28T08:10:33-04:00",
-  "path": "/nix/store/9qyivxpf2f69hxq5lx312gw9g81rr2kc-nvim-lspconfig",
-  "sha256": "0x86na08wzyv7l1fi9611rbs2f4y1zbc7xdr392i5hxg0d5p362n",
-  "hash": "sha256-VphxSwOvwxJFGrn1w9YPnjihVw7BpOgCPdt/joCyBnU=",
+  "rev": "5492a24edd68f78d8a778edcb8905d0a28993abc",
+  "date": "2026-03-31T15:26:33Z",
+  "path": "/nix/store/vvdnjq70ll1z035xhhzdwz5zm4s5fikj-nvim-lspconfig",
+  "sha256": "195iygahlg888awmn64vh2lksa21w9nhgnj8sm7d0r07843nk3jd",
+  "hash": "sha256-TY5pB0EHZNBO1UjaB23iQSg9qYCbGFu5Qgg9CtXzsaQ=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -336,11 +322,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "390d84be50cc0ae6d13f395af74bf75c2465400f",
-  "date": "2026-03-31T01:33:01+02:00",
-  "path": "/nix/store/vsclk3lkkc9kqa6hx8kds8y89r28dwqx-blink.cmp",
-  "sha256": "1bw90wkdzwkf3vvpy1x8aw87gvmb00lkiagvkjmqzhyw2b86fgwg",
-  "hash": "sha256-jz9n0BLcw4+rnPupOCkAq+53EFeoB3/3Hm7y3yYHia8=",
+  "rev": "5e088706d92da09949e081cc4d49e2c9ba8cfc8c",
+  "date": "2026-03-31T17:18:31+02:00",
+  "path": "/nix/store/bzk057hhgccpj7dbhmwgkjssg9p98br6-blink.cmp",
+  "sha256": "038c43gsd7n0jlfasp215i8xpq3j8ryf5z3hnrp1861b5z61j8vq",
+  "hash": "sha256-eCMZzC8rGBRutnD84nxGcuDbUSxBXK0clcCept8gDA0=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
