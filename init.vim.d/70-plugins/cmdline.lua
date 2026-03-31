@@ -6,7 +6,7 @@
 -- Some constants, to rule the cmdline.
 -- Make sure they match the way you personnaly use this editor.
 local colPos = 35
-local rowPos = 5
+local rowPos = 3
 local blending = 1
 
 -- Noice section
@@ -44,7 +44,7 @@ require 'noice'.setup {
     routes = {
         filter = {
             event = "msg_show",
-            kind = "" -- we don't discriminate, spammy messages all need to stfu
+            kind = ""          -- we don't discriminate, spammy messages all need to stfu
         },
         opts = { skip = true } -- jdtls, please stfu
     }

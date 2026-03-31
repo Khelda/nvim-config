@@ -2,7 +2,7 @@
 -- Blink.cmp configuration for completion purposes and snippets
 --
 
--- utility function
+-- utility function for icon parsing
 local function icon_info(ctx)
     local is_unknown_type = vim.tbl_contains({
         "link", "socket", "fifo", "char", "block", "unknown"

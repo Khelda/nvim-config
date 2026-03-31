@@ -6,11 +6,13 @@ set mouse=a " TODO fix scrolling
 set linebreak
 set breakindent
 set breakindentopt=shift:2
+set autoread
 
 " Line number utilities
 set number
-
-set autoread
+set cursorline
+set cursorlineopt=number
+set number numberwidth=3 " Four digits maximum
 
 " Fold shennanigans, we don't want them by default
 set foldmethod=expr

@@ -99,6 +99,9 @@ function SetColor()
 
     " TreesitterContext fix
     hi link TreesitterContext TSContext
+
+    " Cursor tweaks
+    hi link CursorLineNR Normal
 endfunction
 
 call SetColor()
