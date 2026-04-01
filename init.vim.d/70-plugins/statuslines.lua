@@ -49,7 +49,12 @@ local bubbles_theme = {
     },
 
     visual = { a = { fg = colors.black, bg = colors.rsand } },
-    replace = { a = { fg = colors.black, bg = colors.rsand } },
+    replace = {
+        -- Warning sign
+        a = { fg = colors.black, bg = colors.red },
+        b = { fg = colors.black, bg = colors.red },
+        c = { fg = colors.black, bg = colors.red },
+    },
     terminal = { a = { fg = colors.white, bg = colors.grey } },
 
     inactive = {
