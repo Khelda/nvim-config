@@ -348,6 +348,20 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
+,"L3MON4D3/LuaSnip":{
+  "url": "https://github.com/L3MON4D3/LuaSnip",
+  "rev": "a62e1083a3cfe8b6b206e7d3d33a51091df25357",
+  "date": "2026-04-05T21:46:45Z",
+  "path": "/nix/store/lx50mnb6yala2hliyrzmqib7s8rfrp75-LuaSnip",
+  "sha256": "1w7ipy9gw0mfgd0xqrg7qhq9y9h61jnnyp5gnnyrxamd65qwk3xr",
+  "hash": "sha256-uY/JcTGtqp69ta9cb60MBiafMMTnZdxBe64C/pK/8fA=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
   "rev": "18315000185a6e6461b9b4aa4a4cb6cd164e0e35",

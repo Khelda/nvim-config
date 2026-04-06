@@ -6,7 +6,7 @@
 require 'blink.cmp'.setup {
     -- implementor choice
     fuzzy = { implementation = "lua" },
-    sources = { default = { 'lsp', 'path', 'buffer' } },
+    sources = { default = { 'lsp', 'path', "snippets", 'buffer' } },
 
     -- completion behavior
     completion = {
@@ -31,5 +31,8 @@ require 'blink.cmp'.setup {
         ['<CR>'] = { 'select_and_accept', 'fallback' },
         -- rollbacking completion and deleting compleated text
         ['<Left>'] = { 'cancel', 'fallback' },
-    }
+    },
+
+    -- snippets support
+    snippets = { preset = "luasnip" }
 }

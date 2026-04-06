@@ -7,6 +7,7 @@
   buildEnv,
   ...
 }:
+
 let
   locks = builtins.fromJSON (builtins.readFile ./bootstrap.lock);
   repos = builtins.mapAttrs (
