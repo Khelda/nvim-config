@@ -2,13 +2,13 @@ set title
 
 filetype plugin on
 syntax on
-set mouse=a
+set mouse=a " FIXME find a way to put a down limit on scrolling
 
 " Line information settings
 set linebreak
 set breakindent
 set breakindentopt=shift:2
-set autoread
+set autoread " auto-reload in case of git shennanigans
 
 " Line number utilities
 set number

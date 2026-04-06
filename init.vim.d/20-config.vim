@@ -30,7 +30,7 @@ let g:purescript_unicode_conceal_enable = 0
 " Enable semantic highlight on Doxygen files as well
 let g:lsp_cxx_hl_ft_whitelist = ['c', 'cpp', 'objc', 'objcpp', 'cc', 'cuda', 'c.doxygen', 'cpp.doxygen', 'cuda.doxygen' ]
 
-" Fix for idiotic VGit "optimization"
+" Fix for idiotic VGit 'optimization'
 set signcolumn=yes
 
 " Manually invoke Startify when auto-tree on empty buffer

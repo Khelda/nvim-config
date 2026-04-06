@@ -15,6 +15,7 @@ nnoremap <silent> BD                    :BufferClose<CR>
 nnoremap <silent> MBN                   :BufferMoveNext<CR>
 nnoremap <silent> MBV                   :BufferMovePrevious<CR>
 
+" Tabs keybinds
 nnoremap <silent> ty                    :tabnext<CR>
 nnoremap <silent> tr                    :tabprev<CR>
 nnoremap <silent> tn                    :tabnew<CR>
