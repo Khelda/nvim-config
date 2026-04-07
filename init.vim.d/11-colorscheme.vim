@@ -25,6 +25,7 @@ function SetColor()
         hi TSContext guibg=None
         hi TreesitterContextLineNumber  guibg=#ebebae
     else
+        " Default setting in case the script fails
         colorscheme daeser
 
         hi NonText                      guifg=#6f6f6f
@@ -80,6 +81,7 @@ function SetColor()
 
     hi! link LspCxxHlGroupMemberVariable @lsp.type.property
 
+    " Setup for useful warning signs
     sign define DiagnosticSignError     text=   texthl=DiagnosticSignError
     sign define DiagnosticSignWarn      text=   texthl=DiagnosticSignWarn
     sign define DiagnosticSignHint      text=   texthl=DiagnosticSignHint
@@ -102,6 +104,10 @@ function SetColor()
 
     " Cursor tweaks
     hi link CursorLineNR Normal
+
+    " Completion highlighting
+    hi link BlinkCmpMenuBorder NoiceCmdlinePopupBorder
+    hi link BlinkCmpDocBorder NoiceCmdlinePopupBorder
 endfunction
 
 call SetColor()

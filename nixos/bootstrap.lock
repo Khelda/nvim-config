@@ -12,20 +12,6 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"Khelda/vimthemes":{
-  "url": "https://github.com/Khelda/vimthemes",
-  "rev": "d4e6a028cf1a308895a131ccc09652906d5d9ea0",
-  "date": "2025-11-14T11:29:56+01:00",
-  "path": "/nix/store/x56xr12x4a074r8c87jcq0xawc8ihg7y-vimthemes",
-  "sha256": "0sb9bk94vg5bfpknlv0w150avfgdn0md2wzsivaigx18xmyr8ywg",
-  "hash": "sha256-j3uUfe0o9BfVjvpz0Sqw7bmtQAkcbGrndau8TdJcaWk=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
 ,"eero-lehtinen/oklch-color-picker.nvim":{
   "url": "https://github.com/eero-lehtinen/oklch-color-picker.nvim",
   "rev": "134b7b2622866e058ab93e51790a585e6fda5ae6",
@@ -978,4 +964,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
