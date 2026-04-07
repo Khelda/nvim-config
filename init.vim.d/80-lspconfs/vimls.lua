@@ -6,6 +6,7 @@ local nix = Nix:new()
 -- LSP config
 vim.lsp.config('vimls', {
     cmd = nix:shell('vim-language-server', { 'vim-language-server', '--stdio' }),
+    -- core settings
     filetypes = { 'vim' },
     root_markers = { '.git' }
 })

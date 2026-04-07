@@ -322,25 +322,11 @@
 }
 ,"rachartier/tiny-code-action.nvim":{
   "url": "https://github.com/rachartier/tiny-code-action.nvim",
-  "rev": "83ced62033d626b8bc90f0aa670ea29ea3dc1e51",
-  "date": "2026-04-07T02:21:24+02:00",
-  "path": "/nix/store/dlcdzwqnryd9wzfwqa384r1m2c8kbvnj-tiny-code-action.nvim",
-  "sha256": "1wpw866n0n4fl12d1hrlfgi0r2pwxkh278zmpiq7pyb69qiab5m1",
-  "hash": "sha256-oZalIk5m+XtwvPWjI+Ds/IoM4nM0w9BEoI5YYI1B/PI=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"L3MON4D3/LuaSnip":{
-  "url": "https://github.com/L3MON4D3/LuaSnip",
-  "rev": "a62e1083a3cfe8b6b206e7d3d33a51091df25357",
-  "date": "2026-04-05T21:46:45Z",
-  "path": "/nix/store/lx50mnb6yala2hliyrzmqib7s8rfrp75-LuaSnip",
-  "sha256": "1w7ipy9gw0mfgd0xqrg7qhq9y9h61jnnyp5gnnyrxamd65qwk3xr",
-  "hash": "sha256-uY/JcTGtqp69ta9cb60MBiafMMTnZdxBe64C/pK/8fA=",
+  "rev": "47ec77edf11db531b01d415688b87b1c63bc0aca",
+  "date": "2026-04-07T11:39:35+02:00",
+  "path": "/nix/store/rxhgbgxmv1rvcbw89gpcccd5mri1bbgi-tiny-code-action.nvim",
+  "sha256": "0g32cqljc9ilx4354lwilsnrd85cyqdja7klss1pw839414xdn72",
+  "hash": "sha256-4tjWSSBpIH6D1nQeJRv2rKCWraaRU1IG6TQmJilmYjw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,

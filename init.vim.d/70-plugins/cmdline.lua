@@ -5,7 +5,7 @@
 
 -- Some constants, to rule the cmdline.
 -- Make sure they match the way you personnaly use this editor.
-local colPos = 30
+local colPos = 31
 local rowPos = 4
 local blending = 1
 

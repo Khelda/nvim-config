@@ -79,7 +79,4 @@ require 'blink.cmp'.setup {
         ['<Left>'] = { 'cancel', 'fallback' },
         ['<Back>'] = { 'cancel', 'fallback' }
     },
-
-    -- snippets support
-    snippets = { preset = "luasnip" }
 }
