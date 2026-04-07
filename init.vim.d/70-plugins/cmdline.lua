@@ -5,8 +5,8 @@
 
 -- Some constants, to rule the cmdline.
 -- Make sure they match the way you personnaly use this editor.
-local colPos = 35
-local rowPos = 3
+local colPos = 30
+local rowPos = 4
 local blending = 1
 
 -- Noice section

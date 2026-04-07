@@ -2,6 +2,7 @@
 -- Code actions settings for easier refactor and LSP shennanigans
 --
 
+-- Code-actions provider
 require 'tiny-code-action'.setup {
     picker = { 'buffer' },
     backend = 'vim',

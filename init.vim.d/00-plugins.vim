@@ -67,6 +67,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'saghen/blink.cmp',        { 'tag': '*' }
 Plug 'rachartier/tiny-code-action.nvim'
 Plug 'L3MON4D3/LuaSnip',        { 'tag': 'v2.*', 'do': 'make install_jsregexp' }
+Plug 'onsails/lspkind.nvim'
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'

@@ -2,6 +2,9 @@
 -- Blink.cmp configuration for completion purposes and snippets
 --
 
+local webicons = require 'nvim-web-devicons'
+local lkind = require 'lspkind'
+
 -- completion config
 require 'blink.cmp'.setup {
     -- implementor choice
@@ -16,8 +19,33 @@ require 'blink.cmp'.setup {
         -- auto documentation popup
         documentation = { auto_show = true, auto_show_delay_ms = 500 },
         -- menu auto-popup settings
-        menu = { auto_show = true, auto_show_delay_ms = 200 }
+        menu = {
+            -- core settings
+            auto_show = true,
+            auto_show_delay_ms = 200,
+            -- display
+            border = "single",
+            draw = { components = {
+                kind_icon = {
+                    text = function(ctx)
+                        local icon = ctx.kind_icon
+                        if vim.tbl_contains({ "Path" }, ctx.source_name) then
+                            local dev_icon, _ = webicons.get_icon(ctx.label)
+                            if dev_icon then
+                                icon = dev_icon
+                            end
+                        else
+                            icon = lkind.symbol_map[ctx.kind] or ""
+                        end
+                        -- result icon
+                        return icon .. ctx.icon_gap
+                    end
+                }
+            } }
+        },
     },
+    -- show prototype
+    signature = { window = { border = "single" } },
     -- no command completion
     cmdline = { enabled = false },
 
@@ -31,6 +59,7 @@ require 'blink.cmp'.setup {
         ['<CR>'] = { 'select_and_accept', 'fallback' },
         -- rollbacking completion and deleting compleated text
         ['<Left>'] = { 'cancel', 'fallback' },
+        ['<Back>'] = { 'cancel', 'fallback' }
     },
 
     -- snippets support
