@@ -65,7 +65,6 @@ Plug 'neovim/nvim-lspconfig'
 " Completion engine and code actions
 Plug 'saghen/blink.cmp',        { 'tag': '*' }
 Plug 'rachartier/tiny-code-action.nvim'
-Plug 'onsails/lspkind.nvim'
 
 " Fuzzy-finder
 Plug 'junegunn/fzf'

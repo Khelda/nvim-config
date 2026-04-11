@@ -106,10 +106,18 @@ function SetColor()
     hi link CursorLineNR Normal
 
     " Completion highlighting
-    hi link BlinkCmpMenuBorder NoiceCmdlinePopupBorder
-    hi link BlinkCmpDocBorder NoiceCmdlinePopupBorder
+    hi link BlinkCmpScrollBarGutter Type
+    hi link BlinkCmpScrollBarThumb Identifier
+
+    " Completion icons highlighting
+    hi link BlinkCmpKindFunction Function
+    hi link BlinkCmpKindIdentifier Identifier
+    hi link BlinkCmpKindType Type
+    hi link BlinkCmpKindKeyword Keyword
+    hi link BlinkCmpKindStatement Statement
 endfunction
 
+" Don't forget to actually set the colorscheme
 call SetColor()
 
 " Use GUI colors on terminal
