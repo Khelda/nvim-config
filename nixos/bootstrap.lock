@@ -14,11 +14,11 @@
 }
 ,"eero-lehtinen/oklch-color-picker.nvim":{
   "url": "https://github.com/eero-lehtinen/oklch-color-picker.nvim",
-  "rev": "76a8c9c0bf6dfd11e01279f872da0b752e0ede66",
-  "date": "2026-04-09T19:51:48+03:00",
-  "path": "/nix/store/d45chyxy7rxh65yg401zxmai5sm2svfr-oklch-color-picker.nvim",
-  "sha256": "1bqmkhqvrxg1in6m7gqnnhhd6lkr7yyid8zlqqv4asqgc46nkfjf",
-  "hash": "sha256-TrppDWEPa0U2xvSjFr0/eVLTILQWv1ONjeH1vDGcFa8=",
+  "rev": "ce8704c6cfeedc68da7cb182a8edca777ecbc387",
+  "date": "2026-04-11T21:13:03+03:00",
+  "path": "/nix/store/zyzaaf2cvzb0jzbvrl44hpk828myka19-oklch-color-picker.nvim",
+  "sha256": "1pa0i24b0c1209iv2rhkdmrqgf6d36b0s31sgcw2pww61hqwy0yc",
+  "hash": "sha256-zAPPMQyG8ys4ezoMDZYZzbiHc20TZrFjAiIwsIiIQN0=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -70,11 +70,11 @@
 }
 ,"nvim-lualine/lualine.nvim":{
   "url": "https://github.com/nvim-lualine/lualine.nvim",
-  "rev": "f5d2a8570f8b736ddb9bb4be504355bcd6e15ec8",
-  "date": "2026-04-08T18:33:34Z",
-  "path": "/nix/store/3nirx7zzlpfy60np9im9wqg8nn42al8q-lualine.nvim",
-  "sha256": "1b00pyw8kv1cd2jy770vkz62vpnk0n6vrv4ni8vr86rb7phv1362",
-  "hash": "sha256-woyw4T0rG5Q3ipbsvI0F094tzJ8bnOOlaCzsibi/AKw=",
+  "rev": "a905eeebc4e63fdc48b5135d3bf8aea5618fb21c",
+  "date": "2026-04-12T01:34:18Z",
+  "path": "/nix/store/nhbpsk35m47440vv8v2j5in48fwfsj9j-lualine.nvim",
+  "sha256": "0qwyvsflzwb8z86aykv7zpkk2x016pf4ndbpqd1plxrjdnnafyrw",
+  "hash": "sha256-PHunrG0yd3pDw3c1S9w1AXQx5/1nT68M+mjxT53enmM=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -322,11 +322,11 @@
 }
 ,"rachartier/tiny-code-action.nvim":{
   "url": "https://github.com/rachartier/tiny-code-action.nvim",
-  "rev": "32090efd5d883dbbef0486312d6af464cb142a80",
-  "date": "2026-04-10T19:50:08+02:00",
-  "path": "/nix/store/an9px58kc6ci2lhxgrpln3fmsj0mlqsr-tiny-code-action.nvim",
-  "sha256": "1wq8p454hjnnkwmhc92qmmbr9lvp8ljfdhm3mlxgqxz7y2psd5kb",
-  "hash": "sha256-a5amr/Dnd/w6raPC5iRFd9OUV61YJAYrn9ZKSAq5CPM=",
+  "rev": "1c75d7e121ea38bf362d939ddb9064ca9bb6884f",
+  "date": "2026-04-11T16:08:35+02:00",
+  "path": "/nix/store/qf4gdkxwhbzrshfyxqcqbpg283lhclsr-tiny-code-action.nvim",
+  "sha256": "18254bysvfvr6q9zvhd9iphd0j0i32wxchfz1anhwbddvz7bqh1j",
+  "hash": "sha256-MkC8zt+tLQ6tCt9B1rkYEUjQ4I2pwf0TNnm7rf0iRaA=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -336,11 +336,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "f584cf38f719b0040b1b81115cab891859bd2c63",
-  "date": "2026-04-11T17:03:25+09:00",
-  "path": "/nix/store/fpw73g9ffgcqags8nc81n61i204xi16s-fzf",
-  "sha256": "1mlngvsq4s2jxlmhxa3czz91av0a5nwbhszqbj5cgbbyphn9padf",
-  "hash": "sha256-rqmbLLx+rceKXPhruLgtCmwV0v9sqA4r7VJogvV+ltY=",
+  "rev": "bd4a18d0a919791316609071612b3e2670676a8f",
+  "date": "2026-04-12T10:43:47+09:00",
+  "path": "/nix/store/19cps4f307r8kiqhha1hrgjwm3qwiqx8-fzf",
+  "sha256": "1j87fl2ifagvrfs4dvmzd0gx7523qdxpqfchs6y33mb57faqcpcv",
+  "hash": "sha256-m12GlTtl1TG80ZA5fHvDQ5TTH2i/7ka0y/spFwV1B8k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -936,4 +936,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

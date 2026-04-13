@@ -3,6 +3,7 @@
 require 'nix'
 local nix = Nix:new()
 
+-- List of markers to look for
 local root_files = {
     'build.gradle', 'build.gradle.kts',       -- Gradle build
     'settings.gradle', 'settings.gradle.kts', -- Gradle tweaks

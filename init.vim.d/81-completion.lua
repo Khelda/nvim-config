@@ -16,11 +16,7 @@ require 'blink.cmp'.setup {
         -- auto documentation popup
         documentation = { auto_show = true, auto_show_delay_ms = 500 },
         -- menu auto-popup settings
-        menu = {
-            -- core settings
-            auto_show = true,
-            auto_show_delay_ms = 200,
-        },
+        menu = { auto_show = true, auto_show_delay_ms = 200, },
     },
     -- no command completion
     cmdline = { enabled = false },
@@ -35,6 +31,5 @@ require 'blink.cmp'.setup {
         ['<CR>'] = { 'select_and_accept', 'fallback' },
         -- rollbacking completion and deleting compleated text
         ['<Left>'] = { 'cancel', 'fallback' },
-        ['<Back>'] = { 'cancel', 'fallback' }
     },
 }

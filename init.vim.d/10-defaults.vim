@@ -4,6 +4,9 @@ filetype plugin on
 syntax on
 set mouse=a " FIXME find a way to put a down limit on scrolling
 
+" Security stuff
+set nomodeline " no trusting any file with these
+
 " Line information settings
 set linebreak
 set breakindent
