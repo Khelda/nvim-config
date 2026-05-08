@@ -25,6 +25,7 @@ set foldexpr=nvim_treesitter#foldexpr()
 set foldlevel=99
 set conceallevel=3
 
+" Completion options
 set completeopt-=preview
 
 set list
@@ -33,4 +34,4 @@ set listchars=tab:⇥\ ,trail:␣,nbsp:⍽
 set fillchars=eob:\ ,vert:▎,fold:,foldclose:,foldopen:,foldsep:░
 
 " Ensure Neovim doesn't make a fuss about language spelling
-autocmd VimEnter * set nospell
+autocmd BufEnter * set nospell

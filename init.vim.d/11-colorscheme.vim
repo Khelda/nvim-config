@@ -28,6 +28,7 @@ function SetColor()
         " Default setting in case the script fails
         colorscheme daeser
 
+        " Text display colorimetry
         hi NonText                      guifg=#6f6f6f
         hi DiffText                     guibg=#644100
         hi DiffAdd                      guibg=#1e5005

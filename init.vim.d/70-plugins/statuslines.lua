@@ -2,12 +2,13 @@
 -- Lualine config (BarBar will be defined elsewhere)
 --
 
+-- Colors definitions. These are the only one we're going to refer to.
 local colors = (function()
     if vim.o.background == "light" then
         return {
             blue   = '#80a0ff',
             cyan   = '#79dac8',
-            black  = '#292b2f',
+            black  = '#0f2228',
             white  = '#c6c6c6',
             red    = '#ff5189',
             yellow = '#e6db74',
@@ -36,6 +37,7 @@ local colors = (function()
     end
 end)()
 
+-- Theme definition
 local bubbles_theme = {
     normal = {
         a = { fg = colors.black, bg = colors.sand },

@@ -32,6 +32,5 @@ let g:startify_disable_at_vimenter=1
 let g:copilot_enabled = 0
 
 " Load Goyo from startup
-autocmd vimenter * Goyo
-autocmd VimEnter * set nospell
-autocmd vimenter * set nofoldenable
+autocmd VimEnter * Goyo
+autocmd VimEnter * set nofoldenable
