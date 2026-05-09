@@ -1,5 +1,7 @@
+" Terminal window title
 set title
 
+" Core file settings
 filetype plugin on
 syntax on
 set mouse=a " FIXME find a way to put a down limit on scrolling
@@ -28,9 +30,9 @@ set conceallevel=3
 " Completion options
 set completeopt-=preview
 
+" Special characters
 set list
 set listchars=tab:⇥\ ,trail:␣,nbsp:⍽
-
 set fillchars=eob:\ ,vert:▎,fold:,foldclose:,foldopen:,foldsep:░
 
 " Ensure Neovim doesn't make a fuss about language spelling

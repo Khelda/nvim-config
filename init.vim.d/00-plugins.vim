@@ -180,7 +180,4 @@ Plug 'martinlroth/vim-acpi-asl'
 " Icons on NERDTree (and others)
 Plug 'ryanoasis/vim-devicons'
 
-" Fold with markers AND syntax
-Plug 'Jorengarenar/vim-syntaxMarkerFold'
-
 call plug#end()

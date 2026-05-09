@@ -48,7 +48,6 @@ nnoremap <silent> <leader>?             :lua require "tiny-code-action".code_act
 
 " Vista views and folds handling
 nnoremap <silent> <leader>tt            :Vista<CR>
-nnoremap <silent> <leader>of            :OpenFolds<CR>
 
 " Nvim filetree
 nnoremap <silent> <leader>fr            :NvimTreeRefresh<CR>
