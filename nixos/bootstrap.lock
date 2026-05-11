@@ -14,11 +14,11 @@
 }
 ,"eero-lehtinen/oklch-color-picker.nvim":{
   "url": "https://github.com/eero-lehtinen/oklch-color-picker.nvim",
-  "rev": "3f343962643f63d75ae3bcf65669df2930e94411",
-  "date": "2026-04-14T15:56:46Z",
-  "path": "/nix/store/2ymk55591bwlcadqnc5hf72qpyb5ywq6-oklch-color-picker.nvim",
-  "sha256": "1a1611lj64qn73kwjn8x1rpfz1pz590cb793j7wf1jhvj5pdpmxj",
-  "hash": "sha256-stfbbpEbyuD4kSOdxUAq/4bvbg4dWcnnOBYTI2kIJqg=",
+  "rev": "9b5db80d5f6af8fbc31bad29f69ad76f63154944",
+  "date": "2026-05-08T15:37:01+03:00",
+  "path": "/nix/store/5bly0wkj7mknzj7b0awq800k10s9wqc8-oklch-color-picker.nvim",
+  "sha256": "058n379ikxzas8k4bisjy1kad2rpr4b3nq880bmww2whc86qlj98",
+  "hash": "sha256-KEmKDWKQC87rAghhOxbJN4umZvBSx0Um0ur3GdMZFhU=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -280,11 +280,11 @@
 }
 ,"kyazdani42/nvim-web-devicons":{
   "url": "https://github.com/kyazdani42/nvim-web-devicons",
-  "rev": "4fc505ac7bd7692824a142e96e5f529c133862f8",
-  "date": "2026-04-28T11:19:42+10:00",
-  "path": "/nix/store/8krxggknai733s8ilmkrs4ic5gsj6cnw-nvim-web-devicons",
-  "sha256": "1w4cvlzgk3ddghkx1s2rdmfblgcsir9223d2b9jb9csd1xm2cb0i",
-  "hash": "sha256-ESwmag9Ns7RkWqINIVKOmj26XG1Z6NAnfK2N+T7djPA=",
+  "rev": "2795c26c916bb3c57dde308b82be51971fa92747",
+  "date": "2026-05-09T08:53:24+10:00",
+  "path": "/nix/store/9bm9vsjf8p6288zxww5rrlpnh62l7ic3-nvim-web-devicons",
+  "sha256": "0dyn8wz3hr7vjbg2q79r8shjq3k8rahslj3f75mfba9y60fwmx6v",
+  "hash": "sha256-2/TKHTA+qeVqOW5IqqHKaA4soUY5HSzekvtkOD5H1jc=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

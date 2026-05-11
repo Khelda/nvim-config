@@ -2,7 +2,7 @@
 " Vim-plug plugins install
 "
 
-set nocompatible              " be iMproved, required
+set nocompatible " be iMproved, required
 set expandtab
 set tabstop=4
 set shiftwidth=4

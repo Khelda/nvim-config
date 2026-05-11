@@ -2,6 +2,7 @@
 let g:loaded_coqtail = 1
 let g:coqtail#supported = 0
 
+" CSV-specific options
 let g:csv_autocmd_arrange=1
 
 " Tell BarBar to wait for Lua setup
@@ -42,6 +43,7 @@ function StartAndTree()
     wincmd w
 endfunction
 
+" Automatic plugin fetching, to avoid forgetting the install
 autocmd VimEnter *
     \ if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
     \ |   PlugInstall --sync | q
