@@ -22,7 +22,12 @@
           overlays = [ ];
         };
 
-        luaEnv = pkgs.neovim-unwrapped.lua.withPackages (ps: with ps; [ magick ]);
+        luaEnv = pkgs.neovim-unwrapped.lua.withPackages (
+          ps: with ps; [
+            magick
+            jsregexp # required by LuaSnip
+          ]
+        );
 
         luaPath = pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaPathAbsStr luaEnv;
         luaCPath = pkgs.neovim-unwrapped.lua.pkgs.luaLib.genLuaCPathAbsStr luaEnv;

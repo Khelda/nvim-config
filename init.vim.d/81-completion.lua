@@ -2,11 +2,15 @@
 -- Blink.cmp configuration for completion purposes and snippets
 --
 
+-- load snippets
+require 'luasnip.loaders.from_snipmate'.lazy_load()
+
 -- completion config
 require 'blink.cmp'.setup {
     -- implementor choice
     fuzzy = { implementation = "lua" },
     sources = { default = { 'lsp', 'path', "snippets", 'buffer' } },
+    snippets = { preset = "luasnip" },
 
     -- completion behavior
     completion = {
