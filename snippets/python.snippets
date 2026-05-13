@@ -1,0 +1,7 @@
+## Class utilities
+# asbtract class
+snippet absclass
+    class $0:
+        def __init__(self) -> None:
+            if type(self) == $0:
+                raise Exception("$0 is abstract")

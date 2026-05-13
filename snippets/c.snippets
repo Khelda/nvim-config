@@ -9,3 +9,22 @@ snippet mainv
     int main(void) {
         $0
     }
+
+## Preprocessor
+# if not defined
+snippet ifndef
+    #ifndef $1
+    #define ${1:SYMBOL}
+    $2
+    #endif // $1
+
+## Null checks
+# null check
+snippet nlchk
+    if (!$0)
+        return $1;
+
+## Useful operations
+# ternary
+snippet tern
+    $1 : $2 ? $3;
