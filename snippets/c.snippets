@@ -18,6 +18,23 @@ snippet ifndef
     $2
     #endif // $1
 
+## Common forms
+# malloc-er
+snippet mkstruct
+    $1 *mk_$1() {
+        $1 *val = malloc(sizeof($1));
+        ${2:// TODO init}
+        return val;
+    }
+# deleter
+snippet delstruct
+    void del_$1($1 *val) {
+        if (!val)
+            return;
+        ${2:// TODO}
+        free(val);
+    }
+
 ## Null checks
 # null check
 snippet nlchk
@@ -25,6 +42,6 @@ snippet nlchk
         return $1;
 
 ## Useful operations
-# ternary
-snippet tern
+# ternaries
+snippet ternary
     $1 : $2 ? $3;

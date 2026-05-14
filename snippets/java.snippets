@@ -1,0 +1,23 @@
+## Common structures
+# main
+snippet main
+    public class Main {
+        public static void main(String[] args) {
+            ${0:System.out.println("Hello world");}
+        }
+    }
+# getter
+snippet getter
+    public $1 get$2() {
+        return this.$2;
+    }
+# setter
+snippet setter
+    public void set$1($2 val) {
+        this.$3 = val;
+    }
+
+## Useful operations
+# ternaries
+snippet ternary
+    $1: $2 ? $3;

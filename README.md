@@ -33,6 +33,10 @@ Keys  | Action                          | Vim command
 ------|---------------------------------|-----------------------
 `jk`  | Escape (in insert and term mode)|
       |                                 |
+`s…`  | _**Snippet commands**_          |
+`sd`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
+`sq`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
+      |                                 |
 `b…`  | _**Buffer commands**_           |
 `bn`  | Next buffer                     |`:bn`
 `bv`  | Previous buffer                 |`:bp`
