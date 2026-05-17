@@ -41,3 +41,4 @@ endfunction
 
 " STFU command
 command W w
+command QA qa

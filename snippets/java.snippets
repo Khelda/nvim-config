@@ -16,8 +16,30 @@ snippet setter
     public void set$1($2 val) {
         this.$3 = val;
     }
+# try/catch/finally
+snippet tryf
+    try {
+        ${0:${VISUAL}}
+    } catch (${1:Exception} e) {
+        ${2:// TODO}
+    } finally {
+        ${3:// TODO}
+    }
 
 ## Useful operations
 # ternaries
 snippet ternary
     $1: $2 ? $3;
+
+## Design pattern uilities
+# singleton
+snippet singleton
+    public class ${1:`vim_snippets#Filename("$1")`} {
+        private static final ${1:`vim_snippets#Filename("$1")`} INSTANCE = new $1();
+
+        private ${1:`vim_snippets#Filename("$1")`}() {}
+
+        public static ${1:`vim_snippets#Filename("$1")`} getInstance() {
+            return INSTANCE;
+        }
+    }

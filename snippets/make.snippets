@@ -1,0 +1,26 @@
+## Common structures
+# minimalist template
+snippet base
+    .PHONY: clean, bin
+        CC = gcc
+        CFLAGS = -g -Wall
+
+    all: $1
+
+    %.o: %.c
+        $(CC) $(CFLAGS) -c -o $@ $<
+
+    ${1:out}: $1.o
+        $(CC) $(CFLAGS) -o $@ $<
+
+    clean:
+        rm -f *.o core.*
+
+## Common forms
+# add target
+snippet add
+    ${1:out}: $1.o
+        $(CC) $(CFLAGS) -o $@ $+
+# select a default target
+snippet default
+    .DEFAULT_GOAL := $1

@@ -31,7 +31,7 @@ snippet delstruct
     void del_$1($1 *val) {
         if (!val)
             return;
-        ${2:// TODO}
+        ${2:// TODO deletions}
         free(val);
     }
 
@@ -45,3 +45,8 @@ snippet nlchk
 # ternaries
 snippet ternary
     $1 : $2 ? $3;
+# else if
+snippet elif
+    else if ($1) {
+        ${2:// TODO}
+    }
