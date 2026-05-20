@@ -21,19 +21,15 @@ snippet ifndef
 ## Common forms
 # malloc-er
 snippet mkstruct
-    $1 *mk_$1() {
-        $1 *val = malloc(sizeof($1));
-        ${2:// TODO init}
-        return val;
-    }
+    $1 *val = malloc(sizeof($1));
+    ${2:// TODO init}
+    return val;
 # deleter
 snippet delstruct
-    void del_$1($1 *val) {
-        if (!val)
-            return;
-        ${2:// TODO deletions}
-        free(val);
-    }
+    if (!val)
+        return;
+    ${2:// TODO deletions}
+    free(val);
 
 ## Null checks
 # null check
@@ -48,5 +44,17 @@ snippet ternary
 # else if
 snippet elif
     else if ($1) {
+        ${2:// TODO}
+    }
+
+## Loops
+# do~while
+snippet dowhile
+    do {
+        ${1:// TODO}
+    } while($2);
+# for i loop
+snippet fori
+    for (int i = 0; i < $1; i++) {
         ${2:// TODO}
     }

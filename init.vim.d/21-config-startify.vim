@@ -1,3 +1,4 @@
+" Load any previously loaded places
 function! s:recentsStrategy()
     if system("which -p zoxide 2>/dev/null|| echo Missing") == 'Missing'
         return 'files'
@@ -6,6 +7,7 @@ function! s:recentsStrategy()
     endif
 endfunction
 
+" Loads marked places
 function! s:zoxideBookmarks()
     let bookmarks = systemlist("zoxide query -l")[0:9]
     return map(bookmarks, "{'line': v:val, 'path': v:val}")
@@ -18,3 +20,7 @@ let g:startify_lists = [
     \ { 'type': 'bookmarks','header': ['    Bookmarks']             },
     \ { 'type': 'commands', 'header': ['    Commands']              },
     \]
+
+" Filetype swaps while opening
+autocmd BufEnter *.h            set ft=c.doxygen
+autocmd BufEnter *.service.in   set ft=conf

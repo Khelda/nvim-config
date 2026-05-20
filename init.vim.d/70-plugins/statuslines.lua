@@ -57,7 +57,7 @@ local bubbles_theme = {
         b = { fg = colors.black, bg = colors.red },
         c = { fg = colors.black, bg = colors.red },
     },
-    terminal = { a = { fg = colors.white, bg = colors.grey } },
+    terminal = { a = { fg = colors.white, bg = colors.sand } },
 
     inactive = {
         a = { fg = colors.black, bg = colors.grey },
