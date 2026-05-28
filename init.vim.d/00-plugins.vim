@@ -13,9 +13,6 @@ call plug#begin(stdpath('config').'/bundle')
 " Vim-Plug auto-updater
 Plug 'junegunn/vim-plug'
 
-" Color scheme and other color utilities
-Plug 'eero-lehtinen/oklch-color-picker.nvim'
-
 " File listener for color scheme changer
 Plug 'rktjmp/fwatch.nvim'
 

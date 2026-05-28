@@ -40,7 +40,6 @@ nnoremap <silent> <leader>cf            :lua vim.lsp.buf.format()<CR>
 
 " More... Specific keybinds
 nnoremap <silent> <leader>yp            :!yapf -i %<CR>
-nnoremap <silent> <leader>op            :ColorPickOklch<CR>
 
 " Trouble related keybinds
 nnoremap <silent> <leader>!             :Trouble proj_errs toggle<CR>
