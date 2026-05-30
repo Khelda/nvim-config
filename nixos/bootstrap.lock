@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "ada8af0627f98c8f019cc4cb37523456a7b08a92",
-  "date": "2026-05-28T16:18:23-04:00",
-  "path": "/nix/store/4yd566yvqzwiyyh2925ak1s1fz30np19-blink.cmp",
-  "sha256": "18hfmqwf5rl5bx4n7i57j9ijc9wz13rhmchk8rvbvc5yzvpb25hj",
-  "hash": "sha256-Ehax7v6+sL12RhOyCvMInycmY5KnxGNJX4Xm4jiuDqI=",
+  "rev": "1b8809dcbb20f023b7cc69ec560e927ae858f9b2",
+  "date": "2026-05-29T21:07:08-04:00",
+  "path": "/nix/store/9z2aia3i0dggnlfaklzi2ra0gw4wdmrm-blink.cmp",
+  "sha256": "1bscdai0b6926bx1ayal08dkajysb1fs9ni7dn39b71xa21h0x9j",
+  "hash": "sha256-MnUAg1A9nJWGbSfapF1Y2ks1GwJUeRX6MiKZBaJqTK8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -922,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

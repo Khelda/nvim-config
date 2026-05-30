@@ -4,6 +4,7 @@ command GHCi bot split | term ghci %
 " Shortcut to call Jupyter console
 command -nargs=1 I call JupyterConsole(<f-args>)
 
+" Access to jupyter REPL modules
 function JupyterConsole(kernel)
     let jupyCommand = 'jupyter console --kernel '.a:kernel
     bot split
