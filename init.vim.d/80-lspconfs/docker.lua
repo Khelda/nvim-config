@@ -22,7 +22,7 @@ vim.lsp.config("dockerlsp", {
     filetypes = { "dockerfile", "yaml.docker-compose" },
     root_markers = { "Dockerfile", "docker-compose.yaml", "docker-compose.yml" },
     -- extra LSP options
-    telemetry = false
+    telemetry = "off"
 })
 
 -- Launch LSPs

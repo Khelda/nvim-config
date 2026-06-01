@@ -93,7 +93,7 @@ highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE 
 highlight Normal guifg=#ffffdf guibg=#303030 gui=NONE ctermfg=230 ctermbg=236 cterm=NONE
 highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 
-" WINDOW UI
+" WINDOw STATUSLINES
 highlight StatusLine guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 highlight StatusLineNC guifg=#767676 guibg=NONE gui=NONE ctermfg=243 ctermbg=235 cterm=NONE
 highlight StatusLineTerm guifg=#eeeeee guibg=NONE gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
