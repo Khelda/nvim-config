@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "9573948c38bfabeec353ae7dd7d3ffec4c506a6b",
-  "date": "2026-05-28T13:17:27-04:00",
-  "path": "/nix/store/2gz723bbqs3n8r3dkywjziyvcjfinsr9-nvim-lspconfig",
-  "sha256": "0n1h56d9ngw84vb2dk9cm7jdabdp9lgp7w6anri3davxi8q50xia",
-  "hash": "sha256-KnZQMIp9qzZitsrwcx9Nty3V5KkszSbWJog/m5opMFg=",
+  "rev": "229b79051b380377664edc4cbd534930154921a1",
+  "date": "2026-06-03T15:05:51Z",
+  "path": "/nix/store/jfkgg6icp30h9mhbm57hfb0cmkiczy9p-nvim-lspconfig",
+  "sha256": "0aryqmcvab9jpmcdbvgvxiqwp2da17wcmd8p7m7pcr5nw1ip0f24",
+  "hash": "sha256-RDhwY+C2ZHZPPRe1yvgJqonLcez77dVYvTIttVnFPis=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "5ee69ea52492fa038b3a1cd8de55edffe205c77d",
-  "date": "2026-05-30T19:43:19+02:00",
-  "path": "/nix/store/wcyg8a3yj6az3s7j4npahjy7rizg1bng-blink.cmp",
-  "sha256": "0hngbhsf55rrjqma3zyf0pm81piyzprq566m1g1ppfs3kr0mskxh",
-  "hash": "sha256-sE9dQZ5Du3vDC9WYgvP9Pt6A6gXO/6EqljmX4jRcz0I=",
+  "rev": "3db7326f54b73df4789e0fd6274bedda33975fea",
+  "date": "2026-06-05T09:02:55-04:00",
+  "path": "/nix/store/jpnr8ykxajyid5smx7807mivmf35p83r-blink.cmp",
+  "sha256": "1f9bplil2gjjmzj1vy1cwnc3fr2sikjxyi8cy8pxzwpl7x0d70y4",
+  "hash": "sha256-xIPTQD/08t8v8gxF3+WMWmQ3mOUs+B3kr1I+QSO9K7k=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -336,11 +336,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "7d647c70c286720c225ebb8ab75896e5dbee6af6",
-  "date": "2026-05-31T12:38:12+09:00",
-  "path": "/nix/store/jjyimqqz6l7qwklkkplk4m8bmpis68g0-fzf",
-  "sha256": "00w91kxbqki60rgg3q1qy36h7zwzfvvk86qva92nnnj624dj576p",
-  "hash": "sha256-15wiGxFGWmtFUhsbNPd2n/8DzfA44PFeBiZOvPoMiQM=",
+  "rev": "abee152255387a5e0ee0543f275b792265e0ef5e",
+  "date": "2026-06-05T16:24:27+09:00",
+  "path": "/nix/store/qzjhzs7s8fn8pv9a611pnggacxi081r2-fzf",
+  "sha256": "1apyh28xzhcmar5ds3hcih21rc0xwq79pn8kvm04nf3x52ff235m",
+  "hash": "sha256-tQzhnCh9OEtA3RPZmw7mHbAcBIwMDt1KVpXB35GA/qo=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -350,11 +350,11 @@
 }
 ,"junegunn/fzf.vim":{
   "url": "https://github.com/junegunn/fzf.vim",
-  "rev": "7fd26e36098091b45c59120bc8d0cfacc15cc6c8",
-  "date": "2026-05-31T23:41:34+09:00",
-  "path": "/nix/store/msqv36x73q0zsgx5nsxlnyr9qzhmffip-fzf.vim",
-  "sha256": "19m2nyyknkx8vjskyz6iya2plxqhdpmavba0zxww3yrinpbkvd6v",
-  "hash": "sha256-27Q917Ux+8F5/0CtreptEHd6hfLRfD+13KhPO723oqY=",
+  "rev": "356608e2ae5d9127e2c964885ea2b21ea7aea9ab",
+  "date": "2026-06-02T11:09:22+09:00",
+  "path": "/nix/store/2xc51y71rp2n5grvix2sqvcwjk3ncgvk-fzf.vim",
+  "sha256": "1p3dzfcjmsqhdn66wq3qhgkmpd6fymih3klpxwj00mqbg3q89vny",
+  "hash": "sha256-3u6E8HgLVwAk75fOAWP1zrRb54N4YG6MbRDrKpn7bdw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -642,6 +642,20 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
+,"https://gitlab.com/itaranto/plantuml.nvim":{
+  "url": "https://gitlab.com/itaranto/plantuml.nvim",
+  "rev": "06644d3688bb0ad08a58e91428c0b2d98678e443",
+  "date": "2025-03-29T13:59:14-03:00",
+  "path": "/nix/store/xj9wja557jagbpxfxls692w5zf0yajdq-plantuml.nvim",
+  "sha256": "1z4r3lw6xaqhwiwlns70wlryrlkzbjlssvjgzs2pprmf6hyavzgp",
+  "hash": "sha256-9/2tPDSu5nuF/k9uralcf9LsM+XgaEt55BCrbjgdmfw=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
 ,"LnL7/vim-nix":{
   "url": "https://github.com/LnL7/vim-nix",
   "rev": "7235c7ce2cea530cb6b59bc3e46d4bfe917d15c8",
@@ -922,4 +936,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": [], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": ["plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

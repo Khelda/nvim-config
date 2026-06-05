@@ -64,8 +64,8 @@ endif
 autocmd TermOpen * setlocal nonumber signcolumn=no
 
 " Comfort settings
-autocmd VimEnter * set nospell
-autocmd VimEnter * set nofoldenable
+autocmd BufEnter * set nospell
+autocmd BufEnter * set nofoldenable
 
 " EPUB support
 let g:VimEPUB_EPUB_Version = "2,3"

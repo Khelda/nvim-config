@@ -122,6 +122,9 @@ Plug 'chrisbra/csv.vim'
 " Cucumber/Gherkin syntax
 Plug 'tpope/vim-cucumber'
 
+" UML support
+Plug 'https://gitlab.com/itaranto/plantuml.nvim', { 'tag': '*' }
+
 " Nix config syntax
 Plug 'LnL7/vim-nix'
 

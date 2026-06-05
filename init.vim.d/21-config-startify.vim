@@ -23,6 +23,7 @@ let g:startify_lists = [
 
 " Filetype swaps while opening
 autocmd BufEnter *.h                    set ft=c.doxygen
+autocmd BufEnter *.c                    set ft=c.doxygen
 autocmd BufEnter *.service.in           set ft=conf
 autocmd BufEnter docker-compose.yaml    set ft=yaml.docker-compose
 autocmd BufEnter docker-compose.yml     set ft=yaml.docker-compose

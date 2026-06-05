@@ -26,7 +26,16 @@ _each_lsp_package() {
 
 _prefetch_git() {
     repo=$(cut -d/ -f2 <<< $1)
-    nix-prefetch-git --url https://github.com/$1 --quiet --fetch-submodules > /tmp/git-$repo
+    # check for other forges
+    if [[ "$1" =~ ^https?://([^/]+) ]] then
+        # full URL found, no need for construction
+        repo_url=$1
+    else
+        # regular github repository
+        repo_url=https://github.com/$1
+    fi
+    # prefecth the repo for bundling
+    nix-prefetch-git --url $repo_url --quiet --fetch-submodules > /tmp/git-$repo
 }
 
 {
