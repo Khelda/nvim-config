@@ -600,20 +600,6 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"Khelda/Vim-EPUB":{
-  "url": "https://github.com/Khelda/Vim-EPUB",
-  "rev": "f03c6f771f58bb81399203e0c6d8203d78a4205d",
-  "date": "2024-12-10T15:30:44+01:00",
-  "path": "/nix/store/ri23li5dnymg6rwi7zjiwkarypi3xxl0-Vim-EPUB",
-  "sha256": "1n2nfzm3nq49df81ax8wgyhipr3rwapfc7dx88zim8wz67zjn7dq",
-  "hash": "sha256-uB0r/zGfoxo/Qr0d5q7ieeQboX8cdRWQa4lgO+p3Vtg=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
 ,"chrisbra/csv.vim":{
   "url": "https://github.com/chrisbra/csv.vim",
   "rev": "8977f6890d235a6ba9948b63ff700d414c84c344",
@@ -936,4 +922,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","nodePackages.vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","nodePackages.typescript-language-server","nodePackages.vscode-langservers-extracted","haskell-language-server","nodePackages.vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}
+}, "packages": ["plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","dot-language-server","marksman"]}

@@ -13,7 +13,7 @@ vim.lsp.config('jsonnet_ls', {
 
 -- JSON and JSONC language server
 vim.lsp.config("json_ls", {
-    cmd = nix:shell("nodePackages.vscode-langservers-extracted", {
+    cmd = nix:shell("vscode-langservers-extracted", {
         "vscode-json-language-server", "--stdio"
     }),
     -- core LSP options

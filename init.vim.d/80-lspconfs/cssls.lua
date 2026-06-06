@@ -5,7 +5,7 @@ local nix = Nix:new()
 
 -- Configure LSP
 vim.lsp.config('cssls', {
-    cmd = nix:shell("nodePackages.vscode-langservers-extracted", {
+    cmd = nix:shell("vscode-langservers-extracted", {
         "vscode-css-language-server", "--stdio"
     }),
     filetypes = { "css", "scss" },

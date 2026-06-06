@@ -8,7 +8,7 @@ local util = require 'lspconfig/util'
 
 -- core LSP config
 vim.lsp.config("ts_ls", {
-    cmd = nix:shell("nodePackages.typescript-language-server", {
+    cmd = nix:shell("typescript-language-server", {
         "typescript-language-server", "--stdio"
     })
 })
@@ -16,7 +16,7 @@ vim.lsp.config("ts_ls", {
 -- more advanced Eslint LSP configuration
 vim.lsp.config("eslint", {
     -- launch command
-    cmd = nix:shell("nodePackages.vscode-langservers-extracted", {
+    cmd = nix:shell("vscode-langservers-extracted", {
         "vscode-eslint-language-server", "--stdio"
     }),
     -- file and directory markers
