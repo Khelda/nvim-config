@@ -27,3 +27,7 @@ autocmd BufEnter *.c                    set ft=c.doxygen
 autocmd BufEnter *.service.in           set ft=conf
 autocmd BufEnter docker-compose.yaml    set ft=yaml.docker-compose
 autocmd BufEnter docker-compose.yml     set ft=yaml.docker-compose
+
+" UML filetype swaps at buffer opening
+autocmd BufEnter *.iuml                 set ft=plantuml
+autocmd BufEnter *.plantuml             set ft=plantuml

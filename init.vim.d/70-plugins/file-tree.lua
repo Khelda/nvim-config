@@ -122,5 +122,18 @@ require 'nvim-web-devicons'.set_icon {
         color = "#be5f0a",
         cterm_color = "166",
         name = "Amber"
+    },
+    -- PlantUML utlities
+    plantuml = {
+        icon = "",
+        color = "#eadecc",
+        cterm_color = "125",
+        name = "PlantUML"
+    },
+    iuml = {
+        icon = "",
+        color = "#eadecc",
+        cterm_color = "125",
+        name = "PlantUML"
     }
 }
