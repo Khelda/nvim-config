@@ -1,6 +1,6 @@
 " Disable Coqtail to let coq-lsp work
 let g:loaded_coqtail = 1
-let g:coqtail#supported = 0
+let g:coqtail_supported = 0
 
 " CSV-specific options
 let g:csv_autocmd_arrange=1

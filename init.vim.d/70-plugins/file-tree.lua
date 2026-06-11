@@ -41,6 +41,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "118",
         name = "Feature"
     },
+
     -- Template files of all types
     template = {
         icon = "",
@@ -48,6 +49,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "247",
         name = "Template"
     },
+
     -- Snippets files
     snippets = {
         icon = "󰆏",
@@ -55,6 +57,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "130",
         name = "Snippets"
     },
+
     -- Cambalache and GUI files
     cmb = {
         icon = "",
@@ -68,6 +71,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "45",
         name = "Ui"
     },
+
     -- Sourcetrail files (not the ones ignored by Git)
     srctrlprj = {
         icon = "󱁉",
@@ -75,6 +79,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "52",
         name = "Srctrlprj"
     },
+
     -- Jsonnet files
     jsonnet = {
         icon = "󰘦",
@@ -88,6 +93,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "221",
         name = "Libsonnet"
     },
+
     -- Properties files
     properties = {
         icon = "",
@@ -95,6 +101,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "145",
         name = "Properties"
     },
+
     -- Lua utilities
     rockspec = {
         icon = "󰢱",
@@ -102,6 +109,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "075",
         name = "Rockspec"
     },
+
     -- HTTP requests
     http = {
         icon = "󰖟",
@@ -109,6 +117,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "075",
         name = "Http"
     },
+
     -- LaTeX style classes
     sty = {
         icon = "",
@@ -116,6 +125,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "125",
         name = "Sty"
     },
+
     -- Amber source files
     ab = {
         icon = "",
@@ -123,6 +133,7 @@ require 'nvim-web-devicons'.set_icon {
         cterm_color = "166",
         name = "Amber"
     },
+
     -- PlantUML utlities
     plantuml = {
         icon = "",
@@ -135,5 +146,19 @@ require 'nvim-web-devicons'.set_icon {
         color = "#eadecc",
         cterm_color = "125",
         name = "PlantUML"
+    },
+
+    -- stdin and stdout testing utilities
+    stdin = {
+        icon = "",
+        color = "#be5f0a",
+        cterm_color = "166",
+        name = "stdin"
+    },
+    stdout = {
+        icon = "",
+        color = "#be5f0a",
+        cterm_color = "166",
+        name = "stdin"
     }
 }

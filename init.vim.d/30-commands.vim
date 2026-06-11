@@ -1,6 +1,9 @@
 " Shortcut to call Haskell REPL on current file
 command GHCi bot split | term ghci %
 
+" Quicker shell access
+command Shell terminal
+
 " Shortcut to call Jupyter console
 command -nargs=1 I call JupyterConsole(<f-args>)
 
