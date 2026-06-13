@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "ed19590a3a9792901553c388d1aadafce012f80d",
-  "date": "2026-06-08T16:39:01Z",
-  "path": "/nix/store/p7zaql9y87fmxwpjnaragla1k8ips874-nvim-lspconfig",
-  "sha256": "0g66isv31i7dl7yxprqa7f49va9w7j2vcnq5cdcxhbsbrllcz0gy",
-  "hash": "sha256-/oHPKM1LL9hZYwVbtoU8PKmdiDsK59v9oe3EMLaOxjw=",
+  "rev": "a683e0ddf0cf64c6cd689e18ffb480ade3c162b7",
+  "date": "2026-06-12T20:43:18Z",
+  "path": "/nix/store/9z85hbv6qdbbdzvcwbs0p5zbnc5d72qf-nvim-lspconfig",
+  "sha256": "1k1rvjg4xy20d1y82llizxlpl1x5r2v0iwq2yrbyxfh6yqnvlldq",
+  "hash": "sha256-uFG6LfYGuu5X9gLzCLbIpQd6af+RUoF8aED4Tp7cOcw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -350,11 +350,11 @@
 }
 ,"junegunn/fzf.vim":{
   "url": "https://github.com/junegunn/fzf.vim",
-  "rev": "356608e2ae5d9127e2c964885ea2b21ea7aea9ab",
-  "date": "2026-06-02T11:09:22+09:00",
-  "path": "/nix/store/2xc51y71rp2n5grvix2sqvcwjk3ncgvk-fzf.vim",
-  "sha256": "1p3dzfcjmsqhdn66wq3qhgkmpd6fymih3klpxwj00mqbg3q89vny",
-  "hash": "sha256-3u6E8HgLVwAk75fOAWP1zrRb54N4YG6MbRDrKpn7bdw=",
+  "rev": "d2a59a992a2455f609c0fde2ebd84427ea8f919a",
+  "date": "2026-06-12T09:06:10+09:00",
+  "path": "/nix/store/ymrpl67qs81wwnk2yb485gz18vbnnni6-fzf.vim",
+  "sha256": "1pq96irsvp8ksh6f8dfzs7wr6ryrickhshk7hjf7i7iqy257w12d",
+  "hash": "sha256-TQR+ivA4nnichGdCDSeL2WeT+dHfNeQM1BPdrXM0Cd8=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -658,11 +658,11 @@
 }
 ,"NoahTheDuke/vim-just":{
   "url": "https://github.com/NoahTheDuke/vim-just",
-  "rev": "6034ccf6a4682c91f90f38fae4c882068e6723fe",
-  "date": "2026-05-10T16:28:17-04:00",
-  "path": "/nix/store/yjpgkljd9pnpym2p6zx3f4bp62898jci-vim-just",
-  "sha256": "14gdsy8b47081r72b9r98p3vxci8fghckaidijynmdpgqi560ayz",
-  "hash": "sha256-3ytgSsTvtmq9jC2qyeBzKLK+x0UppyVODggcspDX7ZE=",
+  "rev": "49f318424ed17fb8d49122daa39820fd6a2880f5",
+  "date": "2026-06-12T14:24:22-04:00",
+  "path": "/nix/store/7hdn5y4jffm8pdphwih8k1yz44fnbnca-vim-just",
+  "sha256": "1i8z1npsma1h00z2lqk0q9ym8xq2ddsd48959i6l18v2n7815xmg",
+  "hash": "sha256-r/YS0LFio0BNTCUh0nRrAndUfcJgYio+ADCoqq8NH8U=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -810,34 +810,6 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"whonore/Coqtail":{
-  "url": "https://github.com/whonore/Coqtail",
-  "rev": "b8f12a068046670645cff583733a32296f4ca261",
-  "date": "2026-05-16T10:49:32-04:00",
-  "path": "/nix/store/6dcmknm0fgrmvniqia7lwya85rb3zip8-Coqtail",
-  "sha256": "08031xgxdy87m9lsaf5vhaw62sd784hbcgashq3p60yfv2cizh50",
-  "hash": "sha256-oMAfmdjOA3MHhlo9tiBBp2lhuIK7OKVpqgf51l8PAyA=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
-,"tomtomjhj/coq-lsp.nvim":{
-  "url": "https://github.com/tomtomjhj/coq-lsp.nvim",
-  "rev": "37d1fadbc7bed67dd677c01aa594ccd24cbe92ce",
-  "date": "2026-05-03T18:59:22+09:00",
-  "path": "/nix/store/cszsk825is08clqw71710xx38vrf49k2-coq-lsp.nvim",
-  "sha256": "0pdzil137ns0fg7pi6q7g1vy3sg7iffnwkhkwvmmrl5f7xyzdm8p",
-  "hash": "sha256-F9X2fT+u0Fzr5hNObp2L5+nhd3gHm3jPc0DbMwKNv10=",
-  "fetchLFS": false,
-  "fetchSubmodules": true,
-  "deepClone": false,
-  "fetchTags": false,
-  "leaveDotGit": false,
-  "rootDir": ""
-}
 ,"wilt00/vim-y86-syntax":{
   "url": "https://github.com/wilt00/vim-y86-syntax",
   "rev": "1861343c2cbc7ced636b88f4efc81dcd07eb6bd1",
@@ -922,4 +894,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","coqPackages.coq-lsp","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","dot-language-server","marksman"]}
+}, "packages": ["plantuml","ansible","ansible-lint"], "lsp-packages": ["ansible-language-server","arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","kotlin-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","dot-language-server","marksman"]}

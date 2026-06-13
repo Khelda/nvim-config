@@ -158,10 +158,6 @@ Plug 'google/vim-jsonnet'
 " Support for PureScript
 Plug 'purescript-contrib/purescript-vim'
 
-" Support for Coq formal proof language
-Plug 'whonore/Coqtail'
-Plug 'tomtomjhj/coq-lsp.nvim'
-
 " Support for y86 assembly
 Plug 'wilt00/vim-y86-syntax'
 

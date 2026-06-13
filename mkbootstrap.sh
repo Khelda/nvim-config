@@ -11,7 +11,7 @@ _each_repo() {
 }
 
 _each_package() {
-    for f in goyo.vim.d/70-plugins/*.lua init.vim.d/70-plugins/*.lua
+    for f in goyo.vim.d/70-plugins/*.lua init.vim.d/70-plugins/*.lua init.vim.d/80-lspconfs/*.lua goyo.vim.d/80-lspconfs/*.lua
     do
         awk 'match($0, /nix:path\("([^"]*)"/, a) { print a[1] }' < $f
     done

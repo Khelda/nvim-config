@@ -1,16 +1,18 @@
+-- Global references to ensure Lua linking
 local has_nix = false
-
 Nix = {}
 
 -- Quickfix for wonky profiles, harmless if dir doesn't exist
 vim.env['PATH'] = vim.env['PATH'] .. ':/nix/var/nix/profiles/default/bin'
 
+-- Check for Nix installation beforehand
 local f = io.open('/nix')
 if f then
     f:close()
     has_nix = true
 end
 
+-- Nix fetcher function. Returns the current Nix reference for further calls.
 function Nix:new()
     if _G.nix then
         return _G.nix -- Invoke global instance
@@ -22,6 +24,7 @@ function Nix:new()
     return t
 end
 
+-- Changes execution PATH to include a Nix-fetched binary.
 function Nix:path(pkg, path)
     if has_nix
     then
@@ -35,6 +38,7 @@ function Nix:path(pkg, path)
     end
 end
 
+-- Uses nix shell to bundle a binary in a command. Useful for LSPs.
 function Nix:shell(pkg, cmd)
     if has_nix and (vim.call('executable', cmd[1]) == 0)
     then -- Generate nix shell wrapper
@@ -50,6 +54,7 @@ function Nix:shell(pkg, cmd)
     end
 end
 
+-- Prefetch LSPs before use.
 function _G.nixsh_prefetch()
     local op = { title = "LSP Servers over Nix" }
     if not has_nix then
