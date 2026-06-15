@@ -19,6 +19,11 @@ command LFormat     lua vim.lsp.buf.formatting()
 command LActions    lua vim.lsp.buf.code_action()
 command LPrefetch   lua nixsh_prefetch()
 
+" Old LSP commands mimics
+command LInfo       checkhealth vim.lsp
+command LRestart    lsp restart
+command LStop       lsp stop
+
 let g:_laf_next_state=1
 " Toggle formatting upon exiting Insert mode
 command LAutoFormatEnable   call SetLAutoFormat(1)
