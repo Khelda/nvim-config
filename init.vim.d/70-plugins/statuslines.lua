@@ -122,7 +122,7 @@ require 'lualine'.setup {
         lualine_b = {},
         lualine_c = {},
         lualine_x = {},
-        lualine_y = {},
+        lualine_y = { 'diagnostics' },
         lualine_z = {
             { 'location',
                 separator = { left = '', right = '' },

@@ -2,7 +2,7 @@
 command GHCi bot split | term ghci %
 
 " Quicker shell access
-command Shell terminal
+command Shell lua shell_buffer()
 
 " Shortcut to call Jupyter console
 command -nargs=1 I call JupyterConsole(<f-args>)
