@@ -19,16 +19,15 @@ function _G.shell_buffer()
 
     -- pre-check for height
     if height < min_height then
-        return
+        return -- starting window is too small
     end
 
-    if width < min_width then
-        -- building extra window with a terminal
-        vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below" })
-        vim.cmd("terminal")
-    else
+    -- width check for an extra split
+    if width > min_width then
+        -- extra window space
         vim.api.nvim_open_win(bufnr, true, { win = 0, split = "right" })
-        vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below" })
-        vim.cmd("terminal")
     end
+    -- building extra window with a terminal
+    vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below", height = 30 })
+    vim.cmd("terminal")
 end
