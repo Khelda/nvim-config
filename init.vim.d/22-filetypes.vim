@@ -13,4 +13,9 @@ autocmd BufEnter *.iuml                 set ft=plantuml
 autocmd BufEnter *.plantuml             set ft=plantuml
 
 " Common config filetypes
-autocmd BufEnter */git/config            set ft=gitconfig
+autocmd BufEnter */git/config           set ft=gitconfig
+
+" LaTeX utilities
+autocmd BufEnter *.tex                  set ft=tex
+autocmd BufEnter *.sty                  set ft=tex
+autocmd BufEnter *.toc                  set ft=tex

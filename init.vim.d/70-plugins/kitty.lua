@@ -2,11 +2,18 @@
 -- This will also setup some shell launching shennanigans.
 
 -- extra constants
+require 'utils'
 local min_height = 60
 local min_width = 200
 
 -- scrollback call for inner shell
 require 'kitty-scrollback'.setup()
+
+-- extra check to see if we're in a filetree
+local function check_filetree(bufnr)
+    local name = split(vim.api.nvim_buf_get_name(bufnr), "/")
+    return name[#name] == "NvimTree_1"
+end
 
 -- Shell split buffer function
 function _G.shell_buffer()
@@ -17,8 +24,8 @@ function _G.shell_buffer()
     local width = vim.api.nvim_win_get_width(window)
     local height = vim.api.nvim_win_get_height(window)
 
-    -- pre-check for height
-    if height < min_height then
+    -- TODO buffer pre-check
+    if check_filetree(bufnr) or height < min_height then
         return -- starting window is too small
     end
 
@@ -28,6 +35,6 @@ function _G.shell_buffer()
         vim.api.nvim_open_win(bufnr, true, { win = 0, split = "right" })
     end
     -- building extra window with a terminal
-    vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below", height = 30 })
+    vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below", height = 25 })
     vim.cmd("terminal")
 end
