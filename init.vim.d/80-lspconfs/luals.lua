@@ -4,9 +4,9 @@ require 'nix'
 local nix = Nix:new()
 
 -- Luals setup
-vim.lsp.config('lua_ls', {
-    cmd = nix:shell('lua-language-server', { "lua-language-server" }),
-    root_markers = { '.git' }, -- no need for luarocks as of now
+vim.lsp.config("lua_ls", {
+    cmd = nix:shell("lua-language-server", { "lua-language-server" }),
+    root_markers = { ".git" }, -- no need for luarocks as of now
     settings = {
         Lua = {
             runtime = 'LuaJIT',

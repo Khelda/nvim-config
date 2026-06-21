@@ -37,9 +37,7 @@ function SetColor()
         hi Tabline                      guifg=#ffffff guibg=#303030
         hi TabLineFill                  guibg=#292b2f
         hi TabLineSel                   guifg=#292b2f guibg=#918154
-        hi BufferCurrentMod             guibg=#918154
-
-        hi BufferCurrentMod             guifg=#ffffff
+        hi BufferCurrentMod             guifg=#ffffff guibg=#918154
         hi BufferDefaultCurrentMod      guifg=#ffffff
 
         " CmdLine shennanigans

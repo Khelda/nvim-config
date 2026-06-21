@@ -2,17 +2,26 @@
 -- This will also setup some shell launching shennanigans.
 
 -- extra constants
-require 'utils'
 local min_height = 60
 local min_width = 200
+local forbidden_bufs = { "NvimTree_1" }
 
 -- scrollback call for inner shell
 require 'kitty-scrollback'.setup()
+require 'utils'
 
--- extra check to see if we're in a filetree
+-- extra check to see if we're in a filetree. Returns true if a match is found..
+--- @param bufnr    integer
+--- @return         boolean
 local function check_filetree(bufnr)
     local name = split(vim.api.nvim_buf_get_name(bufnr), "/")
-    return name[#name] == "NvimTree_1"
+    -- check obtained name against the forbiddn buffers list
+    for _, buf in pairs(forbidden_bufs) do
+        if name[#name] == buf then
+            return true
+        end
+    end
+    return false
 end
 
 -- Shell split buffer function
@@ -35,6 +44,6 @@ function _G.shell_buffer()
         vim.api.nvim_open_win(bufnr, true, { win = 0, split = "right" })
     end
     -- building extra window with a terminal
-    vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below", height = 25 })
+    vim.api.nvim_open_win(bufnr, true, { win = 0, split = "below", height = 30 })
     vim.cmd("terminal")
 end

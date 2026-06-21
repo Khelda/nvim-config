@@ -25,6 +25,8 @@ function Nix:new()
 end
 
 -- Changes execution PATH to include a Nix-fetched binary.
+--- @param pkg  string
+--- @param path table
 function Nix:path(pkg, path)
     if has_nix
     then
@@ -39,6 +41,8 @@ function Nix:path(pkg, path)
 end
 
 -- Uses nix shell to bundle a binary in a command. Useful for LSPs.
+--- @param pkg  string
+--- @param cmd  table
 function Nix:shell(pkg, cmd)
     if has_nix and (vim.call('executable', cmd[1]) == 0)
     then -- Generate nix shell wrapper
