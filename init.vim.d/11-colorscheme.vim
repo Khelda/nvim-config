@@ -72,12 +72,16 @@ function SetColor()
     hi StatusLine guibg=NONE
     hi StatusLineNC guibg=NONE
 
+    " CodeActions popup translucence
+    " TODO find highlight groups
+
     hi VertSplit ctermbg=NONE ctermfg=NONE
                \ guibg=NONE
 
     hi Comment ctermfg=blue guifg=#8b80b0        cterm=italic gui=italic
     hi SpecialComment ctermfg=blue guifg=#8b80b0 cterm=italic gui=italic
 
+    " Generic LSP highlighting fixes
     hi! link LspCxxHlGroupMemberVariable @lsp.type.property
 
     " Setup for useful warning signs

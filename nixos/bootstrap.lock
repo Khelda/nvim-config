@@ -336,11 +336,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "f2e451596c5d23de0069cdc51ea3fec73b7fe835",
-  "date": "2026-06-23T20:50:12+09:00",
-  "path": "/nix/store/craq3r736n9lm1b0b9rbm12a7a08hllw-fzf",
-  "sha256": "0xliaa2b8cpbw3yyax01jv95spfi7clp8igvxh8ss6wd6m454rdc",
-  "hash": "sha256-rGVSSDWNG60R7PtFdCk70V1d0pYBdOX94OsytIRSkXY=",
+  "rev": "9e2856559d50637df482b8598fd7b35b2d746485",
+  "date": "2026-06-28T22:15:03+09:00",
+  "path": "/nix/store/vnr0lvl4v61a8fq98dymyb34lhc7chs1-fzf",
+  "sha256": "1z2dwnp7yw62b06adhr05343nfikxl1g54wibpjwckmsp0d83jq8",
+  "hash": "sha256-CMuBGri6TsblXZGT8gLtMzo7yCggw6YMWMJwf67lTfw=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -894,4 +894,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["plantuml","plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","tinymist","dot-language-server","marksman"]}
+}, "packages": ["plantuml","plantuml"], "lsp-packages": ["arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","tinymist","dot-language-server","marksman","tinymist"]}

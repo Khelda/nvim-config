@@ -5,9 +5,11 @@
 -- Code-actions provider
 require 'tiny-code-action'.setup {
     picker = { 'buffer' },
+    -- picking preview provider
     backend = 'vim',
     -- extra options
     opts = {
+        auto_preview = true,
         -- window settings
         position = 'cursor',
         winborder = 'single',

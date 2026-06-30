@@ -1,10 +1,10 @@
--- MesonLSP config
+-- MesonLSP configuration
 
 require 'nix'
 local nix = Nix:new()
 
 -- aux function
-local meson_matcher = function(_, path)
+local function meson_matcher(_, path)
     local pattern = "meson.build"
     local f = vim.fn.glob(table.concat({ path, pattern }, '/'))
     -- pre-emptive check
@@ -30,6 +30,7 @@ end
 -- configuring lsp
 vim.lsp.config('mesonlsp', {
     cmd = nix:shell("mesonlsp", { "mesonlsp", "--lsp" }),
+    -- core LSP options
     filetypes = { "meson" },
     root_dir = function(bufnr, on_dir)
         on_dir(vim.fs.root(bufnr, meson_matcher) or vim.fs.root(bufnr, '.git'))
