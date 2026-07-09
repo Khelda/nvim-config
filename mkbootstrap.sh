@@ -1,6 +1,7 @@
 #!/usr/bin/env -S ./nix shell nixpkgs#nix-prefetch-git nixpkgs#parallel --command bash
 # Generate Nix bootstrap package for Vim-Plug
 # (c) Karim Vergnes <me@thesola.io>
+# (c) Taho Gougeon <taho.gougeon@gmail.com>
 
 set -e -o pipefail
 

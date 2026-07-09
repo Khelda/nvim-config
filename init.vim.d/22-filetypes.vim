@@ -14,8 +14,13 @@ autocmd BufEnter *.plantuml             set ft=plantuml
 
 " Common config filetypes
 autocmd BufEnter */git/config           set ft=gitconfig
+autocmd BufEnter */misc/git-hooks/*     set ft=bash
 
 " LaTeX utilities
 autocmd BufEnter *.tex                  set ft=tex
 autocmd BufEnter *.sty                  set ft=tex
 autocmd BufEnter *.toc                  set ft=tex
+
+" Ansible filetypes
+autocmd BufEnter .ansible-lint         set ft=yaml.ansible
+autocmd BufEnter ansible.cfg           set ft=yaml.ansible
