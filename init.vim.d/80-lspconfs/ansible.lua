@@ -1,8 +1,9 @@
 -- Ansible schemas toolchain
 
--- bundling requirements
 require 'nix'
 local nix = Nix:new()
+
+-- bundling requirements
 vim.env["PATH"] = vim.env["PATH"]
     .. ":" .. nix:path("ansible", "/bin")
     .. ":" .. nix:path("ansible-lint", "/bin")

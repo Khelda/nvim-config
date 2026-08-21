@@ -22,5 +22,5 @@ autocmd BufEnter *.sty                  set ft=tex
 autocmd BufEnter *.toc                  set ft=tex
 
 " Ansible filetypes
-autocmd BufEnter .ansible-lint         set ft=yaml.ansible
-autocmd BufEnter ansible.cfg           set ft=yaml.ansible
+autocmd BufEnter .ansible-lint          set ft=yaml.ansible
+autocmd BufEnter ansible.cfg            set ft=yaml.ansible

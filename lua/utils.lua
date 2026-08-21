@@ -1,8 +1,8 @@
 -- Utility functions module
 
 -- useful function to split a string in twain.
---- @param txt   string
---- @param sep   string
+--- @param txt string
+--- @param sep string
 function _G.split(txt, sep)
     if sep == nil then
         sep = "%s"
