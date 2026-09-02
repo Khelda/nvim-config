@@ -3,7 +3,7 @@
 " made to fit my own configuration needs.
 "
 " In case you may be tempted to use it in your own, this may cause some...
-" Issues.
+" Issues. The extra options from the original theme have been discarded.
 
 " Core info
 let g:colors_name="daeser"

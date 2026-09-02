@@ -72,12 +72,11 @@ function SetColor()
     hi StatusLine guibg=NONE
     hi StatusLineNC guibg=NONE
 
-    " CodeActions popup translucence
-    " TODO find highlight groups
-
+    " Vertical bar between filetree and buffers
     hi VertSplit ctermbg=NONE ctermfg=NONE
                \ guibg=NONE
 
+    " Comments tweaks
     hi Comment ctermfg=blue guifg=#8b80b0        cterm=italic gui=italic
     hi SpecialComment ctermfg=blue guifg=#8b80b0 cterm=italic gui=italic
 

@@ -1,1 +1,0 @@
-../init.vim.d/22-filetypes
