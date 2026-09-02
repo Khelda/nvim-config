@@ -33,5 +33,5 @@ vim.lsp.config("ansible-language-server", {
     }
 })
 
--- TODO launch language server
+-- launch language server
 vim.lsp.enable("ansible-language-server")
