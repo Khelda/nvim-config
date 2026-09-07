@@ -3,15 +3,17 @@
 require 'nix'
 local nix = Nix:new()
 
--- auxiliary fetch functions
+--- @return string
 local function jdtls_cache_dir()
     return vim.fn.stdpath('cache') .. '/jdtls'
 end
 
+--- @return string
 local function jdtls_workspace_dir()
     return jdtls_cache_dir() .. '/workspace'
 end
 
+--- @return string
 local function jdtls_config_dir()
     return jdtls_cache_dir() .. '/config'
 end

@@ -3,6 +3,7 @@
 -- useful function to split a string in twain.
 --- @param txt string
 --- @param sep string
+--- @return table
 function _G.split(txt, sep)
     if sep == nil then
         sep = "%s"

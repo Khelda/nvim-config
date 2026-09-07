@@ -13,6 +13,7 @@ local util = require 'lspconfig/util'
 local lsp_cmake_sessions = {}
 
 -- Cmake autobuild
+--- @return string|unknown
 local function setupCmakeIntegration()
     -- variable setup
     local op = { title = "CMake build lists integration" }
