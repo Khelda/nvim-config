@@ -17,6 +17,24 @@ vim.lsp.config("bashls", {
 })
 
 -- ZSH LSP config
+vim.lsp.config("zshcs", {
+    cmd = nix:shell("zshcs", { "zshcs" }),
+    -- core LSP options
+    filetypes = { "zsh" },
+    root_markers = { ".git" },
+    -- extra options
+    settings = {
+        zshcs = {
+            experimental = {
+                definition = true,
+                diagnostics = true,
+                hover = true,
+                symbols = true
+            }
+        }
+    }
+})
 
 -- Enabling LSPs
 vim.lsp.enable("bashls")
+vim.lsp.enable("zshcs")

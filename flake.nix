@@ -2,8 +2,14 @@
   description = "Dependency locks for my Neovim config";
 
   inputs = {
+    # core inputs
     nixpkgs.url = "github:NixOS/nixpkgs";
     flake-utils.url = "github:numtide/flake-utils";
+    # extra inputs
+    zshcsPkg = {
+      url = "github:yuys13/zshcs";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -11,6 +17,7 @@
       self,
       nixpkgs,
       flake-utils,
+      zshcsPkg,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -19,7 +26,9 @@
         pkgs = import nixpkgs {
           inherit system;
           config.allowUnfree = true;
-          overlays = [ ];
+          overlays = [
+            (final: prev: { zshcs = zshcsPkg.packages."${system}".default; })
+          ];
         };
 
         luaEnv = pkgs.neovim-unwrapped.lua.withPackages (
