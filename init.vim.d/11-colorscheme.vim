@@ -22,7 +22,7 @@ function SetColor()
         hi NoiceCmdlineIcon             guifg=#918154
 
         " Treesitter highlighting
-        hi TSContext guibg=None
+        hi TSContext                    guibg=None
         hi TreesitterContextLineNumber  guibg=#ebebae
     else
         " Default setting in case the script fails
@@ -46,7 +46,7 @@ function SetColor()
         hi NoiceCmdlineIcon             guifg=#918154
 
         " Context highlighting
-        hi TSContext guibg=#535353
+        hi TSContext                   guibg=#535353
         hi TreesitterContextLineNumber guibg=#535353
     endif
 
@@ -54,19 +54,19 @@ function SetColor()
     let g:limelight_conceal_ctermfg=0xa
 
     " Translucent background
-    hi Normal     guibg=NONE
-    hi NonText    guibg=NONE
-    hi LineNr     guibg=NONE
-    hi SignColumn guibg=NONE
-    hi EndOfBuffer guibg=NONE
+    hi Normal                   guibg=NONE
+    hi NonText                  guibg=NONE
+    hi LineNr                   guibg=NONE
+    hi SignColumn               guibg=NONE
+    hi EndOfBuffer              guibg=NONE
 
-    hi BufferDefaultCurrent guibg=NONE
+    hi BufferDefaultCurrent     guibg=NONE
     hi BufferDefaultCurrentIcon guibg=NONE
     hi BufferDefaultCurrentSign guibg=NONE
 
-    hi BufferCurrent        guibg=NONE
-    hi BufferCurrentIcon    guibg=NONE
-    hi BufferCurrentSign    guibg=NONE
+    hi BufferCurrent            guibg=NONE
+    hi BufferCurrentIcon        guibg=NONE
+    hi BufferCurrentSign        guibg=NONE
 
     " LuaBar translucent ends
     hi StatusLine guibg=NONE
@@ -77,7 +77,7 @@ function SetColor()
                \ guibg=NONE
 
     " Comments tweaks
-    hi Comment ctermfg=blue guifg=#8b80b0        cterm=italic gui=italic
+    hi Comment        ctermfg=blue guifg=#8b80b0 cterm=italic gui=italic
     hi SpecialComment ctermfg=blue guifg=#8b80b0 cterm=italic gui=italic
 
     " Generic LSP highlighting fixes
@@ -117,6 +117,8 @@ function SetColor()
     hi link BlinkCmpKindType Type
     hi link BlinkCmpKindKeyword Keyword
     hi link BlinkCmpKindStatement Statement
+
+    " TODO trouble space highlights
 endfunction
 
 " Don't forget to actually set the colorscheme

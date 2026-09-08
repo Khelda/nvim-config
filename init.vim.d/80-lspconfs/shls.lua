@@ -3,8 +3,8 @@
 require 'nix'
 local nix = Nix:new()
 
--- LSP config
-vim.lsp.config("shls", {
+-- Bash LSP config
+vim.lsp.config("bashls", {
     cmd = nix:shell("bash-language-server", { "bash-language-server", "start" }),
     -- core LSP options
     filetypes = { "bash", "sh" },
@@ -15,3 +15,8 @@ vim.lsp.config("shls", {
         bashIde = { vim.env.GLOB_PATTERN or "*@(.sh|.inc|.bash|.command)" }
     }
 })
+
+-- ZSH LSP config
+
+-- Enabling LSPs
+vim.lsp.enable("bashls")

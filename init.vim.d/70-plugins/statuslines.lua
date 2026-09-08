@@ -53,9 +53,9 @@ local bubbles_theme = {
     visual = { a = { fg = colors.black, bg = colors.rsand } },
     replace = {
         -- Warning sign
-        a = { fg = colors.black, bg = colors.red },
-        b = { fg = colors.black, bg = colors.red },
-        c = { fg = colors.black, bg = colors.red },
+        a = { fg = colors.black, bg = colors.blue },
+        b = { fg = colors.white, bg = colors.darker },
+        c = { fg = colors.black, bg = colors.black },
     },
     terminal = { a = { fg = colors.white, bg = colors.sand } },
 

@@ -2,3 +2,17 @@
 # shabang
 snippet shabang
     #!/usr/bin/env sh
+
+## Checks and conditions
+# Directory exists
+snippet dircheck
+    if [[ -d $1 ]]
+    then
+        ${2:# TODO}
+    fi
+# File exists
+snippet filecheck
+    if [[ -f $1 ]]
+    then
+        ${2:# TODO}
+    fi
