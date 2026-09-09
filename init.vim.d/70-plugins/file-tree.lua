@@ -126,6 +126,14 @@ require 'nvim-web-devicons'.set_icon {
         name = "Sty"
     },
 
+    -- Typst files
+    typ = {
+        icon = "",
+        color = "#eadecc",
+        cterm_color = "125",
+        name = "Typst"
+    },
+
     -- Amber source files
     ab = {
         icon = "",
