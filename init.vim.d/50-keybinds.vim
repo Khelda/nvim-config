@@ -64,8 +64,8 @@ nnoremap <silent> <leader>gn            :GitConflictChooseNone<CR>
 nnoremap <silent> <leader>gb            :GitConflictChooseBoth<CR>
 
 " Snippets keybinds
-inoremap hj <cmd>lua require 'luasnip'.jump(1)<CR>
-inoremap hg <cmd>lua require 'luasnip'.jump(-1)<CR>
+inoremap tg <cmd>lua require 'luasnip'.jump(1)<CR>
+inoremap gt <cmd>lua require 'luasnip'.jump(-1)<CR>
 
 " Moving between opened buffers
 nnoremap <leader><left> <C-W><C-H>

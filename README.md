@@ -33,9 +33,9 @@ Keys  | Action                          | Vim command
 ------|---------------------------------|-----------------------
 `jk`  | Escape (in insert and term mode)|
       |                                 |
-`s…`  | _**Snippet commands**_          |
-`sd`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
-`sq`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
+      | _**Snippet commands**_          |
+`tg`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
+`gt`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
       |                                 |
 `b…`  | _**Buffer commands**_           |
 `bn`  | Next buffer                     |`:bn`
@@ -54,7 +54,6 @@ Keys  | Action                          | Vim command
 .     | _**Code movement**_             |
 `?`   | Show symbol details (hover)     |
 `µ`   | Show all references (shift+`*`) |
-
 
 The Leader key is set to the exclamation point (`!`) by default. Below are keybindings which start with the Leader key:
 
