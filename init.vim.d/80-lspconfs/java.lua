@@ -21,6 +21,18 @@ local function jdtls_config_dir()
     return jdtls_cache_dir() .. '/config'
 end
 
+-- extra settings for JDTLS
+--- @return table
+local function jdtls_get_jvm_args()
+    local env = os.getenv("JDTLS_JVM_ARGS")
+    local args = {}
+    for arg_str in string.gmatch((env or ""), "%S+") do
+        local arg = string.format("--jvm-arg=%s", arg_str)
+        table.insert(args, arg)
+    end
+    return args -- FIXME turn this into a string
+end
+
 -- LSP config
 vim.lsp.config('jdtls', {
     cmd = function(dispatchers, config)
@@ -36,7 +48,8 @@ vim.lsp.config('jdtls', {
             'jdtls',
             '-configuration', jdtls_config_dir(),
             '-data', data_dir,
-            '-Dlog.level=ERROR >&2 /dev/null'
+            '-Dlog.level=ERROR >&2 /dev/null',
+            jdtls_get_jvm_args()
         })
 
         -- launch

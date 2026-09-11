@@ -15,7 +15,7 @@ Please don't. This is more of a personal configuration made public, this is not 
 In case you want to tweak some parameters, please follow the given structure as indexers will need that to function properly. Most of them aren't that important but it will help you in the long run. These are :
 
 - `70-plugins` for every extra plugin configuration you want to add. Don't be afraid to add new files in there if needed.
-- `80-lspconfs` for language server configurations. In most situations you'll want to keep them to one file per LSP.
+- `80-lspconfs` for language server configurations. In most situations you'll want to keep them to one file per LSP (or LSP family).
 
 ## Install it
 
@@ -33,7 +33,7 @@ Keys  | Action                          | Vim command
 ------|---------------------------------|-----------------------
 `jk`  | Escape (in insert and term mode)|
       |                                 |
-      | _**Snippet commands**_          |
+      | _**Snippet commands**_          |
 `tg`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
 `gt`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
       |                                 |
@@ -97,9 +97,6 @@ Keys    | Action                          | Vim command
 `t…`    | _**Tagging**_                   |
 `tt`    | Show symbols pane               |`:Vista`
 `td`    | Search for and list `TODO`s     |`:Ags TODO`
-        |                                 |
-`o…`    | _**Fancy extras**_              |
-`op`    | Show color information window   |`:ColorPickOklch`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 

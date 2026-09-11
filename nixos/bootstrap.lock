@@ -224,11 +224,11 @@
 }
 ,"nvim-treesitter/nvim-treesitter":{
   "url": "https://github.com/nvim-treesitter/nvim-treesitter",
-  "rev": "5cb0114e6242625db56dd6440e945ed1ece10bc7",
-  "date": "2026-09-07T16:56:38+02:00",
-  "path": "/nix/store/gld1w7b34cv7azwhj0m1m5s76hjqfa36-nvim-treesitter",
-  "sha256": "1iidnclj7zbkw8czzgk9s05fz5zrzgsdpyn4c1vn5zs4i22ggr48",
-  "hash": "sha256-iOT3hIhE/2J3YMT62/T7+ZfvCtBpvv8Z4nP9IymzLcY=",
+  "rev": "d4d59cb369da46b95699bd2200efbcffc6dadb3b",
+  "date": "2026-09-10T09:39:08+02:00",
+  "path": "/nix/store/w5wd1p6xq2hyvlcw2fcls0s0x8srgrmd-nvim-treesitter",
+  "sha256": "1w8gxmykjdfqbdskxnqgp861jff59wm0g9fiikqqr5d8jpj3bpx3",
+  "hash": "sha256-o9815JWolYzxjNGlBypPxTkZDLoP2z51W9g1OX3tD/E=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "da1aff0332774a0f60d52bf972e815dfc226f276",
-  "date": "2026-09-07T18:13:45-04:00",
-  "path": "/nix/store/0yvk36q59g90rbmk0jzprqwnlq7g59i7-nvim-lspconfig",
-  "sha256": "1xcmgib1h80i98dya3qizqypfaw72sylhazfy7i359rmci4hfvrj",
-  "hash": "sha256-Mm8HSWQ1pzLi8e4rSL0Whyt3Pf4RD+UbShEgGFZ8lfU=",
+  "rev": "ac9d2f7c4757db6320cab6697fe73e5e8adb2457",
+  "date": "2026-09-10T10:24:03Z",
+  "path": "/nix/store/igsc660jn7mmqpcp9bja26vsnxmv6iqg-nvim-lspconfig",
+  "sha256": "1x1z3mgw1jvbm2imixw1d86wm5b9q6cl83m8288caznx70kim7gs",
+  "hash": "sha256-+p0aJzjdfsUQEqgORJnBaZXKDWqB91ijqGvLwF8dP/Q=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -294,11 +294,11 @@
 }
 ,"saghen/blink.cmp":{
   "url": "https://github.com/saghen/blink.cmp",
-  "rev": "49d39fda6350d7f789d1da1053e86c9e256f8108",
-  "date": "2026-09-06T03:17:33-04:00",
-  "path": "/nix/store/nzrr7ciarw4mq8b3yh2qryrga7d1kznh-blink.cmp",
-  "sha256": "1dqklj6rkb0r4jbli5i61hzs1zg3srlwmihlqsc22lf1ckp2yf3r",
-  "hash": "sha256-eTgv7mTBUSGYxhTGymnW4/2gPwwmlkiXJBmsmY2kE7c=",
+  "rev": "473c928d8b9b5b3f638cd085a01899972cf205c6",
+  "date": "2026-09-10T11:20:06-04:00",
+  "path": "/nix/store/ci2v3qnyra7mqhgpf415jr6bdyl6v57i-blink.cmp",
+  "sha256": "1jy4zf8hi3vp8xal977gjx27hd0wi9q0ln1xh83f2r7n8kz7smhr",
+  "hash": "sha256-GVZ9/kT2ZOEGgj1YCnCKHDR4RJfvnERVR3ePCJH7xMs=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -336,11 +336,11 @@
 }
 ,"junegunn/fzf":{
   "url": "https://github.com/junegunn/fzf",
-  "rev": "ad151d84154632a6abec67b40fe326c1ea2c9481",
-  "date": "2026-09-07T08:36:30+09:00",
-  "path": "/nix/store/dgmg2xsz7rrsznrzyl8c4cjagim49n42-fzf",
-  "sha256": "0w60ybsk61ainfn6jiqfdznrh6kkrpxm4xhgb59ia0qa3ga2hqsg",
-  "hash": "sha256-T2Mo1BsKAxVTWQ92UvvNcxqY7W8OR2mss1EFM/XywHA=",
+  "rev": "b224480a98a40c670c8ed89abd52d4216a470032",
+  "date": "2026-09-10T23:19:38+09:00",
+  "path": "/nix/store/lf024bw5qr648m1d53kdswbg2i8za50d-fzf",
+  "sha256": "0f3nack8bq7m4vli80g2h2h12qhp3nv6szs0vr5q7sjxvgr8596j",
+  "hash": "sha256-0qSC8ttd6oNL3kB/bbYdF2IRoIDiARTpJvXghSZTdjg=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -894,4 +894,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["plantuml","plantuml","ansible","ansible-lint"], "lsp-packages": ["ansible-language-server","arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","just-lsp","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","zshcs","tinymist","dot-language-server","marksman","tinymist"]}
+}, "packages": ["plantuml","plantuml","ansible","ansible-lint"], "lsp-packages": ["ansible-language-server","arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","graphql-language-service-cli","sqls","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","just-lsp","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","zshcs","tinymist","dot-language-server","marksman","tinymist"]}
