@@ -460,6 +460,20 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
+,"geg2102/nvim-jupyter-client":{
+  "url": "https://github.com/geg2102/nvim-jupyter-client",
+  "rev": "fe9a5007fd5c88f767da68f77c3c2b9bb673fb15",
+  "date": "2025-04-08T16:40:42Z",
+  "path": "/nix/store/bkqmckfiy3w7zwyahgfdp416nlkv9qgd-nvim-jupyter-client",
+  "sha256": "1sg612v64xzc944zj0m569wisg2pf0hdnng9v0ifhq61g1s8a5k7",
+  "hash": "sha256-ZxaFdHjBYOgi2OlZ2yBwVzwdeTKlAvkJSex3YrYI5uk=",
+  "fetchLFS": false,
+  "fetchSubmodules": true,
+  "deepClone": false,
+  "fetchTags": false,
+  "leaveDotGit": false,
+  "rootDir": ""
+}
 ,"mfussenegger/nvim-jdtls":{
   "url": "https://github.com/mfussenegger/nvim-jdtls",
   "rev": "6e9d953f0b82bccdb834cfde0e893f3119c22592",
