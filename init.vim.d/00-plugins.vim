@@ -88,7 +88,6 @@ Plug 'luukvbaal/statuscol.nvim'
 Plug 'HakonHarnes/img-clip.nvim'
 
 " Jupyter integration
-Plug 'benlubas/molten-nvim',    { 'do': ':UpdateRemotePlugins' }
 
 " Debugging JDTls extension
 Plug 'mfussenegger/nvim-jdtls'
