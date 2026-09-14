@@ -2,83 +2,13 @@
 -- Lualine config (BarBar will be defined elsewhere)
 --
 
--- Colors definitions. These are the only one we're going to refer to.
-local colors = (function()
-    if vim.o.background == "light" then
-        return {
-            blue   = '#80a0ff',
-            cyan   = '#79dac8',
-            black  = '#0f2228',
-            white  = '#c6c6c6',
-            red    = '#ff5189',
-            yellow = '#e6db74',
-            grey   = '#777777',
-            silver = '#a0a0a0',
-            -- Custom colors
-            sand   = '#eadecc',
-            rsand  = '#875f5f',
-            darker = '#8aa3a2'
-        }
-    else -- dark colorscheme
-        return {
-            blue   = '#80a0ff',
-            cyan   = '#79dac8',
-            black  = '#292b2f',
-            white  = '#c6c6c6',
-            red    = '#ff5189',
-            yellow = '#e6db74',
-            grey   = '#777777',
-            silver = '#a0a0a0',
-            -- Custom colors
-            sand   = '#918154',
-            rsand  = '#875f5f',
-            darker = '#4f4545'
-        }
-    end
-end)()
-
--- Theme definition
-local bubbles_theme = {
-    normal = {
-        a = { fg = colors.black, bg = colors.sand },
-        b = { fg = colors.white, bg = colors.darker },
-        c = { fg = colors.black, bg = colors.black },
-    },
-
-    insert = {
-        a = { fg = colors.black, bg = colors.sand },
-        c = { fg = "NONE", bg = colors.black }
-    },
-
-    visual = { a = { fg = colors.black, bg = colors.rsand } },
-    replace = {
-        -- Warning sign
-        a = { fg = colors.black, bg = colors.blue },
-        b = { fg = colors.white, bg = colors.darker },
-        c = { fg = colors.black, bg = colors.black },
-    },
-    terminal = { a = { fg = colors.white, bg = colors.sand } },
-
-    inactive = {
-        a = { fg = colors.black, bg = colors.grey },
-        b = { fg = colors.black, bg = "NONE" },
-        c = { fg = colors.black, bg = "NONE" },
-    },
-}
-
--- Visual multi tweaks
-local function get_visual_multi()
-    local result = vim.fn['VMInfos']()
-    local ratio = result.ratio
-    return "󱢓 "
-        .. ratio
-end
+require 'utils'
 
 -- Actually building the lualine
 require 'lualine'.setup {
     options = {
         icons_enabled = true,
-        theme = bubbles_theme,
+        theme = bubbles_theme(),
         component_separators = { left = '', right = '' },
         section_separators = { left = '', right = '' },
         disabled_filetypes = {
