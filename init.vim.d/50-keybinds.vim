@@ -95,3 +95,6 @@ function SetLineNumbering(state)
         echo 'Relative line numbering'
     endif
 endfunction
+
+" Jupyter-related keybinds
+nnoremap <silent> <leader>jn :lua require "jupyter"; Jupyter:send_cell()<CR>

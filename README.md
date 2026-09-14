@@ -97,6 +97,9 @@ Keys    | Action                          | Vim command
 `t…`    | _**Tagging**_                   |
 `tt`    | Show symbols pane               |`:Vista`
 `td`    | Search for and list `TODO`s     |`:Ags TODO`
+        |                                 |
+        | _**Jupyter**_                   |
+`n`     | Sends python cell to REPL       |`:lua require "jupyter"; Jupyter:send_cell()`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 
