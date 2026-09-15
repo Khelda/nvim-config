@@ -98,8 +98,12 @@ Keys    | Action                          | Vim command
 `tt`    | Show symbols pane               |`:Vista`
 `td`    | Search for and list `TODO`s     |`:Ags TODO`
         |                                 |
-        | _**Jupyter**_                   |
-`n`     | Sends python cell to REPL       |`:lua require "jupyter"; Jupyter:send_cell()`
+`j…`    | _**Jupyter**_                   |
+`jn`    | Sends python cell to REPL       |`:lua require "jupyter"; Jupyter:send_cell()`
+`jk`    | Adds a new cell below           |`:JupyterAddCellBelow`
+`jh`    | Adds a new cell above           |`:JupyterAddCellAbove`
+`jd`    | Deletes the current cell        |`:JupyterDeleteCell`
+`ji`    | Swap the current cell's type    |`:JupyterConvertCellType`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 
