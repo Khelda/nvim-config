@@ -3,12 +3,43 @@
 --
 
 require 'utils'
+require 'colors'
+local colors = colors()
+
+local bubbles_theme = {
+    normal = {
+        a = { fg = colors.black, bg = colors.sand },
+        b = { fg = colors.white, bg = colors.darker },
+        c = { fg = colors.black, bg = colors.black },
+    },
+
+    insert = {
+        a = { fg = colors.black, bg = colors.sand },
+        c = { fg = "NONE", bg = colors.black }
+    },
+
+    visual = { a = { fg = colors.black, bg = colors.rsand } },
+    replace = {
+        -- Warning sign
+        a = { fg = colors.black, bg = colors.blue },
+        b = { fg = colors.white, bg = colors.darker },
+        c = { fg = colors.black, bg = colors.black },
+    },
+    terminal = { a = { fg = colors.white, bg = colors.sand } },
+
+    inactive = {
+        a = { fg = colors.black, bg = colors.grey },
+        b = { fg = colors.black, bg = "NONE" },
+        c = { fg = colors.black, bg = "NONE" },
+    }
+}
+
 
 -- Actually building the lualine
 require 'lualine'.setup {
     options = {
         icons_enabled = true,
-        theme = bubbles_theme(),
+        theme = bubbles_theme,
         component_separators = { left = '', right = '' },
         section_separators = { left = '', right = '' },
         disabled_filetypes = {

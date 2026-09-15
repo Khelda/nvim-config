@@ -252,11 +252,11 @@
 }
 ,"kyazdani42/nvim-tree.lua":{
   "url": "https://github.com/kyazdani42/nvim-tree.lua",
-  "rev": "882c54f2815bf6d02663d482c2cf9dbadf4e9b07",
-  "date": "2026-09-08T09:09:29+10:00",
-  "path": "/nix/store/vslw0gqs9v7nnbjhc0040k2g8qfzbxh0-nvim-tree.lua",
-  "sha256": "0gf16qlgd8cz97b5aankrjk1nnzabfxgb8h60ihbslg3fcakpmba",
-  "hash": "sha256-atU7FXPjUb1gBAai9bpb6lsbpszTKlXWSZ+h9ig2wT0=",
+  "rev": "8d814495983e8db87d02d2f1da293f25b2fd1bdc",
+  "date": "2026-09-15T13:14:17+10:00",
+  "path": "/nix/store/7r50rgipp79yzywmdvyp36wwwixgw8vc-nvim-tree.lua",
+  "sha256": "0w55yx558w5bd2i9j2ccc0xak4yvlwydm9k6hh40ab7nm461dm02",
+  "hash": "sha256-AtQWDKn2LAUIhGam2jyn25OpOmCMCZmiaKtwVEr3pXA=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
