@@ -46,14 +46,29 @@ end
 
 -- Builds a new buffer window for interpretation purposes
 --- @param origin integer
---- @return integer
+--- @return integer|nil
 local function mk_win(origin)
     local bufnr = vim.api.nvim_create_buf(true, true)
     Jupyter.term.buf_id = bufnr
+    -- dimensions check
+    local win = vim.api.nvim_get_current_win()
+    local width = vim.api.nvim_win_get_width(win)
+    -- check if there is place to split
+    if vim.api.nvim_win_get_height(win) < 60 then
+        vim.api.nvim_buf_delete(bufnr, { force = true })
+        Jupyter.term.buf_id = nil
+        return nil
+    end
     -- build the actual window
     return vim.api.nvim_open_win(bufnr, true, {
         win = origin,
-        split = "below"
+        split = (function()
+            if width < 200 then
+                return "below"
+            else
+                return "right"
+            end
+        end)()
     })
 end
 
