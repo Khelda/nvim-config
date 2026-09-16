@@ -29,7 +29,7 @@ local function get_cell_range(bufnr)
     -- reading file above the cursor to find the previous cell (or line 0)
     for i = cursor_row, 0, -1 do
         if string.match(lines[i + 1], CELL_MARKER) then
-            start = math.max(i - 1, 0)
+            start = math.max(i - 1, 0) -- failsafe to prevent a -1 starting point
             break
         end
     end
