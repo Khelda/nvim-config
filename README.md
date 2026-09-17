@@ -34,8 +34,8 @@ Keys  | Action                          | Vim command
 `jk`  | Escape (in insert and term mode)|
       |                                 |
       | _**Snippet commands**_          |
-`tg`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
-`gt`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
+`gy`  | Next snippet marker             |`:lua require 'luasnip'.jump(1)`
+`yg`  | Previous snippet marker         |`:lua require 'luasnip'.jump(-1)`
       |                                 |
 `b…`  | _**Buffer commands**_           |
 `bn`  | Next buffer                     |`:bn`

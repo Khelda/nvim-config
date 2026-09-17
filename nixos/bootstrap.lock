@@ -280,11 +280,11 @@
 }
 ,"neovim/nvim-lspconfig":{
   "url": "https://github.com/neovim/nvim-lspconfig",
-  "rev": "ac9d2f7c4757db6320cab6697fe73e5e8adb2457",
-  "date": "2026-09-10T10:24:03Z",
-  "path": "/nix/store/igsc660jn7mmqpcp9bja26vsnxmv6iqg-nvim-lspconfig",
-  "sha256": "1x1z3mgw1jvbm2imixw1d86wm5b9q6cl83m8288caznx70kim7gs",
-  "hash": "sha256-+p0aJzjdfsUQEqgORJnBaZXKDWqB91ijqGvLwF8dP/Q=",
+  "rev": "b410cbfb9934e3d37733d36e396feeb51d43881c",
+  "date": "2026-09-17T11:43:53Z",
+  "path": "/nix/store/kzy0qkbnpsv66xlpddwfngfqw3bahx3j-nvim-lspconfig",
+  "sha256": "0sjvcfj0p2w79m8kdam0sm45yj30l8fqp02506abavja2aahwqv0",
+  "hash": "sha256-YGMOlRJKbrWUAUWAix2iYEhfSNWgqjZRTYeLC6RjW2o=",
   "fetchLFS": false,
   "fetchSubmodules": true,
   "deepClone": false,
@@ -894,4 +894,4 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-}, "packages": ["plantuml","plantuml","ansible","ansible-lint"], "lsp-packages": ["ansible-language-server","arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","graphql-language-service-cli","sqls","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","just-lsp","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","nginx-language-server","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","zshcs","tinymist","dot-language-server","marksman","tinymist"]}
+}, "packages": ["plantuml","plantuml","ansible","ansible-lint"], "lsp-packages": ["ansible-language-server","arduino-language-server","asm-lsp","ccls","cmake-language-server","vscode-langservers-extracted","graphql-language-service-cli","dockerfile-language-server","docker-language-server","dot-language-server","typescript-language-server","vscode-langservers-extracted","haskell-language-server","vscode-langservers-extracted","just-lsp","kotlin-language-server","lua-language-server","marksman","matlab-language-server","mesonlsp","nginx-language-server","ocamlPackages.ocaml-lsp","phpactor","python3Packages.python-lsp-server","rust-analyzer","bash-language-server","zshcs","tinymist","dot-language-server","marksman","tinymist"]}

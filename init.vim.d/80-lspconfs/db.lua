@@ -23,14 +23,7 @@ vim.lsp.config("graphql-lsp", {
     end
 })
 
--- SQL (no specific flavor)
-vim.lsp.config("sqls", {
-    cmd = nix:shell("sqls", { "sqls" }),
-    -- core LSP options
-    filetypes = { "sql", "mysql" },
-    root_markers = { "config.yml" }
-})
+-- SQL utilities
 
 -- enabling LSPs
 vim.lsp.enable("graphql-lsp")
-vim.lsp.enable("sqls")
