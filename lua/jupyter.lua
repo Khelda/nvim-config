@@ -1,7 +1,5 @@
 -- Core REPL behavior for lua
 
-require 'utils'
-
 -- module declaration and constants
 Jupyter = {
     term = {
