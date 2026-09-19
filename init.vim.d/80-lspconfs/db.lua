@@ -24,6 +24,13 @@ vim.lsp.config("graphql-lsp", {
 })
 
 -- SQL utilities
+vim.lsp.config("sqruff", {
+    cmd = nix:shell("sqruff", { "sqruff", "lsp" }),
+    -- core LSP options
+    filetypes = { "sql" },
+    root_markers = { ".sqruff", ".git" }
+})
 
 -- enabling LSPs
 vim.lsp.enable("graphql-lsp")
+vim.lsp.enable("sqruff")

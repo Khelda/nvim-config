@@ -1,5 +1,7 @@
 -- Core REPL behavior for lua
 
+require 'utils'
+
 -- module declaration and constants
 Jupyter = {
     term = {
@@ -11,6 +13,7 @@ Jupyter = {
 
 -- extra constants
 local CELL_MARKER = "^# %%%%"
+local MARKDOWN_MARKER = "[MARKDOWN]"
 local ESC = "\27"
 local OPENING = "[200~"
 local ENDING = "[201~"
@@ -42,6 +45,17 @@ local function get_cell_range(bufnr)
     end
     -- found values
     return start, finish
+end
+
+-- Searches the current cell for markdown marker
+--- @param bufnr integer
+--- @param start integer
+--- @return boolean
+local function check_markdown(bufnr, start)
+    local line = table.concat(
+        vim.api.nvim_buf_get_lines(bufnr, start, start + 1, false),
+        "\n") -- to ensure a single string
+    return string.match(line, MARKDOWN_MARKER)
 end
 
 -- Builds a new buffer window for interpretation purposes
@@ -115,6 +129,12 @@ end
 function Jupyter:send_cell()
     local bufnr = vim.api.nvim_get_current_buf()
     local start, finish = get_cell_range(bufnr)
+    -- markdown check
+    if check_markdown(bufnr, start) then
+        vim.notify("Jupyter: Markdown cell, no execution", "error")
+        return -- failsafe to avoid polluting the execution
+    end
+    -- execute the cell
     send_line(table.concat(
         vim.api.nvim_buf_get_lines(bufnr, start, finish + 1, false), "\n"))
 end
