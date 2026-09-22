@@ -80,3 +80,16 @@ function Repl:send_line(line)
     vim.wait(20)
     vim.api.nvim_chan_send(Repl.chan_id, NEWLINE)
 end
+
+-- Closes the opened window, shell buffer and channel.
+-- Returns 0 if everything went as planned.
+--- @return integer
+function Repl:close_shell()
+    if Repl.chan_id == nil then return -1 end
+    -- TODO close for existing shell
+    vim.api.nvim_win_close(Repl.win_id, true)
+    Repl.buf_id = nil
+    Repl.chan_id = nil
+    Repl.win_id = nil
+    return 0
+end

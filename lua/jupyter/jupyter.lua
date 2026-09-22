@@ -37,3 +37,13 @@ function Jupyter:run_above()
         end
     end
 end
+
+-- Closes the current ipython shell and reloads it from the last position
+function Jupyter:restart()
+    if Repl:close_shell() ~= 0 then
+        vim.notify("Couldn't close ipython shell", vim.log.levels.ERROR)
+        return
+    end
+    -- reload all existing cells
+    Jupyter:run_above()
+end

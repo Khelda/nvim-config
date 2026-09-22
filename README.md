@@ -105,6 +105,7 @@ Keys    | Action                          | Vim command
 `jd`    | Deletes the current cell        |`:JupyterDeleteCell`
 `jc`    | Swap the current cell's type    |`:JupyterConvertCellType`
 `ji`    | Runs every code cell above      |`:lua require "jupyter"; Jupyter:run_above()`
+`jr`    | Restarts notebook               |`:lua require "jupyter"; Jupyter:restart()`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 
