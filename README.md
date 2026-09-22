@@ -103,8 +103,8 @@ Keys    | Action                          | Vim command
 `jk`    | Adds a new cell below           |`:JupyterAddCellBelow`
 `jh`    | Adds a new cell above           |`:JupyterAddCellAbove`
 `jd`    | Deletes the current cell        |`:JupyterDeleteCell`
-`ji`    | Swap the current cell's type    |`:JupyterConvertCellType`
-`jb`    | Runs every code cell above      |`:lua require "jupyter"; Jupyter:run_above()`
+`jc`    | Swap the current cell's type    |`:JupyterConvertCellType`
+`ji`    | Runs every code cell above      |`:lua require "jupyter"; Jupyter:run_above()`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 

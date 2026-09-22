@@ -21,5 +21,19 @@ end
 
 -- Sends all code cells above the cursor to the REPL for interpretation
 function Jupyter:run_above()
-    -- TODO
+    local bufnr = vim.api.nvim_get_current_buf()
+    local cells = Cells:get_above(bufnr)
+    -- check cells for markdown and send
+    for i = 1, #cells do
+        local content = vim.api.nvim_buf_get_lines(
+            bufnr,
+            cells[i].start,
+            cells[i].finish,
+            false)
+        -- execute cell
+        if not Cells:check_md(content) then
+            Repl:send_line(table.concat(content, "\n"))
+            vim.wait(20)
+        end
+    end
 end

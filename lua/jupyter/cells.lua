@@ -9,7 +9,12 @@ local MARKDOWN_MARKER = "MARKDOWN"
 --- @param lines table
 --- @return boolean
 function Cells:check_md(lines)
-    return false
+    -- check content for empty cell
+    if #lines == 0 or #table.concat(lines, "\n") == 0 then
+        return true
+    end
+    -- actual check
+    return string.match(lines[1], MARKDOWN_MARKER) ~= nil
 end
 
 -- Fetches limits of the current cell
@@ -36,4 +41,31 @@ function Cells:get_current(bufnr)
     end
     -- found values
     return start, finish
+end
+
+-- Fetches all cells above the cursor, regardless of cell type.
+--- @param bufnr integer
+--- @return table
+function Cells:get_above(bufnr)
+    local index = {}
+    -- locating stuff
+    local cursor_row = vim.api.nvim_win_get_cursor(0)[1]
+    local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)
+    -- parse cells below
+    local mark = #lines - 1
+    for i = cursor_row, #lines do
+        if string.match(lines[i], CELL_MARKER) then
+            mark = i - 1
+            break
+        end
+    end
+    -- parsing cells until the top of the notebook
+    for i = cursor_row, 1, -1 do
+        if string.match(lines[i], CELL_MARKER) then
+            table.insert(index, 0, { start = i - 1, finish = mark })
+            mark = i - 1
+        end
+    end
+    -- sending back the cells index
+    return index
 end
