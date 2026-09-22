@@ -1,7 +1,5 @@
--- Core REPL behavior for lua
-
--- module declaration and constants
-Jupyter = {
+-- Utility module for Jupyter REPL
+Jutils = {
     term = {
         chan_id = nil,
         win_id = nil,
@@ -11,7 +9,7 @@ Jupyter = {
 
 -- extra constants
 local CELL_MARKER = "^# %%%%"
-local MARKDOWN_MARKER = "[MARKDOWN]"
+local MARKDOWN_MARKER = "MARKDOWN"
 local ESC = "\27"
 local OPENING = "[200~"
 local ENDING = "[201~"
@@ -20,7 +18,7 @@ local NEWLINE = "\r\r"
 -- Reads the file around the cursor to find out limits of the current cell.
 --- @param bufnr integer
 --- @return integer, integer
-local function get_cell_range(bufnr)
+function Jutils:get_cell_range(bufnr)
     -- locating stuff
     local cursor_row = vim.api.nvim_win_get_cursor(0)[1]
     local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)
@@ -45,30 +43,52 @@ local function get_cell_range(bufnr)
     return start, finish
 end
 
--- Searches the current cell for markdown marker
+-- Fetches every cell from the current buffer and returns the index table.
+--- @param bufnr integer
+--- @return table
+function Jutils:get_cells_above(bufnr)
+    local index = {}
+    local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)
+    -- fetch current cell
+    local mark = 1
+    for i = 1, #lines do
+        if string.match(lines[i], CELL_MARKER) then
+            if string.match(lines[i], MARKDOWN_MARKER) ~= nil then
+                print(lines[i] .. "miaouh")
+            else
+                print(lines[i] .. "truc")
+            end
+        end
+    end
+    -- send back the built index
+    return index
+end
+
+-- Searches the current cell for markdown marker.
+-- Returns true if it found markdown.
 --- @param bufnr integer
 --- @param start integer
 --- @return boolean
-local function check_markdown(bufnr, start)
+function Jutils:check_markdown(bufnr, start)
     local line = table.concat(
         vim.api.nvim_buf_get_lines(bufnr, start, start + 1, false),
         "\n") -- to ensure a single string
-    return string.match(line, MARKDOWN_MARKER)
+    return string.match(line, MARKDOWN_MARKER) ~= nil or #line == 0
 end
 
 -- Builds a new buffer window for interpretation purposes
 --- @param origin integer
 --- @return integer|nil
-local function mk_win(origin)
+function Jutils:mk_win(origin)
     local bufnr = vim.api.nvim_create_buf(true, true)
-    Jupyter.term.buf_id = bufnr
+    Jutils.term.buf_id = bufnr
     -- dimensions check
     local win = vim.api.nvim_get_current_win()
     local width = vim.api.nvim_win_get_width(win)
     -- check if there is place to split
     if vim.api.nvim_win_get_height(win) < 60 then
         vim.api.nvim_buf_delete(bufnr, { force = true })
-        Jupyter.term.buf_id = nil
+        Jutils.term.buf_id = nil
         return nil
     end
     -- build the actual window
@@ -85,22 +105,22 @@ local function mk_win(origin)
 end
 
 -- opens a new terminal
-local function mk_shell()
-    if Jupyter.term.chan_id ~= nil then return end
+function Jutils:mk_shell()
+    if Jutils.term.chan_id ~= nil then return end
     local origin = vim.api.nvim_get_current_win()
-    Jupyter.term.win_id = mk_win(origin)
+    Jutils.term.win_id = Jutils:mk_win(origin)
     -- spawn ipython
-    Jupyter.term.chan_id = vim.fn.jobstart("ipython", {
+    Jutils.term.chan_id = vim.fn.jobstart("ipython", {
         term = true,
         on_exit = function()
-            Jupyter.term.chan_id = nil
-            Jupyter.term.win_id = nil
-            Jupyter.term.buf_id = nil
+            Jutils.term.chan_id = nil
+            Jutils.term.win_id = nil
+            Jutils.term.buf_id = nil
         end
     })
     -- FIXME ensuring ipython is launched
     local init = vim.wait(5000, function()
-        local lines = vim.api.nvim_buf_get_lines(Jupyter.term.buf_id, 0, -1, false)
+        local lines = vim.api.nvim_buf_get_lines(Jutils.term.buf_id, 0, -1, false)
         return #lines > 0 and lines[1] ~= ""
     end)
     if not init then
@@ -112,27 +132,13 @@ end
 
 -- Opens ipython and sends in the given message
 --- @param message string
-local function send_line(message)
+function Jutils:send_line(message)
     -- failsafe check
-    if Jupyter.term.chan_id == nil then mk_shell() end
+    if Jutils.term.chan_id == nil then Jutils:mk_shell() end
     -- send the actual message to the new terminal
     local msg_str = ESC .. OPENING .. message .. ESC .. ENDING
-    vim.api.nvim_chan_send(Jupyter.term.chan_id, msg_str)
+    vim.api.nvim_chan_send(Jutils.term.chan_id, msg_str)
     -- execute the line we just sent
     vim.wait(20) -- milis
-    vim.api.nvim_chan_send(Jupyter.term.chan_id, NEWLINE)
-end
-
--- Sends the current Jupyter cell to the REPL for interpretation
-function Jupyter:send_cell()
-    local bufnr = vim.api.nvim_get_current_buf()
-    local start, finish = get_cell_range(bufnr)
-    -- markdown check
-    if check_markdown(bufnr, start) then
-        vim.notify("Jupyter: Markdown cell, no execution", "error")
-        return -- failsafe to avoid polluting the execution
-    end
-    -- execute the cell
-    send_line(table.concat(
-        vim.api.nvim_buf_get_lines(bufnr, start, finish + 1, false), "\n"))
+    vim.api.nvim_chan_send(Jutils.term.chan_id, NEWLINE)
 end

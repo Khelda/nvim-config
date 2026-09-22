@@ -102,3 +102,4 @@ nnoremap <silent> <leader>jk :JupyterAddCellBelow<CR>
 nnoremap <silent> <leader>jh :JupyterAddCellAbove<CR>
 nnoremap <silent> <leader>jd :JupyterDeleteCell<CR>
 nnoremap <silent> <leader>ji :JupyterConvertCellType<CR>
+nnoremap <silent> <leader>ja :lua require "jupyter"; Jupyter:run_above()<CR>
