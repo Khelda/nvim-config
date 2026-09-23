@@ -1,4 +1,5 @@
 -- Jupyter cells parsing module
+require 'utils'
 Cells = {}
 
 -- constants
@@ -43,10 +44,35 @@ function Cells:get_current(bufnr)
     return start, finish
 end
 
+-- Fetches the next cell in order in the given direction. Returns only the first
+-- line index found in that cell.
+--- @param bufnr integer
+--- @param dir integer
+--- @return integer
+function Cells:get_next(bufnr, dir)
+    local cursor_row = vim.api.nvim_win_get_cursor(0)[1]
+    local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)
+    -- loop through lines
+    for i = cursor_row, (function()
+        if dir == 1 then
+            return #lines
+        else
+            return 1
+        end
+    end)(), dir do
+        if string.match(lines[i], CELL_MARKER) then
+            -- found line number
+            return i + dir
+        end
+    end
+    -- failsafe value
+    return 0
+end
+
 -- Fetches all cells above the cursor, regardless of cell type.
 --- @param bufnr integer
 --- @return table
-function Cells:get_above(bufnr)
+function Cells:get_all_above(bufnr)
     local index = {}
     -- locating stuff
     local cursor_row = vim.api.nvim_win_get_cursor(0)[1]

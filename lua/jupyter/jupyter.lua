@@ -22,7 +22,7 @@ end
 -- Sends all code cells above the cursor to the REPL for interpretation
 function Jupyter:run_above()
     local bufnr = vim.api.nvim_get_current_buf()
-    local cells = Cells:get_above(bufnr)
+    local cells = Cells:get_all_above(bufnr)
     -- check cells for markdown and send
     for i = 1, #cells do
         local content = vim.api.nvim_buf_get_lines(
@@ -36,6 +36,13 @@ function Jupyter:run_above()
             vim.wait(20)
         end
     end
+end
+
+-- moves cursor to the next cell in the current notebook
+--- @param dir integer
+function Jupyter:move(dir)
+    local bufnr = vim.api.nvim_get_current_buf()
+    vim.api.nvim_win_set_cursor(0, { Cells:get_next(bufnr, dir), 1 })
 end
 
 -- Closes the current ipython shell and reloads it from the last position
