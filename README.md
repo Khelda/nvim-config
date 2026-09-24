@@ -108,8 +108,8 @@ Keys    | Action                          | Vim command
 `jr`    | Restarts notebook               |`:lua require "jupyter"; Jupyter:restart()`
         |                                 |
 `j…`    | _**Jupyter movement**_          |
-`jbn`   | Moves cursor to next cell       |`lua require "jupyter"; Jupyter:move(1)`
-`jbv`   | Moves cursor to previous cell   |`lua require "jupyter"; Jupyter:move(-1)`
+`cv`    | Moves cursor to next cell       |`lua require "jupyter"; Jupyter:move(1)`
+`cx`    | Moves cursor to previous cell   |`lua require "jupyter"; Jupyter:move(-1)`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 

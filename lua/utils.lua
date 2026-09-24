@@ -24,3 +24,15 @@ function _G.get_visual_multi()
     local ratio = result.ratio
     return "󱢓 " .. ratio
 end
+
+-- Turns the current buffer name into its matching launcher name.
+--- @param name string
+--- @return string|nil
+function _G.launcher_name(name)
+    local launchers = {
+        ["init.vim"] = "nvim",
+        ["goyo.vim"] = "goyo",
+    }
+    -- fetch
+    return launchers[name] or nil
+end

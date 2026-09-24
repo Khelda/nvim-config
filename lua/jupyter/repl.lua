@@ -18,7 +18,7 @@ local NEWLINE = "\r\r"
 --- @param origin integer
 --- @return integer|nil
 local function mk_win(origin)
-    local bufnr = vim.api.nvim_create_buf(true, true)
+    local bufnr = vim.api.nvim_create_buf(false, true)
     Repl.buf_id = bufnr
     -- dimensions check
     local win = vim.api.nvim_get_current_win()

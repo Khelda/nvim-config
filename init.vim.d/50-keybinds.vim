@@ -106,5 +106,5 @@ nnoremap <silent> <leader>ji :lua require "jupyter"; Jupyter:run_above()<CR>
 nnoremap <silent> <leader>jr :lua require "jupyter"; Jupyter:restart()<CR>
 
 " Jupyter movement
-nnoremap <silent> jbn :lua require "jupyter"; Jupyter:move(1)<CR>
-nnoremap <silent> jbv :lua require "jupyter"; Jupyter:move(-1)<CR>
+nnoremap <silent> cv :lua require "jupyter"; Jupyter:move(1)<CR>
+nnoremap <silent> cx :lua require "jupyter"; Jupyter:move(-1)<CR>
