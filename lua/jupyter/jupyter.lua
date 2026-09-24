@@ -42,7 +42,14 @@ end
 --- @param dir integer
 function Jupyter:move(dir)
     local bufnr = vim.api.nvim_get_current_buf()
-    vim.api.nvim_win_set_cursor(0, { Cells:get_next(bufnr, dir), 1 })
+    -- movement check
+    local next_row = Cells:get_next(bufnr, dir)
+    if next_row == 0 then
+        vim.notify("Reached end of notebook", vim.log.levels.ERROR)
+        return
+    end
+    -- actual movement
+    vim.api.nvim_win_set_cursor(0, { next_row, 1 })
 end
 
 -- Closes the current ipython shell and reloads it from the last position

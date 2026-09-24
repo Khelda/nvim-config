@@ -9,6 +9,7 @@ Repl = {
 local MIN_HEIGHT = 60
 local MIN_WIDTH = 200
 local TIMEOUT = 5000
+local DELAY = 20
 local ESC = "\27"
 local OPENING = "[200~"
 local ENDING = "[201~"
@@ -77,7 +78,7 @@ function Repl:send_line(line)
     local msg_str = ESC .. OPENING .. line .. ESC .. ENDING
     vim.api.nvim_chan_send(Repl.chan_id, msg_str)
     -- execute the line we just sent
-    vim.wait(20)
+    vim.wait(DELAY)
     vim.api.nvim_chan_send(Repl.chan_id, NEWLINE)
 end
 
