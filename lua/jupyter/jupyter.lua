@@ -45,7 +45,7 @@ function Jupyter:move(dir)
     -- movement check
     local next_row = Cells:get_next(bufnr, dir)
     if next_row == 0 then
-        vim.notify("Reached end of notebook", vim.log.levels.ERROR)
+        vim.notify("Reached end of notebook", vim.log.levels.WARN)
         return
     end
     -- actual movement
