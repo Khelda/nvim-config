@@ -95,16 +95,3 @@ function SetLineNumbering(state)
         echo 'Relative line numbering'
     endif
 endfunction
-
-" Jupyter-related keybinds
-nnoremap <silent> <leader>jn :lua require "jupyter"; Jupyter:send_cell()<CR>
-nnoremap <silent> <leader>jk :JupyterAddCellBelow<CR>
-nnoremap <silent> <leader>jh :JupyterAddCellAbove<CR>
-nnoremap <silent> <leader>jd :JupyterDeleteCell<CR>
-nnoremap <silent> <leader>jc :JupyterConvertCellType<CR>
-nnoremap <silent> <leader>ji :lua require "jupyter"; Jupyter:run_above()<CR>
-nnoremap <silent> <leader>jr :lua require "jupyter"; Jupyter:restart()<CR>
-
-" Jupyter movement
-nnoremap <silent> cv :lua require "jupyter"; Jupyter:move(1)<CR>
-nnoremap <silent> cx :lua require "jupyter"; Jupyter:move(-1)<CR>

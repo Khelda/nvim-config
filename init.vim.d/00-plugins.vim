@@ -88,7 +88,8 @@ Plug 'luukvbaal/statuscol.nvim'
 Plug 'HakonHarnes/img-clip.nvim'
 
 " Jupyter integration
-Plug 'geg2102/nvim-jupyter-client'
+Plug 'Andy8647/nvim-jupyter'
+Plug '3rd/image.nvim'
 
 " Debugging JDTls extension
 Plug 'mfussenegger/nvim-jdtls'
