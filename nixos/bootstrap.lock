@@ -460,8 +460,8 @@
   "leaveDotGit": false,
   "rootDir": ""
 }
-,"Andy8647/nvim-jupyter":{
-  "url": "https://github.com/Andy8647/nvim-jupyter",
+,"Khelda/nvim-jupyter":{
+  "url": "https://github.com/Khelda/nvim-jupyter",
   "rev": "f09b399b65ab77ee6dc8a4a01c193f9ccfa51932",
   "date": "2026-08-27T14:56:02+03:00",
   "path": "/nix/store/w5z71s5yf389gxj02sdrxvap6f1gx7g0-nvim-jupyter",

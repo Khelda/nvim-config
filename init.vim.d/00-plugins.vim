@@ -88,7 +88,7 @@ Plug 'luukvbaal/statuscol.nvim'
 Plug 'HakonHarnes/img-clip.nvim'
 
 " Jupyter integration
-Plug 'Andy8647/nvim-jupyter'
+Plug 'Khelda/nvim-jupyter'
 Plug '3rd/image.nvim'
 
 " Debugging JDTls extension
