@@ -4,7 +4,8 @@
 require 'nvim_jupyter'.setup {
     keymaps = {
         run_current_cell = "<leader>jn",
-        add_cell_below = "<leader>ji"
+        add_cell_below = "<leader>ji",
+        toggle_cell_type = "<leader>jt"
     }
 }
 

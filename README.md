@@ -99,13 +99,9 @@ Keys    | Action                          | Vim command
 `td`    | Search for and list `TODO`s     |`:Ags TODO`
         |                                 |
 `j…`    | _**Jupyter**_                   |
-`jn`    | Sends python cell to REPL       |`:lua require "jupyter"; Jupyter:send_cell()`
-`jk`    | Adds a new cell below           |`:JupyterAddCellBelow`
-`jh`    | Adds a new cell above           |`:JupyterAddCellAbove`
-`jd`    | Deletes the current cell        |`:JupyterDeleteCell`
-`jc`    | Swap the current cell's type    |`:JupyterConvertCellType`
-`ji`    | Runs every code cell above      |`:lua require "jupyter"; Jupyter:run_above()`
-`jr`    | Restarts notebook               |`:lua require "jupyter"; Jupyter:restart()`
+`jn`    | Runs current cell               |
+`ji`    | Adds cell below the current one |
+`jt`    | Toggles Jupyter cell type       |
         |                                 |
 `j…`    | _**Jupyter movement**_          |
 `cv`    | Moves cursor to next cell       |`lua require "jupyter"; Jupyter:move(1)`
@@ -123,6 +119,5 @@ nvim --cmd "let g:startGoyo = 1"
 
 However, if you use the version in my `zsh` config and kitty, you may experience some... Weird things if you put the goyo editor in the background of your terminal, i.e. terminal colorscheme might weird out.
 
-[Sourcetrail]: https://github.com/CoatiSoftware/Sourcetrail
 [Visual-Multi]: https://github.com/mg979/vim-visual-multi
 [Goyo]: https://github.com/junnegun/goyo.vim
