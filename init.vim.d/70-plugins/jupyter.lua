@@ -3,6 +3,7 @@
 -- configure the plugin
 require 'nvim_jupyter'.setup {
     keymaps = {
+        -- core Jupyter keybinds
         run_current_cell = "<leader>jn",
         add_cell_below = "<leader>ji",
         toggle_cell_type = "<leader>jt"

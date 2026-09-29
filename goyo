@@ -1,2 +1,2 @@
 #!/bin/sh
-./nix run .#goyo -- "$@"
+./nix run .#goyo -- "$@" --cmd "let g:startgoyo = 1"
