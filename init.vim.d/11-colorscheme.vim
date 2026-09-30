@@ -110,15 +110,7 @@ function SetColor()
     " Completion highlighting
     hi link BlinkCmpScrollBarGutter Type
     hi link BlinkCmpScrollBarThumb Identifier
-
-    " Completion icons highlighting
-    hi link BlinkCmpKindFunction Function
-    hi link BlinkCmpKindIdentifier Identifier
-    hi link BlinkCmpKindType Type
-    hi link BlinkCmpKindKeyword Keyword
-    hi link BlinkCmpKindStatement Statement
-
-    " TODO trouble space highlights
+    hi link BlinkCmpMenuSelection Identifier
 endfunction
 
 " Don't forget to actually set the colorscheme

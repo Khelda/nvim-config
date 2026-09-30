@@ -87,7 +87,7 @@ require 'lualine'.setup {
         lualine_b = {},
         lualine_c = {},
         lualine_x = {},
-        lualine_y = { 'diagnostics' },
+        lualine_y = { { 'diagnostics', separator = {} } },
         lualine_z = {
             { 'location',
                 separator = { left = '', right = '' },

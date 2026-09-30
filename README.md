@@ -102,10 +102,6 @@ Keys    | Action                          | Vim command
 `jn`    | Runs current cell               |
 `ji`    | Adds cell below the current one |
 `jt`    | Toggles Jupyter cell type       |
-        |                                 |
-`j…`    | _**Jupyter movement**_          |
-`cv`    | Moves cursor to next cell       |`lua require "jupyter"; Jupyter:move(1)`
-`cx`    | Moves cursor to previous cell   |`lua require "jupyter"; Jupyter:move(-1)`
 
 This configuration also includes [Visual-Multi] and its keybindings.
 

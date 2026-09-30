@@ -6,7 +6,10 @@ local colors = colors()
 
 -- custom theme for the bar
 local bubbles_theme = {
-    normal = { a = { fg = colors.black, bg = colors.sand } },
+    normal = {
+        a = { fg = colors.black, bg = colors.sand },
+        b = { fg = colors.white }
+    },
     insert = { a = { fg = colors.black, bg = colors.sand } },
     visual = { a = { fg = colors.black, bg = colors.rsand } },
     replace = { a = { fg = colors.black, bg = colors.blue } },
@@ -17,7 +20,7 @@ require 'lualine'.setup {
     options = {
         icons_enabled = true,
         theme = bubbles_theme,
-        component_separators = { right = "" }
+        component_separators = { left = '', right = "" }
     },
     sections = {
         lualine_a = {
@@ -32,10 +35,10 @@ require 'lualine'.setup {
                 right_padding = 2
             }
         },
-        lualine_b = {},
+        lualine_b = { "filename", "filetype" },
         lualine_c = {},
         lualine_x = {},
-        lualine_y = { "filetype" },
+        lualine_y = { "diagnostics" },
         lualine_z = {}
     },
     inactive_sections = {
