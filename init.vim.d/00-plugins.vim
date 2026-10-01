@@ -38,6 +38,10 @@ Plug 'MunifTanjim/exrc.nvim'
 Plug 'mattn/webapi-vim',        { 'for': 'rust' }
 Plug 'rust-lang/rust.vim',      { 'for': 'rust' }
 
+" Flutter support
+Plug 'nvim-flutter/flutter-tools.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 " Support for Amber
 Plug 'amber-lang/amber-vim'
 
