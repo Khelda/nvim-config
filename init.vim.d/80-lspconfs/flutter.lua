@@ -16,9 +16,8 @@ require 'flutter-tools'.setup {
     root_patterns = { ".git" },
     -- language server settings
     lsp = {
-        -- core settings
+        cmd = nix:shell("dart", { "dart", "language-server" }),
         capabilities = {
-            cmd = nix:shell("dart", { "dart", "language-server" }),
             filetypes = { "dart" },
             root_markers = { ".git" }
         },
