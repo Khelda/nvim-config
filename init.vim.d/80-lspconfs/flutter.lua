@@ -25,7 +25,13 @@ require 'flutter-tools'.setup {
         on_attach = function(ev)
             vim.lsp.document_color.enable(true, { bufnr = ev.buf })
         end
-    }
+    },
+    -- display settings
+    closing_tags = { enable = true, prefix = "-- " },
+    widget_guides = {
+        enabled = true,
+        markers = { bottom = "└", middle = "├", vertical = "│", horizontal = "─" },
+    },
     -- TODO emulators config
     -- TODO extra interface settings
 }

@@ -101,6 +101,9 @@ function SetColor()
     hi link typescriptProp Identifier
     hi link typescriptTypeBlock Special
 
+    " Flutter/Dart highlight fixes
+    hi link @lsp.mod.annotation.dart Preproc
+
     " TreesitterContext fix
     hi link TreesitterContext TSContext
 

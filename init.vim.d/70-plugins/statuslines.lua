@@ -38,7 +38,6 @@ local bubbles_theme = {
     }
 }
 
-
 -- Actually building the lualine
 require 'lualine'.setup {
     options = {
