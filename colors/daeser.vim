@@ -19,6 +19,7 @@ endif
 highlight PreProc guifg=#d7875f guibg=NONE gui=NONE ctermfg=173 ctermbg=NONE cterm=NONE
 highlight Function guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight Identifier guifg=#fcfcdd guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
+highlight Attribute guifg=#fcfcdd guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight Statement guifg=#af875f guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE
 highlight Constant guifg=#d78700 guibg=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
 highlight Type guifg=#d2bd97 guibg=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE

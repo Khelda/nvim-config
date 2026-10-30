@@ -42,7 +42,6 @@ vim.lsp.config('jdtls', {
             data_dir = data_dir .. '/'
                 .. vim.fn.fnamemodify(config.root_dir, ':p:h:t')
         end
-
         -- define launch command
         local config_cmd = nix:shell('jdt-language-server', {
             'jdtls',
@@ -51,7 +50,6 @@ vim.lsp.config('jdtls', {
             '-Dlog.level=ERROR >&2 /dev/null',
             jdtls_get_jvm_args()
         })
-
         -- launch
         return vim.lsp.rpc.start(config_cmd, dispatchers, {
             cwd = config.cmd_cwd,
@@ -62,7 +60,6 @@ vim.lsp.config('jdtls', {
     -- extra settings
     filetypes = { 'java' },
     root_markers = { 'pom.xml', 'build.gradle', '.git' },
-
     -- lsp stfu handlers
     handlers = {
         ['$/progress'] = function(_, _, _) end, -- annoying popup on keystroke

@@ -1,6 +1,4 @@
---
 -- Blink.cmp configuration for completion purposes and snippets
---
 
 -- load snippets
 require 'luasnip.loaders.from_snipmate'.lazy_load()
@@ -11,7 +9,6 @@ require 'blink.cmp'.setup {
     fuzzy = { implementation = "lua" },
     sources = { default = { 'lsp', 'path', "snippets", 'buffer' } },
     snippets = { preset = "luasnip" },
-
     -- completion behavior
     completion = {
         keyword = { range = 'prefix' },
@@ -24,7 +21,6 @@ require 'blink.cmp'.setup {
     },
     -- no command completion
     cmdline = { enabled = false },
-
     -- tweaking keymap to ensure acceptance at the right time
     keymap = {
         -- no default keymap on that one
@@ -36,4 +32,5 @@ require 'blink.cmp'.setup {
         -- rollbacking completion and deleting compleated text
         ['<Left>'] = { 'cancel', 'fallback' },
     },
+    -- TODO find a way to close the menu when escaping
 }

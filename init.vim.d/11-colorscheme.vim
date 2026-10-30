@@ -104,6 +104,10 @@ function SetColor()
     " Flutter/Dart highlight fixes
     hi link @lsp.mod.annotation.dart Preproc
 
+    " Java highlight fixes
+    hi link @lsp.type.modifier.java Keyword
+    hi link @lsp.type.property.java Attribute
+
     " TreesitterContext fix
     hi link TreesitterContext TSContext
 
