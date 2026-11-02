@@ -16,8 +16,8 @@ endfunction
 " Session bookmarks strategies
 let g:startify_lists = [
     \ { 'type': s:recentsStrategy(),  'header': ['    Recents'] },
-    \ { 'type': 'dir',      'header': ['    Recents in '.getcwd()]  },
-    \ { 'type': 'sessions', 'header': ['    Sessions']              },
-    \ { 'type': 'bookmarks','header': ['    Bookmarks']             },
-    \ { 'type': 'commands', 'header': ['    Commands']              },
+    \ { 'type': 'dir',      'header': ['    Recents in '.getcwd()] },
+    \ { 'type': 'sessions', 'header': ['    Sessions']             },
+    \ { 'type': 'bookmarks','header': ['    Bookmarks']            },
+    \ { 'type': 'commands', 'header': ['    Commands']             },
     \ ]

@@ -8,7 +8,7 @@ local colors = colors()
 local bubbles_theme = {
     normal = {
         a = { fg = colors.black, bg = colors.sand },
-        b = { fg = colors.white }
+        b = { fg = colors.white, bg = colors.darker }
     },
     insert = { a = { fg = colors.black, bg = colors.sand } },
     visual = { a = { fg = colors.black, bg = colors.rsand } },
@@ -20,7 +20,8 @@ require 'lualine'.setup {
     options = {
         icons_enabled = true,
         theme = bubbles_theme,
-        component_separators = { left = '', right = "" }
+        component_separators = { left = '', right = "" },
+        section_separators = { left = '', right = '' }
     },
     sections = {
         lualine_a = {

@@ -96,6 +96,9 @@ function SetColor()
     " Nix highlight fixes
     hi @lsp.type.property.nix guifg=#eadecc guibg=NONE
 
+    " Docker and DockerCompose highlight fixes
+    " TODO find groups
+
     " Typescript highlight fixes
     hi link typescriptVariable Statement
     hi link typescriptProp Identifier
@@ -106,12 +109,12 @@ function SetColor()
 
     " Java highlight fixes
     hi link @lsp.type.modifier.java Keyword
-    hi link @lsp.type.property.java Attribute
+    hi link @lsp.type.property.java Identifier
 
     " TreesitterContext fix
     hi link TreesitterContext TSContext
 
-    " Cursor tweaks
+    " Cursor line tweaks
     hi link CursorLineNR Normal
 
     " Completion highlighting

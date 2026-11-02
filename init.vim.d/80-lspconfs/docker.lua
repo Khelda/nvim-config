@@ -13,18 +13,19 @@ vim.lsp.config("docker-langserver", {
     root_markers = { "Dockerfile" }
 })
 
--- extra language server tooling
-vim.lsp.config("dockerlsp", {
-    cmd = nix:shell("docker-language-server", {
-        "docker-language-server", "start", "--stdio"
+-- extra LSP setup for compose
+vim.lsp.config("docker-compose-langserver", {
+    cmd = nix:shell("docker-compose-language-service", {
+        "docker-compose-langserver", "--stdio"
     }),
     -- core LSP options
-    filetypes = { "dockerfile", "yaml.docker-compose" },
-    root_markers = { "Dockerfile", "docker-compose.yaml", "docker-compose.yml" },
-    -- extra LSP options
-    telemetry = "off"
+    filetypes = { "yaml.docker-compose" },
+    root_markers = {
+        "docker-compose.yaml", "docker-compose.yml",
+        "compose.yaml", "compose.yml"
+    }
 })
 
 -- Launch LSPs
 vim.lsp.enable("docker-langserver")
-vim.lsp.enable("dockerlsp")
+vim.lsp.enable("docker-compose-langserver")
