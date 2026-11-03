@@ -28,3 +28,6 @@ autocmd BufEnter ansible.cfg            set ft=yaml.ansible
 
 " Configuration filetypes
 autocmd BufEnter *.cnf                  set ft=conf
+
+" CI filetypes
+autocmd BufEnter .gitlab-ci.yml         set ft=yaml.gitlab
