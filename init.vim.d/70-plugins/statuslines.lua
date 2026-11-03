@@ -68,9 +68,13 @@ require 'lualine'.setup {
         lualine_b = { 'filename', 'branch' },
         lualine_c = {},
         lualine_x = {},
-        lualine_y = { 'filetype', 'progress', 'diagnostics' },
+        lualine_y = {
+            'filetype', 'progress', 'diagnostics',
+            { 'lsp_status', show_name = false }
+        },
         lualine_z = {
-            { 'location',
+            {
+                'location',
                 separator = { left = '', right = '' },
                 left_padding = 2
             }
@@ -78,7 +82,8 @@ require 'lualine'.setup {
     },
     inactive_sections = {
         lualine_a = {
-            { 'filename',
+            {
+                'filename',
                 separator = { left = '', right = '' },
                 right_padding = 2
             }
@@ -86,9 +91,13 @@ require 'lualine'.setup {
         lualine_b = {},
         lualine_c = {},
         lualine_x = {},
-        lualine_y = { { 'diagnostics', separator = {} } },
+        lualine_y = {
+            { 'diagnostics', separator = {} },
+            { 'lsp_status',  show_name = false }
+        },
         lualine_z = {
-            { 'location',
+            {
+                'location',
                 separator = { left = '', right = '' },
                 left_padding = 2
             }

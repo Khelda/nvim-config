@@ -19,6 +19,7 @@ function _G.split(txt, sep)
 end
 
 -- Visual multi tweaks
+--- @return string
 function _G.get_visual_multi()
     local result = vim.fn["VMInfos"]()
     local ratio = result.ratio
