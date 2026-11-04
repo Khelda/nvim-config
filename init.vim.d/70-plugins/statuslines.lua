@@ -33,7 +33,7 @@ local bubbles_theme = {
 
     inactive = {
         a = { fg = colors.black, bg = colors.grey },
-        b = { fg = colors.black, bg = "NONE" },
+        b = { fg = colors.black, bg = colors.white },
         c = { fg = colors.black, bg = "NONE" },
     }
 }
@@ -68,10 +68,7 @@ require 'lualine'.setup {
         lualine_b = { 'filename', 'branch' },
         lualine_c = {},
         lualine_x = {},
-        lualine_y = {
-            'filetype', 'progress', 'diagnostics',
-            { 'lsp_status', show_name = false }
-        },
+        lualine_y = { 'filetype', 'progress', 'diagnostics' },
         lualine_z = {
             {
                 'location',
@@ -91,10 +88,7 @@ require 'lualine'.setup {
         lualine_b = {},
         lualine_c = {},
         lualine_x = {},
-        lualine_y = {
-            { 'diagnostics', separator = {} },
-            { 'lsp_status',  show_name = false }
-        },
+        lualine_y = { { 'diagnostics', separator = {} }, 'filetype' },
         lualine_z = {
             {
                 'location',

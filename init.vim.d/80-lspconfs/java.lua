@@ -30,7 +30,7 @@ local function jdtls_get_jvm_args()
         local arg = string.format("--jvm-arg=%s", arg_str)
         table.insert(args, arg)
     end
-    return args -- FIXME turn this into a string
+    return args
 end
 
 -- LSP config

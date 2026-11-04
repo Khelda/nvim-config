@@ -21,10 +21,21 @@ vim.lsp.config("gitlab-ci-ls", {
 
 -- extra LSP for all of these
 vim.lsp.config("yamlls", {
-    cmd = nix:shell("yaml-language-server", { "yaml-language-server", "--stdio" }),
+    cmd = nix:shell("yaml-language-server", {
+        "yaml-language-server", "--stdio"
+    }),
     -- core LSP options
     filetypes = { "yaml", "yaml.gitlab" },
-    root_markers = { ".git" }
+    root_markers = { ".git" },
+    -- extra settings
+    settings = {
+        redhat = { telemetry = { enabled = false } },
+        yaml = { format = { enable = true } }
+    },
+    -- tweak capabilities for autoformatting
+    on_init = function(client)
+        client.server_capabilities.documentFormattingProvider = true
+    end
 })
 
 -- enable LSPs
